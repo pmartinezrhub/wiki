@@ -19,8 +19,8 @@ Hacking articles <a href="https://github.com/Ignitetechnologies">https://github.
 <li>
 <p><h3>General propouse tools</h3>
 Netcat <a href="https://netcat.sourceforge.net/">https://netcat.sourceforge.net/</a> Called the swiss army knife (for hackers)<br>
-Socat <a href="http://www.dest-unreach.org/socat/">http://www.dest-unreach.org/socat/</a> Netcat on steroids<br>
-Curl <a href="http://curl.haxx.se/">http://curl.haxx.se/</a> cURL is a command-line tool used for transferring data to and from servers using various protocols like HTTP, HTTPS, FTP, and more.<br>
+Socat <a href="https//www.dest-unreach.org/socat/">https//www.dest-unreach.org/socat/</a> Netcat on steroids<br>
+Curl <a href="https//curl.haxx.se/">https//curl.haxx.se/</a> cURL is a command-line tool used for transferring data to and from servers using various protocols like HTTP, HTTPS, FTP, and more.<br>
 </li>
 <li>
 <p><h3>Network scanners</h3>
@@ -32,8 +32,8 @@ SSLScan <a herf="https://github.com/rbsec/sslscan">https://github.com/rbsec/ssls
 </li>
 <li>
 <p><h3>Vulnerability scanners</h3>
-Openvas <a href="http://www.openvas.org/">http://www.openvas.org/</a> A discover vulns application<br>
-Nessus <a href="http://www.tenable.com/products/nessus-vulnerability-scanner">http://www.tenable.com/products/nessus-vulnerability-scanner</a> Another vulns discover<br>
+Openvas <a href="https//www.openvas.org/">https//www.openvas.org/</a> A discover vulns application<br>
+Nessus <a href="https//www.tenable.com/products/nessus-vulnerability-scanner">https//www.tenable.com/products/nessus-vulnerability-scanner</a> Another vulns discover<br>
 Nuclei <a href="https://github.com/projectdiscovery/nuclei">https://github.com/projectdiscovery/nuclei</a> 
 </li>
 <li>
@@ -46,15 +46,15 @@ FoxyProxy <a href="https://getfoxyproBEST">https://getfoxyproBEST</a> Proxy swit
 <p><h3>Web pentest frameworks</h3>
 Burpsuite <a href="https://portswigger.net/burp">https://portswigger.net/burp</a> (Free version limited)<br>
 Zap Attack Proxy <a href="https://www.zaproxy.org/">https://www.zaproxy.org/</a><br>
-W3af <a href="http://w3af.sourceforge.net/">http://w3af.sourceforge.net/</a><br>
-Nitkto <a href="http://www.cirt.net/nikto2">http://www.cirt.net/nikto2</a><br>
+W3af <a href="https//w3af.sourceforge.net/">https//w3af.sourceforge.net/</a><br>
+Nitkto <a href="https//www.cirt.net/nikto2">https//www.cirt.net/nikto2</a><br>
 Whatweb <a href="https://www.whatweb.net">https://www.whatweb.net</a> Next generation web scanner <br>
 WafW00f <a href="https://github.com/EnableSecurity/wafw00f">https://github.com/EnableSecurity/wafw00f</a> WAF detector <br>
 Lbd <a href="https://github.com/hacktrackgnulinux/lbd">https://github.com/hacktrackgnulinux/lbd</a> Load balancer detector <br>
 </li>
 <li>
 <p><h3>Fuzzers</h3>
-Wfuzz <a href="http://www.edge-security.com/wfuzz.php">http://www.edge-security.com/wfuzz.php</a><br>
+Wfuzz <a href="https//www.edge-security.com/wfuzz.php">https//www.edge-security.com/wfuzz.php</a><br>
 Gobuster <a href="https://github.com/OJ/gobuster">https://github.com/OJ/gobuster</a><br>
 </li>
 <li>
@@ -74,7 +74,7 @@ Portswigger cheat-sheet for XSS <a href="https://portswigger.net/web-security/cr
 <li>
 <p><h3>Exploiting Frameworks</h3>
 Metasploit <a href="https://www.metasploit.com/">https://www.metasploit.com/</a><br>
-Armitage <a href="http://www.fastandeasyhacking.com">www.fastandeasyhacking.com</a><br>
+Armitage <a href="https//www.fastandeasyhacking.com">www.fastandeasyhacking.com</a><br>
 BeEF <a href="https://beefproject.com/">https://beefproject.com/</a> BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser. <br> 
 NetExec <a href="//github.com/Pennyw0rth/NetExec">https://github.com/Pennyw0rth/NetExec</a>  Network service exploitation tool<br>
 Evil-Winrm <a href="//github.com/Hackplayers/evil-winrm">https://github.com/Hackplayers/evil-winrm</a> The ultimate WinRM shell for hacking/pentesting<br>
@@ -88,7 +88,7 @@ Weevely3 <a href="https://github.com/epinna/weevely3">https://github.com/epinna/
 <li>
 <p><h3>DDoS</h3>
 Ufonet <a href="https://github.com/epsylon/ufonet">https://github.com/epsylon/ufonet</a> DDoS over TOR<br>
-Hping <a href="http://www.hping.org/">http://www.hping.org/</a> Stress<br>
+Hping <a href="https//www.hping.org/">https//www.hping.org/</a> Stress<br>
 </li>
 <li>
 <p><h3>OSINT</h3>
@@ -137,7 +137,7 @@ IPFire <a href="https://www.ipfire.org/">https://www.ipfire.org/</a><br>
 </li>
 <li>
 <p><h3>Encoding and ciphers:</h3>
-<a href="http://decode.fr">decode.fr</a> <a href="https://www.dcode.fr/en">https://www.dcode.fr/en</a> Web with decrypters for all kind of ciphers, included root13, caesar, etc<br>
+<a href="https//decode.fr">decode.fr</a> <a href="https://www.dcode.fr/en">https://www.dcode.fr/en</a> Web with decrypters for all kind of ciphers, included root13, caesar, etc<br>
 </li>
 <li>
 <p><h3>SQL Injection</h3>
@@ -151,7 +151,7 @@ Radare2 <a href="https://www.radare.org/r/index.html">https://www.radare.org/r/i
 </li>
 <li>
 <p><h3>Phising</h3></p>
-Httrack <a href="http://www.httrack.com/">http://www.httrack.com/</a> Website copier <br>
+Httrack <a href="https//www.httrack.com/">https//www.httrack.com/</a> Website copier <br>
 Gophish <a href="//github.com/gophish/gophish">https://github.com/gophish/gophish</a> Phising Framework
 </li>
 <li>
