@@ -19,14 +19,12 @@ pstree imprime un diagrama similar a un árbol de los procesos actualmente en ej
 que muestra cómo los procesos están relacionados entre sí de manera jerárquica. Mucho más humano que hacerlo con ps
 además te dará una visión de servicios que están corriendo<br>
 
-<br>
 <h3>2 - xargs</h3> - Puede ser que hayas visto este comando en algún script, el propósito es que xargs ejecute un comando tantas veces como la entrada standard
 se lo permita, es un conector muy bueno entre scripts y/o programas. Con imaginación este comando es superutil<br>
 
 ex:
 <br>
 ls *.txt | xargs wc -l
-
 <br>
 
 <h3>3 - man</h3> 
