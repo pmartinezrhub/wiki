@@ -36,6 +36,6 @@ Y ya está? Bueno ahora te falta configurar el estilo, crear unos favicons y met
 
  ¿Ya, pero una vez que lo tenga, como puedo probarlo localmente?<br>
  bundle exec jekyll s<br>
- Si necesitas instalar las dependencias te indicará que ejecutases<br>
+ Si necesitas instalar las dependencias te indicará que ejecutes<br>
  bundle install <br>
  
