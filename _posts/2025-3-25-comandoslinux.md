@@ -1,7 +1,7 @@
 ---
 
 title: 10 Comandos en Linux que me gustan
-date: 2025-03-23 17:00:00 +0200
+date: 2025-03-22 17:00:00 +0200
 categories: [linux, software]
 tags: [linux, comandos]     # TAG names should always be lowercase
 author: pablo
