@@ -52,7 +52,7 @@ Por supuesto los intermediarios han prometido discreción y no revelarán a nadi
 >La solución es meter en cada cofre el nombre del siguiente intermediario al lado del cofre que tiene la copia de la llave del mismo.
 De esta forma el primer intermediario recibirirá el cofre del que posee la llave, lo abre pues es el único que puede, al abrirlo encuentra el nombre del siguiente intermediario y un cofre. Ahora ya sabe a quien tiene que llevarle ese cofre, así que lo saca y se lo lleva al segundo. El segundo intermediario recibe el cofre y le ocurre exactamente lo mismo, finalmente el tercer intermediario entrega el contenido del cofre a su destinatario, pero si todo el mundo ha sido discreto y no han revelado quien les ha entregado el cofre, el que lo recibe solo podría reconocer a los dos inmediatos en la cadena.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Orbot-logo.svg/1024px-Orbot-logo.svg.png" width=200px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Orbot-logo.svg/1024px-Orbot-logo.svg.png" alt="Orbot Logo">
 
 #### ¿Quien conoce la IP de quien en la red de tor?
 Si has entendido lo que ha ocurrido en el parrafo anterior podemos resumir que
