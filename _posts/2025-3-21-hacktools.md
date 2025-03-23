@@ -6,199 +6,166 @@ author: pablo
 categories: [hacking, herramientas]
 tags: [hacking, herramientas]     # TAG names should always be lowercase
 image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
+    path: (https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
     alt: Hackers
 ---
 
 This document is updated, modified when i notice a tool is deprecated or a new tool is tested. 
 
-<li>
-<h3>General Security Info</h3>
-OWASP <a href="https://owasp.org/">https://owasp.org/</a>
 
-Exploitdb <a href="https://gitlab.com/exploit-database/exploitdb">https://gitlab.com/exploit-database/exploitdb</a> Archive of public exploits
 
-Hacking articles <a href="https://github.com/Ignitetechnologies">https://github.com/Ignitetechnologies</a> Lots of hacking articles
+### General Security Info
+-  OWASP [https://owasp.org](https://owasp.org/)
+-  Exploitdb [https://gitlab.com/exploit-database/exploitdb](https://gitlab.com/exploit-database/exploitdb) Archive of public exploits
+-  Hacking articles [https://github.com/Ignitetechnologies](https://github.com/Ignitetechnologies) Lots of hacking articles
 
-</li>
-<li>
-<h3>General propouse tools</h3>
-Netcat <a href="https://netcat.sourceforge.net/">https://netcat.sourceforge.net/</a> Called the swiss army knife (for hackers)
-Socat <a href="https://www.dest-unreach.org/socat/">https://www.dest-unreach.org/socat/</a> Netcat on steroids
-Curl <a href="https://curl.haxx.se/">https://curl.haxx.se/</a> cURL is a command-line tool used for transferring data to and from servers using various protocols like HTTP, HTTPS, FTP, and more.
-</li>
-<li>
-<h3>Network scanners</h3>
-Netdiscover <a href="https://github.com/netdiscover-scanner/netdiscover">https://github.com/netdiscover-scanner/netdiscover</a> Network address discovering tool 
-Nmap <a href="https://nmap.org/">https://nmap.org/</a> network port scanner
-Zmap <a href="https://zmap.io/">https://zmap.io/</a> ZMap is a fast single-packet network scanner 
-Nmap-scripts <a href="https://github.com/cldrn/nmap-nse-scripts">https://github.com/cldrn/nmap-nse-scripts</a> Collection of nmap scripts 
-SSLScan <a href="https://github.com/rbsec/sslscan">https://github.com/rbsec/sslscan</a> Queries SSL/TLS services (such as HTTPS)
-</li>
-<li>
-<h3>Vulnerability scanners</h3>
-Openvas <a href="https://www.openvas.org/">https://www.openvas.org/</a> A discover vulns application
-Nessus <a href="https://www.tenable.com/products/nessus-vulnerability-scanner">https://www.tenable.com/products/nessus-vulnerability-scanner</a> Another vulns discover
-Nuclei <a href="https://github.com/projectdiscovery/nuclei">https://github.com/projectdiscovery/nuclei</a> 
-</li>
-<li>
-<h3>Web browsers &amp;  addons</h3>
-Firefox <a href="https://www.mozilla.org">https://www.mozilla.org</a> Browser
-Wappalyzer  <a href="https://www.wappalyzer.com/">https://www.wappalyzer.com/</a> This extensión identifies technologies on a web
-FoxyProxy <a href="https://getfoxyproBEST">https://getfoxyproBEST</a> Proxy switcher for browsers.
-</li>
-<li>
-<h3>Web pentest frameworks</h3>
-Burpsuite <a href="https://portswigger.net/burp">https://portswigger.net/burp</a> (Free version limited)
-Zap Attack Proxy <a href="https://www.zaproxy.org/">https://www.zaproxy.org/</a>
-W3af <a href="https://w3af.sourceforge.net/">https://w3af.sourceforge.net/</a>
-Nitkto <a href="https://www.cirt.net/nikto2">https://www.cirt.net/nikto2</a>
-Whatweb <a href="https://www.whatweb.net">https://www.whatweb.net</a> Next generation web scanner 
-WafW00f <a href="https://github.com/EnableSecurity/wafw00f">https://github.com/EnableSecurity/wafw00f</a> WAF detector 
-Lbd <a href="https://github.com/hacktrackgnulinux/lbd">https://github.com/hacktrackgnulinux/lbd</a> Load balancer detector 
-</li>
-<li>
-<h3>Fuzzers</h3>
-Wfuzz <a href="https://www.edge-security.com/wfuzz.php">https://www.edge-security.com/wfuzz.php</a>
-Gobuster <a href="https://github.com/OJ/gobuster">https://github.com/OJ/gobuster</a>
-</li>
-<li>
-<h3>Bruteforce</h3>
-THCHydra <a href="https://www.thc.org/thc-hydra/">https://www.thc.org/thc-hydra/</a>
-</li>
-<li>
-<h3>SQL Injection</h3>
-SQLi Payloads <a href="https://github.com/payloadbox/sql-injection-payload-list">https://github.com/payloadbox/sql-injection-payload-list</a>
-Sqlmap <a href="https://github.com/sqlmapproject/sqlmap/wiki">https://github.com/sqlmapproject/sqlmap/wiki</a> Automatic SQLi
-</li>
-<li>
-<h3>XSS Cross Site Scripting</h3>
-XSStrike <a href="https://github.com/s0md3v/XSStrike">https://github.com/s0md3v/XSStrike</a> XSStrike is a Cross Site Scripting detection suite 
-Portswigger cheat-sheet for XSS <a href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet">https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</a>
-</li>
-<li>
-<h3>Exploiting Frameworks</h3>
-Metasploit <a href="https://www.metasploit.com/">https://www.metasploit.com/</a>
-Armitage <a href="https://www.fastandeasyhacking.com">www.fastandeasyhacking.com</a>
-BeEF <a href="https://beefproject.com/">https://beefproject.com/</a> BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.  
-NetExec <a href="https://github.com/Pennyw0rth/NetExec">https://github.com/Pennyw0rth/NetExec</a>  Network service exploitation tool
-Evil-Winrm <a href="https://github.com/Hackplayers/evil-winrm">https://github.com/Hackplayers/evil-winrm</a> The ultimate WinRM shell for hacking/pentesting
-</li>
-<li>
-<h3>Web Shells</h3>
-r57shell <a href="https://github.com/r57shell">https://github.com/r57shell</a>
-c99shell <a href="https://c99shell.net/">https://c99shell.net/</a>
-Weevely3 <a href="https://github.com/epinna/weevely3">https://github.com/epinna/weevely3</a>
-</li>
-<li>
-<h3>DDoS</h3>
-Ufonet <a href="https://github.com/epsylon/ufonet">https://github.com/epsylon/ufonet</a> DDoS over TOR
-Hping <a href="https://www.hping.org/">https://www.hping.org/</a> Stress
-</li>
-<li>
-<h3>OSINT</h3>
-Shodan <a href="https://www.shodan.io/">https://www.shodan.io/</a>
-Google <a href="https://google.com">https://google.com</a>
-</li>
-<li>
-<h3>Social Engineer</h3>
-Social Engineer toolkit <a href="https://github.com/trustedsec/social-engineer-toolkit">https://github.com/trustedsec/social-engineer-toolkit</a>
+### General propouse tools 
+- Netcat [https://netcat.sourceforge.net/](https://netcat.sourceforge.net/) Called the swiss army knife (for hackers)
+- Socat [https://www.dest-unreach.org/socat/](https://www.dest-unreach.org/socat/) Netcat on steroids
+- Curl [https://curl.haxx.se/](https://curl.haxx.se/) cURL is a command-line tool used for transferring data to and from servers using - - various protocols like HTTP, HTTPS, FTP, and more.
 
-</li>
-<li>
-<h3>Networks</h3>
-Openvpn <a href="https://openvpn.net/">https://openvpn.net/</a> OpenVPN
-Tor <a href="https://torproject.org/">https://torproject.org/</a> The Onion Router
-I2p <a href="https://geti2p.net/en/">https://geti2p.net/en/</a>  I2P Network
-Onioncat <a href="https://www.onioncat.org/">https://www.onioncat.org/</a> VPN over TOR
-Macchanger <a href="https://github.com/alobbs/macchanger">https://github.com/alobbs/macchanger</a>
-</li>
-<li>
-<h3>Wifi</h3>
-Aircrack <a href="https://www.aircrack-ng.org/">https://www.aircrack-ng.org/</a>
-PixieWPS <a href="https://github.com/wiire-a/pixiewps">https://github.com/wiire-a/pixiewps</a> WPS PIN exploiting
-Reaver <a href="https://github.com/tiagob0b/Reaver-WPS">https://github.com/tiagob0b/Reaver-WPS</a> WPS wireless bruteforce 
-Wifiphisher <a href="https://github.com/wifiphisher/wifiphisher">https://github.com/wifiphisher/wifiphisher</a> Phising , Evil Twin, portal captive. 
-Fluxion <a href="https://github.com/FluxionNetwork/fluxion">https://github.com/FluxionNetwork/fluxion</a> retrieve the WPA/WPA2 key from a target access point by means of a social engineering (phishing) attack 
-</li>
-<li>
-<h3>Router</h3>
-RouterSploit <a href="https://github.com/threat9/routersploit">https://github.com/threat9/routersploit</a>
-</li>
-<li>
-<h3>Packet inspectors</h3>
-Wireshark <a href="https://www.wireshark.org/">https://www.wireshark.org/</a>
-TCPDump <a href="https://www.tcpdump.org/">https://www.tcpdump.org/</a>
-</li>
-<li>
-<h3>IDS</h3>
-Suricata <a href="https://suricata.io/">https://suricata.io/</a>
-Snort <a href="https://www.snort.org">https://www.snort.org</a>
-</li>
-<li>
-<h3>Firewall</h3>
-OpenSense <a href="https://opnsense.org">https://opnsense.org</a>
-IPFire <a href="https://www.ipfire.org/">https://www.ipfire.org/</a>
-</li>
-<li>
-<h3>Encoding and ciphers:</h3>
-<a href="https://decode.fr">decode.fr</a> <a href="https://www.dcode.fr/en">https://www.dcode.fr/en</a> Web with decrypters for all kind of ciphers, included root13, caesar, etc
-</li>
-<li>
-<h3>SQL Injection</h3>
-Sql payloads <a href="https://github.com/payloadbox/sql-injection-payload-list">https://github.com/payloadbox/sql-injection-payload-list</a>
-Sqlmap <a href="https://github.com/sqlmapproject/sqlmap/wiki">https://github.com/sqlmapproject/sqlmap/wiki</a>
-</li>
-<li>
-<h3>Reverse Engineering</h3>
-IDA Free <a href="https://hex-rays.com/ida-free">https://hex-rays.com/ida-free</a>
-Radare2 <a href="https://www.radare.org/r/index.html">https://www.radare.org/r/index.html</a>
-</li>
-<li>
-<h3>Phising</h3></p>
-Httrack <a href="https://www.httrack.com/">https://www.httrack.com/</a> Website copier 
-Gophish <a href="https:////github.com/gophish/gophish">https://github.com/gophish/gophish</a> Phising Framework
-</li>
-<li>
-<h3>Password Cracking</h3>
-Hashcat <a href="https://hashcat.net/wiki/">https://hashcat.net/wiki/</a> Cracking passwords tool
-Crunch <a href="https://github.com/crunchsec/crunch">https://github.com/crunchsec/crunch</a> Dictionary generator
-Cuup <a href="https://github.com/Mebus/cupp">https://github.com/Mebus/cupp</a> Common User Passwords Profiler
-</li>
-</ul>
-<h1>Dedicated cibersecurity Linux distros</h1>
-<ul>
-<li>
-<h3>Forensic</h3>
-Caine Linux <a href="https://www.caine-live.net/">https://www.caine-live.net/</a>
-</li>
-<li>
-<h3>Pentest</h3>
-Kali Linux <a href="https://www.kali.org/">https://www.kali.org/</a>
-BackBox <a href="https://www.backbox.org/">https://www.backbox.org/</a>
-BlackArch <a href="https://www.blackarch.org//">https://www.blackarch.org/</a>
-<li>
-<h3>Cyberdefense</h3>
-Kali Purple <a href="https://www.kali.org/">https://www.kali.org/</a> 
-</li>
-<li>
-<h3>Security in general</h3>
-Parrot OS <a href="https://www.parrotsec.org/">https://www.parrotsec.org/</a>
-Qbes OS <a href="https://www.qubes-os.org/">https://www.qubes-os.org/</a>
-</li>
-</ul>
-<h1>Training</h1>
-<ul>
-<li><h3>Vulnerable machines</h3>
-Vulnhub <a href="https://www.vulnhub.com/">https://www.vulnhub.com/</a>A collection of vulnerable machines
-DVWA <a href="https://github.com/digininja/DVWA">https://github.com/digininja/DVWA</a> Damn Vulnerable Web Application (DVWA) 
-Metasploitable <a href="https://information.rapid7.com/download-metasploitable-2017.html">https://information.rapid7.com/download-metasploitable-2017.html</a>
-Metasploitable2 <a href="https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip">https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip</a>
-Metasploitable3 <a href="https://github.com/rapid7/metasploitable3">https://github.com/rapid7/metasploitable3</a>
-</li>
-<li><h3>CTFs</h3>
-PicoCTF <a href="https://picoctf.org/">https://picoctf.org/</a>
-Ctf.hacker101 <a href="https://ctf.hacker101.com/">https://ctf.hacker101.com/</a></li>
-</ul>
+### Network scanners 
+- Netdiscover [https://github.com/netdiscover-scanner/netdiscover](https://github.com/netdiscover-scanner/netdiscover)Network address discovering tool 
+- Nmap [https://nmap.org/](https://nmap.org/) network port scanner
+- Zmap [https://zmap.io/](https://zmap.io/) ZMap is a fast single-packet network scanner 
+- Nmap-scripts [https://github.com/cldrn/nmap-nse-scripts](https://github.com/cldrn/nmap-nse-scripts) Collection of nmap scripts 
+- SSLScan [https://github.com/rbsec/sslscan](https://github.com/rbsec/sslscan) Queries SSL/TLS services (such as HTTPS)
+
+### Vulnerability scanners 
+- Openvas [https://www.openvas.org/](https://www.openvas.org/)A discover vulns application
+- Nessus [https://www.tenable.com/products/nessus-vulnerability-scanner](https://www.tenable.com/products/nessus-vulnerability-scanner)- - Another vulns discover
+- Nuclei [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
+
+### Web browsers &amp;  addons 
+- Firefox [https://www.mozilla.org](https://www.mozilla.org)Browser
+- Wappalyzer  [https://www.wappalyzer.com/](https://www.wappalyzer.com/)This extensión identifies technologies on a web
+- FoxyProxy [https://getfoxyproBEST](https://getfoxyproBEST)Proxy switcher for browsers.
+
+### Web pentest frameworks 
+- Burpsuite [https://portswigger.net/burp](https://portswigger.net/burp)(Free version limited)
+- Zap Attack Proxy [https://www.zaproxy.org/](https://www.zaproxy.org/)
+- W3af [https://w3af.sourceforge.net/](https://w3af.sourceforge.net/)
+- Nitkto [https://www.cirt.net/nikto2](https://www.cirt.net/nikto2)
+- Whatweb [https://www.whatweb.net](https://www.whatweb.net)Next generation web scanner 
+- WafW00f [https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)WAF detector 
+- Lbd [https://github.com/hacktrackgnulinux/lbd](https://github.com/hacktrackgnulinux/lbd)Load balancer detector 
+
+### Fuzzers 
+- Wfuzz [https://www.edge-security.com/wfuzz.php](https://www.edge-security.com/wfuzz.php)
+- Gobuster [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
+
+### Bruteforce 
+- THCHydra [https://www.thc.org/thc-hydra/](https://www.thc.org/thc-hydra/)
+
+### SQL Injection 
+- SQLi Payloads [https://github.com/payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list)
+- Sqlmap [https://github.com/sqlmapproject/sqlmap/wiki](https://github.com/sqlmapproject/sqlmap/wiki)Automatic SQLi
+
+### XSS Cross Site Scripting 
+- XSStrike [https://github.com/s0md3v/XSStrike](https://github.com/s0md3v/XSStrike)XSStrike is a Cross Site Scripting detection suite 
+- Portswigger cheat-sheet for XSS [https://portswigger.net/web-security/cross-site-scripting/cheat-sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+
+### Exploiting Frameworks 
+- Metasploit [https://www.metasploit.com/](https://www.metasploit.com/)
+- Armitage [https://www.fastandeasyhacking.com](https://www.fastandeasyhacking.com)
+- BeEF [https://beefproject.com/](https://beefproject.com/)BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.  
+- NetExec [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) Network service exploitation tool
+- Evil-Winrm [https://github.com/Hackplayers/evil-winrm](https://github.com/Hackplayers/evil-winrm)The ultimate WinRM shell for hacking/pentesting
+
+### Web Shells 
+- r57shell [https://github.com/r57shell](https://github.com/r57shell)
+- c99shell [https://c99shell.net/](https://c99shell.net/)
+- Weevely3 [https://github.com/epinna/weevely3](https://github.com/epinna/weevely3)
+
+### DDoS 
+- Ufonet [https://github.com/epsylon/ufonet](https://github.com/epsylon/ufonet)DDoS over TOR
+- Hping [https://www.hping.org/](https://www.hping.org/)Stress
+
+### OSINT 
+- Shodan [https://www.shodan.io/](https://www.shodan.io/)
+- Google [https://google.com](https://google.com)
+
+### Social Engineer 
+- Social Engineer toolkit [https://github.com/trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit)
+
+### Networks 
+- Openvpn [https://openvpn.net/](https://openvpn.net/)OpenVPN
+- Tor [https://torproject.org/](https://torproject.org/)The Onion Router
+- I2p [https://geti2p.net/en/](https://geti2p.net/en/) I2P Network
+- Onioncat [https://www.onioncat.org/](https://www.onioncat.org/)VPN over TOR
+- Macchanger [https://github.com/alobbs/macchanger](https://github.com/alobbs/macchanger)
+
+### Wifi 
+- Aircrack [https://www.aircrack-ng.org/](https://www.aircrack-ng.org/)
+- PixieWPS [https://github.com/wiire-a/pixiewps](https://github.com/wiire-a/pixiewps)WPS PIN exploiting
+- Reaver [https://github.com/tiagob0b/Reaver-WPS](https://github.com/tiagob0b/Reaver-WPS)WPS wireless bruteforce 
+- Wifiphisher [https://github.com/wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher)Phising , Evil Twin, portal captive. 
+- Fluxion [https://github.com/FluxionNetwork/fluxion](https://github.com/FluxionNetwork/fluxion)retrieve the WPA/WPA2 key from a target access point by means of a social engineering (phishing) attack 
+
+### Router 
+- RouterSploit [https://github.com/threat9/routersploit](https://github.com/threat9/routersploit)
+
+### Packet inspectors 
+- Wireshark [https://www.wireshark.org/](https://www.wireshark.org/)
+- TCPDump [https://www.tcpdump.org/](https://www.tcpdump.org/)
+
+### IDS 
+- Suricata [https://suricata.io/](https://suricata.io/)
+- Snort [https://www.snort.org](https://www.snort.org)
+
+### Firewall 
+- OpenSense [https://opnsense.org](https://opnsense.org)
+- IPFire [https://www.ipfire.org/](https://www.ipfire.org/)
+
+### Encoding and ciphers: 
+- https://decode.frdecode.fr[https://www.dcode.fr/en](https://www.dcode.fr/en)Web with decrypters for all kind of ciphers, included root13, caesar, etc
+
+### SQL Injection 
+- Sql payloads [https://github.com/payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list)
+- Sqlmap [https://github.com/sqlmapproject/sqlmap/wiki](https://github.com/sqlmapproject/sqlmap/wiki)
+
+### Reverse Engineering 
+- IDA Free [https://hex-rays.com/ida-free](https://hex-rays.com/ida-free)
+- Radare2 [https://www.radare.org/r/index.html](https://www.radare.org/r/index.html)
+
+### Phising 
+- Httrack [https://www.httrack.com/](https://www.httrack.com/)Website copier 
+- Gophish [https:////github.com/gophish/gophish](https://github.com/gophish/gophish)Phising Framework
+
+### Password Cracking 
+- Hashcat [https://hashcat.net/wiki/](https://hashcat.net/wiki/)Cracking passwords tool
+- Crunch [https://github.com/crunchsec/crunch](https://github.com/crunchsec/crunch)Dictionary generator
+- Cuup [https://github.com/Mebus/cupp](https://github.com/Mebus/cupp)Common User Passwords Profiler
+
+## Dedicated cibersecurity Linux distros
+
+### Forensic 
+- Caine Linux [https://www.caine-live.net/](https://www.caine-live.net/)
+
+### Pentest 
+- Kali Linux [https://www.kali.org/](https://www.kali.org/)
+- BackBox [https://www.backbox.org/](https://www.backbox.org/)
+- BlackArch [https://www.blackarch.org//](https://www.blackarch.org/)
+
+### Cyberdefense 
+- Kali Purple [https://www.kali.org/](https://www.kali.org/)
+
+### Security in general 
+- Parrot OS [https://www.parrotsec.org/](https://www.parrotsec.org/)
+- Qbes OS [https://www.qubes-os.org/](https://www.qubes-os.org/)
+
+## Training
+
+### Vulnerable machines 
+- Vulnhub [https://www.vulnhub.com/](https://www.vulnhub.com/)A collection of vulnerable machines
+- DVWA [https://github.com/digininja/DVWA](https://github.com/digininja/DVWA)Damn Vulnerable Web Application (DVWA) 
+- Metasploitable [https://information.rapid7.com/download-metasploitable-2017.html](https://information.rapid7.com/download-metasploitable-2017.html)
+- Metasploitable2 [https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip](https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip)
+- Metasploitable3 [https://github.com/rapid7/metasploitable3](https://github.com/rapid7/metasploitable3)
+
+### CTFs 
+- PicoCTF [https://picoctf.org/](https://picoctf.org/)
+- Ctf.hacker101 [https://ctf.hacker101.com/](https://ctf.hacker101.com/)
+
 
  

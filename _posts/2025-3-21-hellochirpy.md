@@ -26,16 +26,22 @@ Nombra el nuevo repositorio <nombreusuario>.github.io, reemplazando <b>"nombreus
 
 Ahora debes editar el archivo _config.yml en donde pone url debemos rellenar como nos indica el ejemplo 
 
+``` 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'. 
 url: "https://pmartinezrhub.github.io" (en mi caso)
+```
 
 Ahora desde github Actions podrás publicar el blog. 
 
 Y ya está? Bueno ahora te falta configurar el estilo, crear unos favicons y meterlos en  assets/img/favicons (si no exite lo creas),  crear algún post 
 
- ¿Ya, pero una vez que lo tenga, como puedo probarlo localmente?
- bundle exec jekyll s
+¿Ya, pero una vez que lo tenga, como puedo probarlo localmente?
+
+```
+bundle exec jekyll s
+```
  Si necesitas instalar las dependencias te indicará que ejecutes
+ ```
  bundle install 
- 
+ ```
