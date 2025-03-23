@@ -9,7 +9,7 @@ image:
     alt: Internet_map_1024
 ---
 
-Cuando Linux Tolvard pubicó Linux no lo hizo en un CD, ni en un disquete, lo publicó en un servidor de su universidad. 
+Cuando Linus Torvalds publicó Linux no lo hizo en un CD, ni en un disquete, lo publicó en un servidor de su universidad. 
 ¿Que quiero decir con esto? Pues algo tan evidente como que Linux evolucionó con Internet y creció con él. 
 La configuración básica de red en Linux debe ser el primer objetivo a aprender por un administrador de sistema Linux 
 pues si sabe configurar el acceso a la red de redes entonces ya no solo se tiene un sistema, se tiene un sistema con acceso a la red!! 
