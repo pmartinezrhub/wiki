@@ -8,9 +8,9 @@ image:
     path: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/250px-Influxdb_logo.svg.png
     alt: Primer telégrafo
 ---
-
-<h4>Enviar los datos configurados en telegraf a una API de influxdb</h4>
-En este caso vamos a enviar los datos que cumplen unos patrones, para ellos me baso en un módulo de telegraf  "grok"
+Para ponerte en contexto deberías leer antes [GeoIP Nginx](../nginx)
+#### Enviar los datos configurados en telegraf a una API de influxdb
+En este caso vamos a enviar los datos de los logs de Nginx que cumplen unos patrones, para ellos me baso en un módulo de telegraf  "grok"
 Configuramos telegraf para los input y para los outputs, para los segundos, queremos que se envíen a un bucket de influxdb_v2:
 ```
 [[inputs.tail]]
@@ -30,37 +30,6 @@ Configuramos telegraf para los input y para los outputs, para los segundos, quer
   organization = "home"
   bucket = "nginx_geo_logs"
   timeout = "5s"
-
-
-```
-Añadimos una configuración a nginx 
-
-Configuracion de site en nginx para crear una api de status que se enviará luego con telegraf 
-
-/etc/nginx/sites-avaliable/nginx_status.conf
-
-```
-  ## An array of Nginx stub_status URI to gather stats. 
-  urls = ["http://127.0.0.1:8089/nginx_status"]
-
-  ## Optional TLS Config
-  # tls_ca = "/etc/telegraf/ca.pem"
-  # tls_cert = "/etc/telegraf/cert.pem"
-  # tls_key = "/etc/telegraf/key.pem"
-  ## Use TLS but skip chain & host verification
-  # insecure_skip_verify = false
-
-  ## HTTP response timeout (default: 5s)
-  response_timeout = "5s"
-```
-
-
-Una vez configurado podemos acceder a [nginx_status](http://127.0.0.1:8089/nginx_status)
-```
-Active connections: 1 
-server accepts handled requests
- 1 1 1 
-Reading: 0 Writing: 1 Waiting: 0 
 ```
 
 Ahora usaremos Telegraf para enviar los datos a la api de influxdb u otras 
