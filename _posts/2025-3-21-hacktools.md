@@ -6,7 +6,7 @@ author: pablo
 categories: [hacking, herramientas]
 tags: [hacking, herramientas]     # TAG names should always be lowercase
 image:
-    path: (https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
+    path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
     alt: Hackers
 ---
 
