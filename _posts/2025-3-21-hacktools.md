@@ -167,5 +167,5 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - PicoCTF [https://picoctf.org/](https://picoctf.org/)
 - Ctf.hacker101 [https://ctf.hacker101.com/](https://ctf.hacker101.com/)
 
-
+Some of this resources are avaliable on [legitmagnets.eu](https://legitmagnets.eu)
  
