@@ -59,8 +59,8 @@ de cualquier acción que requiera ser repetida con periodicidad
 watch -n 1 mysqladmin --user=<user> --password=<password> processlist
 ```
 
-### Hasta aquí los comandos que vienen por defecto en sistemas Linux pero que no son muy utilizados, ahora vamos con los que suelen estar 
-disponibles para instalar en casi todas las distribuciones
+### Hasta aquí los comandos que vienen por defecto en sistemas Linux pero que no son muy utilizados
+ahora vamos con los que suelen estar disponibles para instalar en casi todas las distribuciones
 
 ### 6 - socat 
 socat es como un netcat con esteroides, es un conector multipropósito tiene soporte para múltiples protocolos: TCP, UDP, SCTP, UNIX sockets, etc.
