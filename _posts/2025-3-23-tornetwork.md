@@ -8,9 +8,6 @@ image:
     path: https://upload.wikimedia.org/wikipedia/commons/b/b1/Tor_Circuit_Diagram.svg
     alt: Tor Circuit
 ---
-
-## La red de Tor
-
 #### Un poco de historia
 Tor nació en el Laboratorio de Investigación Naval de los Estados Unidos (NRL): La tecnología detrás de Tor fue desarrollada inicialmente por el matemático Paul Syverson y los científicos informáticos Michael G. Reed y David Goldschlag en el NRL a mediados de la década de 1990. Su objetivo era proteger las comunicaciones gubernamentales de los Estados Unidos, especialmente las operaciones de inteligencia.
 
