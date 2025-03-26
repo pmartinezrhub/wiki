@@ -45,7 +45,7 @@ La falta de formación es lo que puede marcar la diferencia entre un desastre y 
 ## Actualización de los sistemas de red
 Como cualquier sistema informático los routers también se actualizan, mantenerlos actualizados ayuda a mejorar la seguridad. En general siguiendo los pasos del fabricante se les puede actualizar el firmware y/o cambiarlo sin ningún problema o incidencia. Hay gente que no se atreve porque lo consideran un paso muy delicado y que pueden "romper" (en realidad el termino se conoce como brikear) el router. La mayoría de veces también se puede recuperar un router brikeado
 
-## Custidia de las contraseñas
+## Custodia de las contraseñas
 Como siempre las passwords son un factor esencial en este proceso, un teléfono sin bloquear o sin cierta seguridad podría permitir a un atacante obtener la información sobre las contraseñas de las redes wifi, en Android este paso es tan fácil como compartir la red con un código QR, o simplemente apuntarse la contraseña para utilizarla posteriormente. 
 
 ## Activos del sistema
