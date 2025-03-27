@@ -49,7 +49,9 @@ Como cualquier sistema informático los routers también se actualizan, mantener
 Como siempre las passwords son un factor esencial en este proceso, un teléfono sin bloquear o sin cierta seguridad podría permitir a un atacante obtener la información sobre las contraseñas de las redes wifi, en Android este paso es tan fácil como compartir la red con un código QR, o simplemente apuntarse la contraseña para utilizarla posteriormente. 
 
 ## Activos del sistema
-En este aspecto de la segurida hay que tener muy presente los activos en materia de ciberseguridad y cuales de ellos puede o no participar en los sistemas. Si entre tus activos , en este caso, tablets, móviles y demás elementos que se conecten a la red suponen una debilidad en el sistema, retiralos del mismo. 
+En este aspecto de la segurida hay que tener muy presente los activos en materia de ciberseguridad y cuales de ellos puede o no participar
+ en los sistemas. Si entre tus activos , en este caso, tablets, móviles y demás elementos que se conecten a la red suponen una debilidad 
+ en el sistema, retíralos del mismo. 
 
 ## Claves por defecto
 ### Claves en etiquetas del fabricante
