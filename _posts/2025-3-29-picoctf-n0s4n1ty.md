@@ -23,7 +23,7 @@ Bueno parece una oportunidad para subir una shell. La forma de aproximarse a est
 Sanitizar la entrada significa que a nivel de la aplicación, el código de la misma maneja que tipo de archivos se pueden subir, de que tamaño,
 de que extensión y otros filtros que deberían comprobarse pero estos ejercicios suelen ser más sencillos que todo eso. 
 
-The file c99.php has been uploaded Path: uploads/c99.php. Uso [c99.php]("https://github.com/phpwebshell/c99shell") Pero veo que no funciona y aunque tiene unas cuantas funcionalidades ya integradas con estos entornos no se puede ir tan a lo bestia, probaré algo más manual. 
+The file c99.php has been uploaded Path: uploads/c99.php. Uso [https://github.com/phpwebshell/c99shell]("https://github.com/phpwebshell/c99shell") Pero veo que no funciona y aunque tiene unas cuantas funcionalidades ya integradas con estos entornos no se puede ir tan a lo bestia, no funciona, así que probaré algo más manual. 
 
 Codifico esta web en PHP, como no se sanitiza la entrada el servidor es posible que ejecute todo el código PHP que 
 se encuentra dentro de las rutas de la aplicación incluido el directorio de uploads. Así que a subir una _webshell_ toca.
