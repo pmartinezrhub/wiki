@@ -74,7 +74,7 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 
 ### Web Shells 
 - r57shell [https://github.com/r57shell](https://github.com/r57shell)
-- c99shell [https://c99shell.net/](https://c99shell.net/)
+- c99shell [https://github.com/phpwebshell/c99shell](https://github.com/phpwebshell/c99shell)
 - Weevely3 [https://github.com/epinna/weevely3](https://github.com/epinna/weevely3)
 
 ### DDoS 
