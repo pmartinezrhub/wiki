@@ -17,7 +17,6 @@ Additional details will be available after launching your challenge instance.
 {: .prompt-tip }
 
 Al lanzar la instancia tenemos acceso a una web donde aparece un formulario para subir un archivo. 
-![](view-source:https://lh3.googleusercontent.com/a-/AFdZucpC_6WFBIfaAbPHBwGM9z8SxyM1oV4wB4Ngwp_UyQ=s96-c)
 
 Bueno parece una oportunidad para subir una shell. La forma de aproximarse a estos formularios web es ver si la entrada está sanitizada. 
 Sanitizar la entrada significa que a nivel de la aplicación, el código de la misma maneja que tipo de archivos se pueden subir, de que tamaño,
