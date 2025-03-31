@@ -12,7 +12,7 @@ image:
 >Cookie Monster Secret Recipe
 Author: Brhane Giday and Prince Niyonshuti N.
 Description
-Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster [here](http://verbal-sleep.picoctf.net:64848/) and good luck
+Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck
 {: .prompt-tip}
 
 El enlace nos lleva a una página con un login 
