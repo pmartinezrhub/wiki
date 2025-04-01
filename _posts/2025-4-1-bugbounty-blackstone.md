@@ -62,7 +62,7 @@ mysqli_query ($conexion, "SET NAMES 'utf8'");
 ?>
 ```
 Vale ahora ya lo tengo corriendo, la password por defecto de la web es blackstone:blackstone
-Abro la web, me logeo con las credenciales por defecto, y repaso los menús 
+Abro la web, me logeo con las credenciales por defecto, y repaso los menús. 
 Veo que tiene opciones para crear reportes, manejo de vulnerabilidades, una calculadora NIST , gestión de clientes. Estupendo
 esta herramienta promete.
 
@@ -121,8 +121,7 @@ la vulnerabilidad sea resuelta y poder usar esta aplicación en el futuro, eso s
 
 He contacado con Micro Joan por Linkedin y le he comentado la vulnerabilidad, aunque sea ara evitar un ataque de los de "por encima del hombro". 
 Me ha contestado y me ha dicho que cuando tenga un hueco se pondrá con ello. 
-Recordemos que muchas herramientas son gratuitas y creadas de forma altruista por gente que no sabemos si disponen del tiempo para regalarnos al resto
-su código. 
+Recordemos que muchas herramientas son gratuitas y creadas de forma altruista por gente que no sabemos si disponen del tiempo para regalarnos al resto su código. 
 
 Voy a esperar unos días hasta ver si se solucionan este problemilla y espero que BlackStone tenga un futuro en el mundo de las herramientas de 
 ciberseguridad.
