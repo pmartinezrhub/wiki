@@ -8,7 +8,7 @@ image:
     path: https://www.hackthebox.com/images/landingv3/mega-menu-logo-htb.svg
     alt: Hack The Box
 ---
-Este primer reto de Hack The Box es una especie de examen de conocimientos básicos para comenzar en Hack The Box, 
+Este primer reto de Hack The Box es una especie de examen de para comenzar en esta plataforma, 
 consiste en una serie de preguntas y tareas a completar. Conectarse a la VPN que proporcionan y responder a las preguntas, 
 para acabar realizando una captura de bandera simple. 
 
