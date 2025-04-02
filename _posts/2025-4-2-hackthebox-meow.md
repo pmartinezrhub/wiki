@@ -5,7 +5,7 @@ author: pablo
 categories: [writeup, hackthebox]
 tags: [hackthebox, meow]     
 image:
-    path: https://www.hackthebox.com/images/landingv3/mega-menu-logo-htb.svg
+    path: https://www.hackthebox.com/images/logo-htb.svg
     alt: Hack The Box
 ---
 Este primer reto de Hack The Box es una especie de examen de para comenzar en esta plataforma, 
