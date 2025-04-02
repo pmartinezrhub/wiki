@@ -7,6 +7,7 @@ image:
     path: https://upload.wikimedia.org/wikipedia/commons/3/30/Fritz%21Box_Fon_WLAN_7141_-_Typenschild-3743.jpg
     alt: WPA key
 ---
+
 ## Instalar un router hoy en día, parece una cosa trivial y sencilla
 Puedes tener tu equipo navegando por internet en tres sencillos pasos:
 - Lo enchufas a la corriente

@@ -7,6 +7,7 @@ image:
     path: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/250px-Influxdb_logo.svg.png
     alt: Primer telégrafo
 ---
+
 Para ponerte en contexto deberías leer antes [GeoIP Nginx](../nginx)
 #### Enviar los datos configurados en telegraf a una API de influxdb
 En este caso vamos a enviar los datos de los logs de Nginx que cumplen unos patrones, para ellos me baso en un módulo de telegraf  "grok"
