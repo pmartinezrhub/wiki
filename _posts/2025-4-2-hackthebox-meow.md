@@ -100,6 +100,7 @@ b40abdfe23665f766f9c61ecba8a4c19
 ```
 
 Submit root flag 
+
 Una manera muy elegante de asegurarte de que los usuarios tengan un mínimo de nivel y conocimiento para iniciarte en tu plataforma. 
 
 [https://www.hackthebox.com/achievement/machine/2336390/394](https://www.hackthebox.com/achievement/machine/2336390/394)
