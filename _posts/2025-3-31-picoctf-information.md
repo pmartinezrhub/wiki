@@ -18,7 +18,7 @@ Files can always be changed in a secret way. Can you find the flag? [cat.jpg](ht
 
 Siendo un ejercicio de la categoría forense imagino que habrá que investigar los metadatos de la imagen. 
 
-```
+``` shell
 pablo☠office Information$ mat2 -s cat.jpg   
 [+] Metadata for cat.jpg:
     ApplicationRecordVersion: 4
@@ -30,7 +30,7 @@ pablo☠office Information$ mat2 -s cat.jpg
 ```
 Parece que podría contener la flag, nos da una pista ese PicoCTF aunque parece también que si fuese la flag debería estar codificada en en los metadatos. El hash MD5 7a78f3d9cfb1ce42ab5a3aa30573d617 (parece MD5) es unidireccional e irreversible por lo que centro los esfuerzos en lo que parece base64
 
-```
+``` shell
 pablo☠office Information$ echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d
 picoCTF{the_m3tadata_1s_modified}%    
 ```

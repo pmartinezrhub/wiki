@@ -21,7 +21,7 @@ La forma más rápida de hacer esto es valernos de un decoder online,
 Sin embargo tenemos una herramienta maravillosa que se llama Python, dispone de una librería codecs y esta 
 contiene codecs (codificadores y decodificadores) que implementan a rot13. 
 
-```
+``` shell
 pablo☠office ~$ python
 Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.

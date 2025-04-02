@@ -18,7 +18,7 @@ Can you make sense of this file? Download the file [here](https://artifacts.pico
 
 Al principio estaba un poco perdido con este reto, pero el reto se llama "Repetitions", así que después de el primer decodificado, segundo y 
 tercero ya te vas dando cuenta que la decodificación resta peso al tamaño de los datos, después de 6 iteraciones aparece la flag.
-```
+``` shell
 wget https://artifacts.picoctf.net/c/474/enc_flag
 pablo☠office repetitions$ cat enc_flag                                   
 VmpGU1EyRXlUWGxTYmxKVVYwZFNWbGxyV21GV1JteDBUbFpPYWxKdFVsaFpWVlUxWVZaS1ZWWnVh

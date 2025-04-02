@@ -15,7 +15,7 @@ Your mission is to enter Dr. Evil's laboratory and retrieve the blueprints for h
 {: .prompt-tip }
 
 Descargamos el archivo java y vemos el contenido 
-```
+``` java
 import java.util.*;
 
 class VaultDoorTraining {

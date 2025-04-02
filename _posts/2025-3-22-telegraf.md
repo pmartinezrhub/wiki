@@ -12,7 +12,7 @@ Para ponerte en contexto deberías leer antes [GeoIP Nginx](../nginx)
 #### Enviar los datos configurados en telegraf a una API de influxdb
 En este caso vamos a enviar los datos de los logs de Nginx que cumplen unos patrones, para ellos me baso en un módulo de telegraf  "grok"
 Configuramos telegraf para los input y para los outputs, para los segundos, queremos que se envíen a un bucket de influxdb_v2:
-```
+``` shell
 [[inputs.tail]]
   files = ["/var/log/nginx/access_geo.log"]
   from_beginning = false
@@ -33,6 +33,6 @@ Configuramos telegraf para los input y para los outputs, para los segundos, quer
 ```
 
 Ahora usaremos Telegraf para enviar los datos a la api de influxdb u otras 
-```
+``` shell
 telegraf --config http://localhost:8086/api/v2/telegrafs/0e8b750ee8d03000
 ```

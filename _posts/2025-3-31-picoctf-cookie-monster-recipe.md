@@ -34,7 +34,7 @@ Abro el deporador del navegador y compruebo las cookies en la pestaña de red y 
 }
 ```
 Parece base64 así que pruebo a decodificar:
-```
+``` shell
 pablo☠office Information$ echo "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzc3MUQ1RUIwfQ==" | base64 -d
 picoCTF{c00k1e_m0nster_l0ves_c00kies_771D5EB0}%        
 ```
