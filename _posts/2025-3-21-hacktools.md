@@ -2,7 +2,6 @@
 
 title: HackTools
 date: 2025-03-21 19:00:00 +0200
-author: pablo
 categories: [hacking, herramientas]
 tags: [hacking, herramientas]     # TAG names should always be lowercase
 image:

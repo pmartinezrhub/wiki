@@ -4,7 +4,6 @@ title: 10 Comandos en Linux que me gustan
 date: 2025-03-22 17:00:00 +0200
 categories: [linux, software]
 tags: [linux, comandos]     # TAG names should always be lowercase
-author: pablo
 image:
     path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/200px-Gnu-bash-logo.svg.png
     alt: Shell

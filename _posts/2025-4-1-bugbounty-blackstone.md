@@ -1,7 +1,6 @@
 ---
 title: Bugbounty BlackStone
 date: 2025-04-1 00:00:00 +0200
-author: pablo
 categories: [ciberseguridad, software]
 tags: [bugbounty, blackstone, explotacionweb]     
 image:

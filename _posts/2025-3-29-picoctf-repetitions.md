@@ -1,7 +1,6 @@
 ---
 title: Repetitions
 date: 2025-03-29 19:00:00 +0200
-author: pablo
 categories: [writeup, picoctf]
 tags: [ctf, picoctf, base64]     
 image:

@@ -1,14 +1,13 @@
 ---
 title: Meow
 date: 2025-04-2 12:00:00 +0200
-author: pablo
 categories: [writeup, hackthebox]
 tags: [hackthebox, meow]     
 image:
     path: https://www.hackthebox.com/images/logo-htb.svg
     alt: Hack The Box
 ---
-Este primer reto de Hack The Box es una especie de examen de para comenzar en esta plataforma, 
+Este primer reto de HackTheBox es una especie de examen de para comenzar en esta plataforma, 
 consiste en una serie de preguntas y tareas a completar. Conectarse a la VPN que proporcionan y responder a las preguntas, 
 para acabar realizando una captura de bandera simple. 
 

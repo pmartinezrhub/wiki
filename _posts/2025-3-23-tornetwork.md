@@ -1,7 +1,6 @@
 ---
 title: La red de Tor 
 date: 2025-03-23 16:00:00 +0200
-author: pablo
 categories: [redes]
 tags: [darknet, tor, network, onion]     
 image:

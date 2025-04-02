@@ -3,7 +3,6 @@ title: Linux basic network
 date: 2025-03-21 17:00:00 +0200
 categories: [linux, redes] 
 tags: [linux, redes]     # TAG names should always be lowercase
-author: pablo
 image:
     path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/1024px-Internet_map_1024.jpg
     alt: Internet_map_1024

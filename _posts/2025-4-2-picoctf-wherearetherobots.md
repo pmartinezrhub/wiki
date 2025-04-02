@@ -1,7 +1,6 @@
 ---
 title: Where are the robots
 date: 2025-04-1 12:00:00 +0200
-author: pablo
 categories: [writeup, picoctf]
 tags: [picoctf, ingenieriareversa]     
 image:

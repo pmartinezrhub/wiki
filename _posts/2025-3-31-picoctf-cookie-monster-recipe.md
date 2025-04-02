@@ -1,7 +1,6 @@
 ---
 title: Cookie Monster Secret Recipe
 date: 2025-03-31 17:00:00 +0200
-author: pablo
 categories: [writeup, picoctf]
 tags: [picoctf, explotacionweb, cookies]     
 image:

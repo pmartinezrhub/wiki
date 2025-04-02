@@ -1,7 +1,6 @@
 ---
 title: Securizar routers inalámbricos
 date: 2025-03-24 11:00:00 +0200
-author: pablo
 categories: [ciberseguridad, redes]
 tags: [redes, wifi, seguridad, router]     
 image:

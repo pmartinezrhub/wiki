@@ -1,7 +1,6 @@
 ---
 title: vault-door-training
 date: 2025-03-30 17:00:00 +0200
-author: pablo
 categories: [writeup, picoctf]
 tags: [picoctf, ingenieriareversa]     
 image:
