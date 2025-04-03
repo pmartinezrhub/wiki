@@ -11,10 +11,9 @@ image:
 
 ## DVWA 
 
-[https://github.com/digininja/DVWA](https://github.com/digininja/DVWA)
-
 >Damn Vulnerable Web Application (DVWA) es una aplicación web PHP/MariaDB extremadamente vulnerable. Su objetivo principal es ayudar a los profesionales de la seguridad a poner a prueba sus habilidades y herramientas en un entorno legal, ayudar a los desarrolladores web a comprender mejor los procesos de seguridad de aplicaciones web y ayudar tanto a estudiantes como a profesores a aprender sobre seguridad de aplicaciones web en un entorno de clase controlado.
 
+Más info sobre DVWA en [Hacktools/#vulnerable-machines](../hacktools/#vulnerable-machines)
 Ahora vamos a realizar un ejemplo de injección sql_blind con la herramienta **sqlmap**, para que todo sea automático he puesto el flag __--batch__
 Para el ejercicio he montado el docker con el archivo docker del proyecto de DVWA. 
 
