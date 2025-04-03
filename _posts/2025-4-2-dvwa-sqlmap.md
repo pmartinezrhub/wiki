@@ -25,7 +25,7 @@ Al parecer el parámetro id supone una entrada no sanitizada y permite este tipo
 puede utilizar para extraer los datos de la base de datos.
 sqlmap incluye una opción que le permite identificar y crackear passwords en md5 e incluye su propio diccionario.
 
-Aquí es cuando Sqlmap descubre que el parámetro id parece inyectable usando la técnica de __boolean-based blind__ 
+Aquí es cuando Sqlmap [Hacktools/#sql-injection](../Hacktools/#sql-injection-1)(descubre que el parámetro id parece inyectable usando la técnica de __boolean-based blind__ 
 ``` shell
 [21:49:58] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
 [21:49:58] [INFO] GET parameter 'id' appears to be 'AND boolean-based blind - WHERE or HAVING clause' injectable (with --string="User ID exists in the database.")
