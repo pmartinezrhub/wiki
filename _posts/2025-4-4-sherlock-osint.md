@@ -65,7 +65,7 @@ pip install sherlock_project
 
 ```
 Como podemos ver en los resultados de JMilei, hemos obtenido 27 resultados donde claramente el usuario que el 
-actual presidente de argentina usa en [x.com](x.com) JMilei está siendo utilizado en varios usuarios de distintas webs y no creo que 
+actual presidente de Argentina usa en X(antes twitter) JMilei está siendo utilizado en varios usuarios de distintas webs y no creo que 
 el señor Milei tenga una cuenta de Steam, ni de Snapchat, ni de Roblox, bueno en esto último no estaría tan seguro. 
 
 ## Conclusiones en base a resultados
@@ -86,7 +86,7 @@ o elemento de html, etc que identifica al usuario.
 
 Mi veredicto final es que tiene potencial, pero necesita mejorar. 
 
-
+La imagen de este post pertenece al proyecto de Sherlock. 
 
 
 
