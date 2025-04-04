@@ -82,6 +82,7 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 ### OSINT 
 - Shodan [https://www.shodan.io/](https://www.shodan.io/)
 - Google [https://google.com](https://google.com)
+- Sherlock [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 
 ### Social Engineer 
 - Social Engineer toolkit [https://github.com/trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit)
