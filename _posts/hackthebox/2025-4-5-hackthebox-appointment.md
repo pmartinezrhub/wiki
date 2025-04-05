@@ -1,5 +1,5 @@
 ---
-title: Apppointment
+title: Appointment
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, sqli, sqlinjection, appointment]     
@@ -7,6 +7,9 @@ image:
     path: https://www.hackthebox.com/images/logo-htb.svg
     alt: Hack The Box
 ---
+## Appointment
+Otra vez una lista de tareas con preguntas a contestar
+
  Task 1
 
 What does the acronym SQL stand for?

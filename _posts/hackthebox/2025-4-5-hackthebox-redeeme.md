@@ -9,6 +9,7 @@ image:
 ---
 
 ## Redeemer
+Siguiendo la línea de hacer unas tareas y contestar a las preguntas que se van planteando. 
 
  Task 1
 
