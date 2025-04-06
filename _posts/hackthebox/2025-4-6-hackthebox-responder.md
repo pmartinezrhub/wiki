@@ -179,7 +179,8 @@ PORT     STATE SERVICE
 
 Submit Flag
 
-Para sacar la flag nos valdremos de  Evil-WinMR que es un programa que permite controlar servidores de Windows a través de un protocolo basado en SOAP [hacktools\#exploiting-frameworks](..\hacktools\#exploiting-frameworks). Una vez accedemos al servidor navegamos por los directorios hasta encontrarnos con el usuario **mike**
+Para sacar la flag nos valdremos de  Evil-WinMR que es un programa que permite controlar servidores de Windows a través de un protocolo basado en SOAP [hacktools#exploiting-frameworks](../hacktools#exploiting-frameworks). Una vez accedemos al servidor navegamos por los directorios hasta 
+encontrarnos con el usuario **mike**
 ```
 ┌──(kali㉿kali25)-[~]
 └─$ evil-winrm -i 10.129.204.40 -u administrator -p badminton
