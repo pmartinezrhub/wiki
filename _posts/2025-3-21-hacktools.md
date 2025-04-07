@@ -21,6 +21,7 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - Netcat [https://netcat.sourceforge.net/](https://netcat.sourceforge.net/) Called the swiss army knife (for hackers)
 - Socat [https://www.dest-unreach.org/socat/](https://www.dest-unreach.org/socat/) Netcat on steroids
 - Curl [https://curl.haxx.se/](https://curl.haxx.se/) cURL is a command-line tool used for transferring data to and from servers using - - various protocols like HTTP, HTTPS, FTP, and more.
+- Seclist [https://github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) It's a collection of multiple types of lists used during security assessments
 
 ### Network scanners 
 - Netdiscover [https://github.com/netdiscover-scanner/netdiscover](https://github.com/netdiscover-scanner/netdiscover)Network address discovering tool 
