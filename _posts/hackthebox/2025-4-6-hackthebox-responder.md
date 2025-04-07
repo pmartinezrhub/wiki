@@ -21,6 +21,7 @@ Which scripting language is being used on the server to generate webpages?
 > php
 
 Task 3
+
 Antes de continuar con el ejercicio habrás notado que al ingresar a la IP que nos proporcionan con el navegador 
 es redireccionada inmediatamente a un dominio con una página en blanco. Para resolverlo podemos editar
 /etc/host, esto forzará a resolver  unika.htb contra la IP proporcionada
