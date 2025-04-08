@@ -1,6 +1,6 @@
 ---
 title: Three
-date: 2025-04-5 00:00:00 +0200
+date: 2025-04-88 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, responder]     
 image:
