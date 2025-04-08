@@ -39,7 +39,7 @@ Tengo resultados, el código se ha ejecutado, ahora sabemos que el archivo que h
 
 Después de hacer algunos cambios y resubir el archivo varias veces caigo en la cuenta de que con el directorio root no estoy teniendo suerte, añado una salida para comprobar que php se está ejecutando ```echo "Salida commando\n";```, así que añado sudo y descubro la sorpresa, el usuario actual ha sido añadido al fichero sudoers y ni siquiera necesita una password para ejecutar comandos del sistema.
 
-```
+``` php
 <?php
 $output = shell_exec("whoami");
 echo "Salida commando\n";
