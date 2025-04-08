@@ -2,7 +2,7 @@
 title: Three
 date: 2025-04-8 00:00:00 +0200
 categories: [writeup, hackthebox]
-tags: [hackthebox, responder]     
+tags: [hackthebox, aws, s3]     
 image:
     path: https://www.hackthebox.com/images/logo-htb.svg
     alt: Hack The Box
