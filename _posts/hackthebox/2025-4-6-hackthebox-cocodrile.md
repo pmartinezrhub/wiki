@@ -152,6 +152,7 @@ PORT   STATE SERVICE REASON         VERSION
 80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.41 ((Ubuntu))
 ```
 > Apache httpd 2.4.41
+
 Task 8
 
 What switch can we use with Gobuster to specify we are looking for specific filetypes?
