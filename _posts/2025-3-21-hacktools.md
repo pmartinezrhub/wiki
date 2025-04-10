@@ -170,4 +170,4 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 ### CTFs 
 - PicoCTF [https://picoctf.org/](https://picoctf.org/)
 - Ctf.hacker101 [https://ctf.hacker101.com/](https://ctf.hacker101.com/)
-
+- hackthebox [https://www.hackthebox.com/](https://www.hackthebox.com/)
