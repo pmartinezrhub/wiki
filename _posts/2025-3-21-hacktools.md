@@ -125,6 +125,9 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - Sql payloads [https://github.com/payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list)
 - Sqlmap [https://github.com/sqlmapproject/sqlmap/wiki](https://github.com/sqlmapproject/sqlmap/wiki)
 
+### SSTI
+- SSTImap [https://github.com/vladko312/sstimap](https://github.com/vladko312/sstimap) SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection
+
 ### Reverse Engineering 
 - IDA Free [https://hex-rays.com/ida-free](https://hex-rays.com/ida-free)
 - Radare2 [https://www.radare.org/r/index.html](https://www.radare.org/r/index.html)
@@ -163,7 +166,7 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - Metasploitable [https://information.rapid7.com/download-metasploitable-2017.html](https://information.rapid7.com/download-metasploitable-2017.html)
 - Metasploitable2 [https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip](https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip)
 - Metasploitable3 [https://github.com/rapid7/metasploitable3](https://github.com/rapid7/metasploitable3)
-
+- WebGoat [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat)WebGoat is a deliberately insecure web application maintained by OWASP designed to teach web application security lessons.
 ### CTFs 
 - PicoCTF [https://picoctf.org/](https://picoctf.org/)
 - Ctf.hacker101 [https://ctf.hacker101.com/](https://ctf.hacker101.com/)
