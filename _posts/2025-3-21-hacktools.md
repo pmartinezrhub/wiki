@@ -11,7 +11,6 @@ image:
 This document is updated, modified when i notice a tool is deprecated or a new tool is tested. 
 
 
-
 ### General Security Info
 -  OWASP [https://owasp.org](https://owasp.org/)
 -  Exploitdb [https://gitlab.com/exploit-database/exploitdb](https://gitlab.com/exploit-database/exploitdb) Archive of public exploits
@@ -167,7 +166,8 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - Metasploitable2 [https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip](https://downloads.metasploit.com/data/metasploitable/metasploitable-linux-2.0.0.zip)
 - Metasploitable3 [https://github.com/rapid7/metasploitable3](https://github.com/rapid7/metasploitable3)
 - WebGoat [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat)WebGoat is a deliberately insecure web application maintained by OWASP designed to teach web application security lessons.
+
 ### CTFs 
 - PicoCTF [https://picoctf.org/](https://picoctf.org/)
 - Ctf.hacker101 [https://ctf.hacker101.com/](https://ctf.hacker101.com/)
-- hackthebox [https://www.hackthebox.com/](https://www.hackthebox.com/)
+- Hackthebox [https://www.hackthebox.com/](https://www.hackthebox.com/)
