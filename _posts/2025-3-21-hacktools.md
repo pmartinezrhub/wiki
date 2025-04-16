@@ -63,13 +63,15 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - XSStrike [https://github.com/s0md3v/XSStrike](https://github.com/s0md3v/XSStrike)XSStrike is a Cross Site Scripting detection suite 
 - Portswigger cheat-sheet for XSS [https://portswigger.net/web-security/cross-site-scripting/cheat-sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
-### Exploiting Frameworks 
+### Exploiting  
 - Metasploit [https://www.metasploit.com/](https://www.metasploit.com/)
 - Armitage [https://www.fastandeasyhacking.com](https://www.fastandeasyhacking.com)
 - BeEF [https://beefproject.com/](https://beefproject.com/)BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.  
 - NetExec [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) Network service exploitation tool
 - Evil-Winrm [https://github.com/Hackplayers/evil-winrm](https://github.com/Hackplayers/evil-winrm)The ultimate WinRM shell for hacking/pentesting
 - Responder [https://github.com/SpiderLabs/Responder](https://github.com/SpiderLabs/Responder) Responder an LLMNR, NBT-NS and MDNS poisoner
+- Impacket [https://github.com/fortra/impacket](https://github.com/fortra/impacket) Impacket is a collection of Python classes for working with network protocols
+- revshell [https://www.revshells.com/](https://www.revshells.com/) Reverse shells generator
 
 ### Web Shells 
 - r57shell [https://github.com/r57shell](https://github.com/r57shell)
