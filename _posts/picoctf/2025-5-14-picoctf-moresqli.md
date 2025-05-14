@@ -20,17 +20,23 @@ Como este ejercicio va de injecciones SQL empezamos con el típico '1 = 1' para 
 username: admin
 password: 1 = 1
 SQL query: SELECT id FROM users WHERE password = '1 = 1' AND username = 'admin'
-```
 
+```
 Viendo esto, creo que podemos intentar injectar con un OR, añadiendo "--" para comentar el resto de la query, etc.
-Luego podemos ver como queda la query e ir retocandola.
+Luego podemos ver como queda la query e ir retocándola.
 
 ``` 
 SELECT id FROM users WHERE password = 'pass OR 1 = 1' AND username = 'admin'
 pass OR 1 = 1 --'
 
-Finalmente compruebo que esta funciona.
+```
+
+Finalmente compruebo que esta funciona. También puedes usar herramientas automáticas como un Fuzzer o SQLMap
+
+``` 
 a' OR 1 = 1; --
+```
+
 
 ``` html
 username: test
