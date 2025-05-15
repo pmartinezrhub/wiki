@@ -74,7 +74,7 @@ function onButtonPress() {
 ```
 
 Después de un análisis de código me doy cuenta de que el código javascript hace uso de WebAssembly, esto me hizo pensar que pasaba si
-accedo a esa web que parece involucrada de alguna manera [http://mercury.picoctf.net:37669/JIFxzHyW8W](http://mercury.picoctf.net:37669/JIFxzHyW8W)
+accedo a esa web que parece involucrada de alguna manera http://mercury.picoctf.net:37669/JIFxzHyW8W
 
 ```
 �asm���`��``�`��p�1A°�A°�A�A°
