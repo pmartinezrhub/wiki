@@ -28,7 +28,7 @@ Cuando envías el formulario en el botón ok , te redirige a una web http://resc
 el "anuncio" introducido en letras grandes
 
 Al principio no tenía ni idea así que mire la pista que da, __Server Side Template Injection__ . Entonces fue cuando caí en la cuenta
-muchos templates utilizan las llaves "{}" para parametrizar valores en los templamismos, entonces comencé a experimentar con este tipo de 
+muchos templates utilizan las llaves "{}" para parametrizar valores en los mismos, entonces comencé a experimentar con este tipo de 
 inyección. 
 
 Encontré una que produjo un error en el servidor al dividir por 0, lo que indica que en cierta manera el servidor ejecuta lo que está dentro de las llaves
