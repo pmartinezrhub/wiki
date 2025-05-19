@@ -2,7 +2,7 @@
 title: picobrowser
 date: 2025-05-19 00:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, piicobrowser, explitación web]     
+tags: [picoctf, picobrowser, explitación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

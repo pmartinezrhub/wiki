@@ -2,7 +2,7 @@
 title: IntroToBurp
 date: 2025-04-14 22:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, introburp, webexplotation]     
+tags: [picoctf, introburp, explotación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

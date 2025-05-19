@@ -2,7 +2,7 @@
 title: Power Cookie
 date: 2025-05-14 13:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, more sqli, webexplotation]     
+tags: [picoctf, more sqli, explotación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

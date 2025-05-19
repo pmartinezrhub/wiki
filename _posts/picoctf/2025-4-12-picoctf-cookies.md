@@ -2,7 +2,7 @@
 title: Cookies
 date: 2025-04-11 22:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, cookies, webexplotation]     
+tags: [picoctf, cookies, explotación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

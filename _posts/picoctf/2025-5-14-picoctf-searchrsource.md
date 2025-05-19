@@ -2,7 +2,7 @@
 title: Search source
 date: 2025-05-14 22:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, search source, webexplotation]     
+tags: [picoctf, search source, explotación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

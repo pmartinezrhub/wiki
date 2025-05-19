@@ -2,7 +2,7 @@
 title: Forbidden Paths
 date: 2025-05-13 00:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, forbidden paths, webexplotation, path transversal]     
+tags: [picoctf, forbidden paths, explotación web, path transversal]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

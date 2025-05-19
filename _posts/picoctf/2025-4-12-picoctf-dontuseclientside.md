@@ -2,7 +2,7 @@
 title: dont-use-client-side
 date: 2025-04-14 22:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, dont-use-client-side, webexplotation, javascript]     
+tags: [picoctf, dont-use-client-side, explotación web, javascript]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
