@@ -2,7 +2,7 @@
 title: Python Wrangling
 date: 2025-04-1 12:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, ingenieriareversa, python]     
+tags: [picoctf, ingeniería reversa, python]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
