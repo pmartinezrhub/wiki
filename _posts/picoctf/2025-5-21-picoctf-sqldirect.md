@@ -1,6 +1,6 @@
 ---
 title: SLQ Direct
-date: 2025-05-20 00:00:00 +0200
+date: 2025-05-21 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, sqldirect, psql]     
 image:
