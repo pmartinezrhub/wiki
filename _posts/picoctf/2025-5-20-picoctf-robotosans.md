@@ -46,7 +46,9 @@ js/myfile.txt
 ,z/u%z8
 ```
 
-Compruebo en la consolo que efectivamente /js/myfile.txt es la ruta donde encontraremos la flag que tenemos que encontrar. 
+Compruebo en la consola que efectivamente /js/myfile.txt es la ruta donde encontraremos la flag que tenemos que encontrar. 
+Luego en el navegador.
+
 ```
 pablo☠office ~$ echo "anMvbXlmaWxlLnR4dA==" | base64 -d
 js/myfile.txt% 
@@ -54,3 +56,4 @@ js/myfile.txt%
 ```
 
 flag: **picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}**
+
