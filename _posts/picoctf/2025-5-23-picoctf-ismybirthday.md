@@ -44,7 +44,10 @@ da5c61e1edc0f18337e46418e48c1290  hello.pdf
 ```
 
 Aparece el código fuente de la página donde podemos encontrar la flag
+
+``` html
 // FLAG: picoCTF{c0ngr4ts_u_r_1nv1t3d_40d81ca2}
+```
 
 flag: **picoCTF{c0ngr4ts_u_r_1nv1t3d_40d81ca2}**
 
