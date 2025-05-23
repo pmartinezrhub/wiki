@@ -2,7 +2,7 @@
 title: SQLiLite
 date: 2025-05-19 00:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, sqlite, explitacion web]     
+tags: [picoctf, sqlite, explotacion web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF

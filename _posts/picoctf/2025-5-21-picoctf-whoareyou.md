@@ -2,7 +2,7 @@
 title: Who are you?
 date: 2025-05-21 00:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, whoareyou, explitación web]     
+tags: [picoctf, whoareyou, explotación web]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
