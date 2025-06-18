@@ -66,14 +66,14 @@ la password hardcodeada, véase 'picoCTF{', '_again_5' , 'not_this' , 'this', '0
 ``` html
 var _0x5a46 = ['0a029}', '_again_5', 'this', 'Password\x20Verified', 'Incorrect\x20password', 'getElementById', 'value', 'substring', 'picoCTF{', 'not_this'];
 ```
-Así que copio el código javascript y le ejecuto con gjs, eso sí introduczco una línea de debug que va dejando las cosas aún más claras
+Así que copio el código javascript y lo ejecuto con gjs (un interprete de javascript para el terminal), eso sí, introduczco una línea de debug que va dejando las cosas aún más claras
 
 ```
 pablo☠office client-side-again$ gjs test.js
 getElementById,value,substring,picoCTF{,not_this,0a029},_again_5,this,Password Verified,Incorrect password
 ```
 
-Y por deducción lógica y un ejercicioi realizado muy parecido a este, además debería de calificarlo como ingeniería reversa?, pruebo componiendo al estilo concurso de la tele "resuelvo", ya que sabemos que las flags utilizan los guiones bajos.
+Y por deducción lógica y un ejercicio realizado muy parecido a este, además debería de calificarlo como ingeniería reversa?, pruebo componiendo al estilo concurso de la tele "resuelvo", ya que sabemos que las flags utilizan los guiones bajos.
 
 >picoCTF{not_this_again_50a029}
 

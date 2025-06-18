@@ -14,7 +14,7 @@ Description
 Connect to this PostgreSQL server and find the flag! psql -h saturn.picoctf.net -p 52406 -U postgres pico Password is postgres
 {: .prompt-tip }
 
-Se nos indica utilizar la consola de psql para conetarnos a un servidor postgres y la base de dados __pico__.Una vez conectados podemos ejecutar los comandos típicos de postgres 
+Se nos indica utilizar la consola de psql para conetarnos a un servidor postgres y la base de dados __pico__. Una vez conectados podemos ejecutar los comandos típicos de postgres 
 
 ```
 pablo☠office ~$ psql -h saturn.picoctf.net -p 52406 -U postgres -d pico

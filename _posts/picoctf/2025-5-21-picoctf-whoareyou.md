@@ -14,7 +14,7 @@ Description
 Let me in. Let me iiiiiiinnnnnnnnnnnnnnnnnnnn http://mercury.picoctf.net:36622/
 {: .prompt-tip }
 
-al conectarnos a la web veresmos la foto de un niño sonriente en un gif que pregunta ¿Who are you? y una frase:
+Al conectarnos a la web veresmos la foto de un niño sonriente en un gif que pregunta ¿Who are you? y una frase:
 
 >Only people who use the official PicoBrowser are allowed on this site!
 
@@ -55,7 +55,7 @@ No confía en usuarios que pueden ser trackeados, así que siguiendo el guión a
 <h3 style="color:red">This website is only for people from Sweden.</h3>
 ```
 
-Pues siguiendo el guión ya preestablecido de añadir valores a los parámetros del request, busco una dirección ip aleatoria que pertenezca a Suecia. Puedes obtenerla de esta web (https://lite.ip2location.com/sweden-ip-address-ranges](https://lite.ip2location.com/sweden-ip-address-ranges) pero otra vez nos hace una vez más una solicitud para el request, el idioma
+Pues siguiendo el guión ya preestablecido de añadir valores a los parámetros del request, busco una dirección ip aleatoria que pertenezca a Suecia. Puedes obtenerla de esta web [https://lite.ip2location.com/sweden-ip-address-ranges](https://lite.ip2location.com/sweden-ip-address-ranges) pero otra vez nos hace una vez más una solicitud para el request, el idioma
 
 > X-Forwarded-For: 102.177.146.15
 

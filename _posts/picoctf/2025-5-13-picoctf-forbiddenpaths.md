@@ -28,7 +28,7 @@ Priority: u=0, i
 Si por ejemplo enviamos divine-comedy.txt estos serían los parámetros. 
 filename=divine-comedy.txt&read=
 
-Por otro lado el ejercicio nos da una pista de la hubicación /usr/share/nginx/html/  pues dice que esta en la raiz del sistema 
+Por otro lado el ejercicio nos da una pista de la ubicación /usr/share/nginx/html/  pues dice que esta en la raíz del sistema 
 /flag.txt .Si contamos hacia arriba tenemos 4 directorios hacia el raíz. 
 Así que probamos a introducir en el formultario lo siguiente.  
 ../../../../flag.txt
