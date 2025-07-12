@@ -48,6 +48,11 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - WafW00f [https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)WAF detector 
 - Lbd [https://github.com/hacktrackgnulinux/lbd](https://github.com/hacktrackgnulinux/lbd)Load balancer detector 
 
+#### Web CMS utils
+- Cmseek [https://gitlab.com/kalilinux/packages/cmseek](https://gitlab.com/kalilinux/packages/cmseek)
+- Wpscan [https://wpscan.com/](https://wpscan.com/) Scan vulns for Wordpress
+- Joomscan [https://github.com/OWASP/joomscan](https://github.com/OWASP/joomscan) Scan vulns for Joomla
+
 ### Fuzzers 
 - Wfuzz [https://www.edge-security.com/wfuzz.php](https://www.edge-security.com/wfuzz.php)
 - Gobuster [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
