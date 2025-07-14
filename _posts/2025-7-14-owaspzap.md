@@ -29,8 +29,9 @@ Pero al final viendo la cantidad de información y vídeos que puedes encontrar 
 
 ## Funcionalidades de Zap
 Enumeraré las más importantes e útiles:
-- Interceptor proxy: Podemos interceptar una petición para después manejarlas, luego con el requester podemos modificalas.
-- Requester: Nos permite manipular una petición y relanzarla, es la funcionalidad principal de estos proxies.
+- Interceptor proxy: Podemos interceptar una petición para después manejarlas, luego con el requester podemos modificarlas.
+- Requester: Nos permite manipular una petición y relanzarla, es la funcionalidad principal de estos proxies. Modificar método de request,
+cabezeras, parámetros, lo que se quiera. 
 - Fuzzer/Bruteforce: Zap ofrece una especie de asistente para hacer fuzzing o fuerza bruta, muy interesante y rico en opciones como el 
 preprocesado. 
 - Active Scan: Un scanner de vulnerabilidades y de posibles fugas de información, ficheros no bien protegidos, etc.
