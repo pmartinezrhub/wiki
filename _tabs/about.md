@@ -11,4 +11,4 @@ por lo que declaro que todo lo que aquí se muestra es con fines educativos y de
 > Puedes contactarme en el botón mail
 {: .prompt-info }
 
-[My linkedin profile](https://www.linkedin.com/in/pablo-m-8552a790/)
+[Linkedin profile](https://www.linkedin.com/in/pablo-m-8552a790/)
