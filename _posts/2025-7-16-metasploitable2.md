@@ -13,7 +13,7 @@ Metasploitable2 es una de las máquinas que ofrece Rapid7 para realizar práctic
 La descarga es un fichero zip que contien los ficheros para hacer que la máquina en VirtualBox.Puedes descargar la máquina desde aquí:
 [https://sourceforge.net/projects/metasploitable/files/Metasploitable2/metasploitable-linux-2.0.0.zip/download](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/metasploitable-linux-2.0.0.zip/download)
 
-Es una máquina Linux con "vulnerabilidades". Incluye varios proyectos web con vulnerabilidades o con versiones vulnerables para practicar todo tipo de pruebas de penetración como TWiki, phpMyAdmin, Mutillidae, DVWA, WebDAV, aparte de las propias vulnerabilidades del sistema que sostienen esas web, la máquina virtual en si misma. 
+Es una máquina Linux con "vulnerabilidades" en [Hacktools/#vulnerable-machines](../hacktools/#vulnerable-machines) puedes encontrar más máquinas y proyectos como este. Incluye varios proyectos web con vulnerabilidades o con versiones vulnerables para practicar todo tipo de pruebas de penetración como TWiki, phpMyAdmin, Mutillidae, DVWA, WebDAV, aparte de las propias vulnerabilidades del sistema que sostienen esas web, la máquina virtual en si misma. 
 
 
 Instala qemu-utils si no lo tienes:
