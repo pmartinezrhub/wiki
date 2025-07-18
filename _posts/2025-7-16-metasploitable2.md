@@ -193,4 +193,4 @@ root
 
 ```
 
-Hay varias formas de explotar esta máquina y Internet está lleno de manuales para explotarlas, busca la que más te apetezca o inventate una.
+Hay varias formas de explotar esta máquina y Internet está lleno de manuales para explotarlas, busca la que más te apetezca o invéntate una.
