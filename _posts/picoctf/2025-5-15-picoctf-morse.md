@@ -33,6 +33,6 @@ WH47 H47H 90D W20U9H7
 
 ```
 
-flag **PicoCTF{WH47_H47H_90D_W20U9H7}**
+flag: **PicoCTF{WH47_H47H_90D_W20U9H7}**
 
 Una de las cosas que más me gustan de PicoCTF es su originalidad a la hora de proponer retos y por ende descubrir nuevas herramientas y enfoques de como resolverlos. 

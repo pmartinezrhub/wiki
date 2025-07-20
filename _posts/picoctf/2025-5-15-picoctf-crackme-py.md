@@ -87,6 +87,6 @@ picoCTF{1|\/|_4_p34|\|ut_502b984b}
 What's your first number? 
 ```
 
-flag picoCTF{1|\/|_4_p34|\|ut_502b984b}
+flag: picoCTF{1|\/|_4_p34|\|ut_502b984b}
 
 (bueno la que sale en la shell, porque el encoding no permite usar algunos carácteres que vienen en esta flag)

@@ -15,7 +15,7 @@ There is a website running at https://jupiter.challenges.picoctf.org/problem/646
 {: .prompt-tip }
 
 
-Ya había visitado esta web antes, en otro reto, de nuevo me fijo en el request en el navegador y vemo el parámetro debug, lo cambio a 1 y vuelvo a introducir admin:admin , pero parece que realmente se han tomado en serio securizar la página y arroja este mensaje cuando pruebo a inyectar en el username o en password "SQLi detected.". 
+Ya había visitado esta web antes, en otro reto, de nuevo me fijo en el request en el navegador y vemos el parámetro debug, lo cambio a 1 y vuelvo a introducir admin:admin , pero parece que realmente se han tomado en serio securizar la página y arroja este mensaje cuando pruebo a inyectar en el username o en password "SQLi detected.". 
 
 >debug=1&username=admin&password=a' or 1 = 1
 

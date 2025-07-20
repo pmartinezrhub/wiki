@@ -43,6 +43,6 @@ http://saturn.picoctf.net:62272/secret/
 http://saturn.picoctf.net:62272/secret/hidden/
 http://saturn.picoctf.net:62272/secret/hidden/superhidden/
 
-flag **picoCTF{succ3ss_@h3n1c@10n_790d2615}**
+flag: **picoCTF{succ3ss_@h3n1c@10n_790d2615}**
 
 Una intersante forma de explicar los paths en web y sus peligros. 

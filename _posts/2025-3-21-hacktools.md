@@ -147,6 +147,7 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - Crunch [https://github.com/crunchsec/crunch](https://github.com/crunchsec/crunch)Dictionary generator
 - Cuup [https://github.com/Mebus/cupp](https://github.com/Mebus/cupp)Common User Passwords Profiler
 - Hash-identifier [https://gitlab.com/kalilinux/packages/hash-identifier](https://gitlab.com/kalilinux/packages/hash-identifier)Software to identify the different types of hashes used to encrypt data and especially passwords.
+- Jwtcrack [https://github.com/Sjord/jwtcrack](https://github.com/Sjord/jwtcrack)Crack a HS256, HS384 or HS512-signed JWT
 
 ## Dedicated cibersecurity Linux distros
 

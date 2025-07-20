@@ -97,7 +97,7 @@ __memory_base__table_base
  
 ?#�!A!  k!  �6  6 (! (!  :�°�2�A+picoCTF{a8bae10f4d9544110222c2d639dc6de6}��
 ```
-flag **picoCTF{a8bae10f4d9544110222c2d639dc6de6}**
+flag: **picoCTF{a8bae10f4d9544110222c2d639dc6de6}**
 
 Por una parte este reto requiere un análisis de código "ofuscado" y por otra la respuesta estaba más cerca de lo que llegué a pensar
 que tendría que reescribir el código para intentar darle forma pero no es necesario.  

@@ -36,6 +36,6 @@ SQL query: SELECT * FROM users WHERE name=&#039;admin&#039; AND password=&#039;a
 </pre><h1>Logged in! But can you see the flag, it is in plainsight.</h1><p hidden>Your flag is: picoCTF{L00k5_l1k3_y0u_solv3d_it_9b0a4e21}</p>
 ```
 
-flag **picoCTF{L00k5_l1k3_y0u_solv3d_it_9b0a4e21}**
+flag: **picoCTF{L00k5_l1k3_y0u_solv3d_it_9b0a4e21}**
 
 De nuevo SQLi, casi una repeteción. 
