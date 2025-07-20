@@ -104,7 +104,7 @@ Si navegamos un rato por la web vamos a encontrar con una serie de libros pero c
 @PreAuthorize("hasAuthority('Admin') and #userRoleRequest.id != authentication.principal.grantedAuthorities[0].userId")
 ```
 
-Lanzo un primer request desde Zap para caputar y ver la puestuesta:
+Lanzo un primer request desde Zap para caputar y ver la respuesta:
 
 ``` html
 POST http://saturn.picoctf.net:63664/base/login HTTP/1.1
