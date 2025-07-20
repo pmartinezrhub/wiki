@@ -199,6 +199,7 @@ JWT Signature Verification(Optional)
 Enter the secret used to sign the JWT below: 
 1234
 ```
+El script en Python que codifiqué con la ayuda de una IA
 
 ``` python
 import hmac
