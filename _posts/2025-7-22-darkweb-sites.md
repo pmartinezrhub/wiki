@@ -20,7 +20,7 @@ Notarás que algunos de estos sitios no utilizan HTTPS, pues confían en el trá
 Estos sitios tiene acceso también desde la red **WWW**, ofrecen la web en forma de servicio oculto o bien albergan alguna parte del sitio en forma de hidden service, como un buzón de denuncias. 
 
 
-- **Hidden Wiki**. Un directorio de enlaces onion, los enlaces que verás en este artículo han salido de esta web
+- **Hidden Wiki**. Un directorio de enlaces onion, los enlaces que verás en este artículo han salido de esta wiki
 
 http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page
 
