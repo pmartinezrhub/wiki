@@ -108,3 +108,6 @@ http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/
 ![NY Times](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_New_York_Times_logo.svg/60px-The_New_York_Times_logo.svg.png)
 
 ¿Tiene algo que denunciar y no te atreves? Con los hidden services se puede. 
+
+## Dominios onion customizados
+Te has fijado de que algunos de estos dominios onion, comienzan con los caracteres del dominio en la clearnet hasta cierto caracter claro. Puede llevar un buen rato generar una clave con una secuencia de caracteres específicos pero con esta utilidad se puede hacer [https://github.com/NotReeceHarris/torv3](https://github.com/NotReeceHarris/torv3)
