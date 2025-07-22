@@ -9,7 +9,7 @@ image:
 ---
 
 ## La DeepWeb
-La imagen de este Post que tan común es encontrar en Internet, no es del todo correcta, muchos servicios de la web www, también tienen su acceso a través de la red de TOR(The Onion Router) para aquellos que quieran puedan visitar dichos servicios y hacerlo de forma anónima. Hay que entender que para proteger la comunicación es buena idea usar TOR, sin embargo no es tan buena idea usar TOR con una red social, claro si no se hace con un perfil falso imagino que por motivos de seguridad o poco éticos.
+La imagen de este Post que tan común es encontrar en Internet no es del todo correcta, muchos servicios de la web **WWW**, también tienen su acceso a través de la red de **TOR**(The Onion Router) para aquellos que quieran puedan visitar dichos servicios y hacerlo de forma anónima. Hay que entender que para proteger la comunicación es buena idea usar TOR, sin embargo no es tan buena idea usar TOR con una red social, claro si no se hace con un perfil falso imagino que por motivos de seguridad o poco éticos.
 
 Algunos sitios .onion o lo que es lo mismo servicios web publicados como [hidden services](../hidden-services) en [la red de Tor](../tornetwork).
 
