@@ -71,6 +71,8 @@ Para el resto de participantes:
 - **? <=> E <=> Bob** Bob recibe paquetes de E nodo de salida sin saber que proceden de M. Como dijimos esa información esta reservada a E
 - **? <=> M <=> E <=> Bob** E comunica con Bob y con M porque intervienen en la comunicación pero ignora a G y a Alice
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Funcionamiento_red_tor2.svg/1920px-Funcionamiento_red_tor2.svg.png)
+
 Cadena hacia arriba o hacia abajo, excepto el que inicia la comunicación el resto de participantes desconoce siempre el otro extremo 
 de la cadena, permitiendo el anonimato.
 
@@ -82,6 +84,7 @@ Descargar el navegador [Tor Browser](https://www.torproject.org/download/)
 
 #### Hidden services
 Los hidden services son servicios en la red de tor, son puertos de escucha ofuscados por direcciones ***.onion***, pueden albergar cualquier cosa pero mayormente se utiliza para páginas web, lo que se conoce como Deepweb
+[../HiddenServices](../hidden-services)
 
 #### Confía pero no confíes
 > Tor es una red formada por voluntarios, esto supone un eslabón débil en la cadena de la seguridad, porque ellos no disponen de los recursos que puede disponer un estado o organización, por lo que mi recomendación es siempre usar Tor acompañado de otras medidas de seguridad.

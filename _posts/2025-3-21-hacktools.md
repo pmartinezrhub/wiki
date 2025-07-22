@@ -151,6 +151,10 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 
 ## Dedicated cibersecurity Linux distros
 
+### Privacy
+- Tails [https://tails.net](https://tails.net) A portable operating system that protects against surveillance and censorship. 
+- Whonix [https://www.whonix.org](https://www.whonix.org) an anonymous operating system that runs like an app and routes all Internet traffic through the Tor anonymity network. 
+
 ### Forensic 
 - Caine Linux [https://www.caine-live.net/](https://www.caine-live.net/)
 
