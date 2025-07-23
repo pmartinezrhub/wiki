@@ -22,13 +22,14 @@ I built a cool website that lets you announce whatever you want!*
 What do you want to announce: 
 ```
 
-Si echamos la vista atrás en en reto [pico-ctf-sst1](pico-ctf-sst1) ya hacíamos esta comprobación de provocar un error al introducir una división por zero y en este reto podemos hacer lo mismo, obteniendo el primer positivo al introducir { {1/0} }
+Si echamos la vista atrás en en reto [pico-ctf-sst1](../pico-ctf-sst1) ya hacíamos esta comprobación de provocar un error al introducir una división por zero y en este reto podemos hacer lo mismo, obteniendo el primer positivo al introducir { {1/0} }, en principio un positivo.
+
 ``` html
 Internal Server Error
 The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 ```
 
-En dicha ocasión me valí de **Sttimaa** una herramienta que automatiza el proceso de explotación de este tipo de vulnerabilidades. Esta vez la detección nos dice que no puede levantar una shell, pero parece que sí si hay un punto de inyección con motor Jinja2, supuestamente vulnerable. Toca seguir escarbando.
+En dicha ocasión me valí de **Sttimap** una herramienta que automatiza el proceso de explotación de este tipo de vulnerabilidades. Esta vez la detección nos dice que no puede levantar una shell, pero parece que sí hay un punto de inyección con motor Jinja2, supuestamente vulnerable. Toca seguir escarbando.
 
 ``` shell
 (sstimap) pablo☠office sstimap$ ./sstimap.py  -f --os-shell --url="http://shape-facility.picoctf.net:52506"
@@ -72,7 +73,8 @@ Developers assume no liability and are not responsible for any misuse or damage 
 [-] No system command execution capabilities have been detected on the target.
 ```
 
-Al capturar con Zap proxy el request, me doy cuenta de el el request se codifica antes de ser enviado.  :
+Al capturar con Zap proxy el request, me doy cuenta de el el request se codifica antes de ser enviado. 
+
 ``` html
 POST http://shape-facility.picoctf.net:52506/ HTTP/1.1
 Host: shape-facility.picoctf.net:52506
@@ -101,11 +103,12 @@ Ahora busqué un payload que funcionase con esta vulnerabilidad y encontré lo q
 ```
 
 Sin embargo el la web del formulario al enviar este payload nos envía a una web con el siguente mensaje
+
 ``` html 
 Stop trying to break me >:(
 ```
 
-Bueno no es la flag pero nos da una pista, si además hacemos caso de las pistas proporcionadas "Why is blacklisting characters a bad idea to sanitize input?", ¿Es posible que haya algún caracter que filtre el formulario?.
+Bueno no es la flag pero nos da una pista, si además hacemos caso de las pistas proporcionadas "Why is blacklisting characters a bad idea to sanitize input?", ¿Es posible que haya algún caracter(es) que filtre el formulario?.
 
 Al hacer el request y capturar con Zap nos muestra que hay ciertos caracteres que no se está encodeando.
 
