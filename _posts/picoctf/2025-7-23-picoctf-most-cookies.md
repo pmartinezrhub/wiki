@@ -2,7 +2,7 @@
 title: Most Cookies
 date: 2025-07-23 11:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, explotación web]     
+tags: [picoctf, explotación web, flask, cookies]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
@@ -174,4 +174,4 @@ Vary: Cookie
 ```
 flag: **picoCTF{pwn_4ll_th3_cook1E5_25bdb6f6}**
 
-Interesante reto muy parecido a [Java Code Analysis!?!](picoctf-java-code-analisis!-!) pero esta vez versión Flask. 
+Interesante reto muy parecido a [Java Code Analysis!?!](../picoctf-java-code-analisis!-!) pero esta vez versión Flask. 
