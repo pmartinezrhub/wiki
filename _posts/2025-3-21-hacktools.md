@@ -48,6 +48,9 @@ This document is updated, modified when i notice a tool is deprecated or a new t
 - WafW00f [https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)WAF detector 
 - Lbd [https://github.com/hacktrackgnulinux/lbd](https://github.com/hacktrackgnulinux/lbd)Load balancer detector 
 
+### Web payloads 
+- PayloadsAllTheThings [https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypasses for Web Application Security.
+
 #### Web CMS utils
 - Cmseek [https://gitlab.com/kalilinux/packages/cmseek](https://gitlab.com/kalilinux/packages/cmseek)
 - Wpscan [https://wpscan.com/](https://wpscan.com/) Scan vulns for Wordpress
