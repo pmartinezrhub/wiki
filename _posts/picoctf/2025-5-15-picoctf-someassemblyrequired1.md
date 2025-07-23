@@ -73,8 +73,7 @@ function onButtonPress() {
 }
 ```
 
-Después de un análisis de código me doy cuenta de que el código javascript hace uso de WebAssembly, esto me hizo pensar que pasaba si
-accedo a esa web que parece involucrada de alguna manera http://mercury.picoctf.net:37669/JIFxzHyW8W
+Después de un análisis de código me doy cuenta de que el código javascript hace uso de WebAssembly, esto me hizo pensar que pasaba si accedo a esa web que parece involucrada de alguna manera, analizando el código y haciendo un poco de ingeniería inversa sobre la variable **_0x402c** http://mercury.picoctf.net:37669/JIFxzHyW8W 
 
 ```
 �asm���`��``�`��p�1A°�A°�A�A°
@@ -99,5 +98,4 @@ __memory_base__table_base
 ```
 flag: **picoCTF{a8bae10f4d9544110222c2d639dc6de6}**
 
-Por una parte este reto requiere un análisis de código "ofuscado" y por otra la respuesta estaba más cerca de lo que llegué a pensar
-que tendría que reescribir el código para intentar darle forma pero no es necesario.  
+Por una parte este reto requiere un análisis de código "ofuscado" y por otra la respuesta estaba más cerca de lo que llegué a pensar que tendría que reescribir el código para intentar darle forma pero no es necesario.  
