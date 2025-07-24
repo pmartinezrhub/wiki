@@ -2,7 +2,7 @@
 title: Apriti sesamo
 date: 2025-07-24 00:00:00 +0200
 categories: [writeup, picoctf]
-tags: [picoctf, explotación web, sql injection]     
+tags: [picoctf, explotación web, php array injection]     
 image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
@@ -37,7 +37,7 @@ Tarde un rato en caer en lo que querían estas pistas, los archivos de backup de
 Así que cambio  http://verbal-sleep.picoctf.net:49414/impossibleLogin.php por
 http://verbal-sleep.picoctf.net:49414/impossibleLogin.php~
 
-El archivo parece le mismo pero el pie del documento hay una diferencia a investigar
+El archivo parece le mismo pero el pie del documento hay una diferencia a investigar parece PHP codificado.
 ``` html
 <!DOCTYPE html>
 <html>
