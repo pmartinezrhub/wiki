@@ -24,7 +24,7 @@ Ofrece estadísticas del tráfico, un mapa geográfico por países y una vista m
 Cloudflare permite usar su DNS para registrar dominios, CNAMEs, etc. Esto significa que los dominios registrados se resuelven mediante los DNS de Cloudflare, lo que suele ofrecer una mejora de velocidad y seguridad.
 
 ### Enrutamiento de correos electrónicos
-Una opción muy interesante: permite enrutar el correo y redirigirlo a la dirección deseada sin necesidad de instalar un servidor de correo en el dominio. Incluso existe una opción para automatizar el procesado de correos con scripting, mediante los llamados **mailworkers**.
+Una opción muy interesante: permite enrutar el correo y redirigirlo a la dirección deseada sin necesidad de instalar un servidor de correo en el dominio, a no ser que quieras enviar correos desde dicho dominio, para eso Cloudflare todavía no nos da un buzón aunque desde Gmail se puede agregar la cuenta y cambiar el remitente. Incluso existe una opción para automatizar el procesado de correos con scripting, mediante los llamados **mailworkers**.
 
 ### Certificados SSL/TLS
 Cloudflare cifra el tráfico entre los visitantes y su red mediante HTTPS (puerto 443). Funciona como un servidor proxy inverso, ofreciendo sus propios certificados SSL/TLS. Esto también ayuda a ocultar la IP real del servidor de origen, aumentando la seguridad.
