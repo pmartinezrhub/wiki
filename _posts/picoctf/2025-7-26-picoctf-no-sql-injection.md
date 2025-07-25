@@ -127,7 +127,7 @@ De este código podemos obtener dos presuntas informaciones sobre este sistema, 
 ``` javascript
 const { MongoMemoryServer } = require("mongodb-memory-server");
 ```
-Parece que habrá que probar payloads NoSQL. Es un ataque que consiste en truncar la lógica del motor de MongoDB para obtener resultados inesperados en la lógica de la aplicación, compienzo a probar payloads.
+Parece que habrá que probar payloads NoSQL. Es un ataque que consiste en truncar la lógica del motor de MongoDB para obtener resultados inesperados en la lógica de la aplicación, comienzo a probar payloads.
 
 ``` html
 POST http://atlas.picoctf.net:58649/login HTTP/1.1
