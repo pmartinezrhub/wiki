@@ -39,7 +39,8 @@ Si miramos el código fuente de la página nos encontramos lo que parece otra pi
 </script>
 ```
 
-Este código comentado parece el típico error de haber dejado hardcodeado parte de la clave expresión regular debería comenzar por p, luego 5 carácteres y acabar por F. La "?" significa que el carácter anterior "!" es opcional. Ya con esto podemos resolver que la cadena será **picoCTF**, si bien puedes introducir cualquier expresión que cumpla con esta expresión por ejemplo **pabcdeF**
+Este código comentado parece el típico error de haber dejado "hardcodeado" parte de la clave, mejor dicho la  expresión regular necesaria. Si analizamos esta expresión entonces se puede deducir que la cadena a introducir debería comenzar por p, luego 5 carácteres y acabar por F. La "?" significa que el carácter anterior "!" es opcional, con lo cual da a enteder que podemos ignorar esos dos últimos. Ya con esto podemos resolver que la cadena será **picoCTF**, si bien puedes introducir cualquier expresión que cumpla con esta expresión por ejemplo **pabcdeF**
 
 flag: **picoCTF{succ3ssfully_matchtheregex_9080e406}**
+
 
