@@ -16,8 +16,8 @@ Los actores maliciosos buscan vulnerabilidades para por ejemplo crear una botnet
 
 ## Dorking y sondas
 Ahora que los actores maliciosos conocen las vulnerabilidades, lo que necesitan es encontrar objetivos a los que aplicar las técnicas necesarias para ganar acceso, privilegios y control sobre los mismos. 
-Hay varias formas de encontrar estos dispositivos, puedes hacerlo con un script que haga un request aletoriamente por IPs para comprobar si ese puerto es una cam o una marca en concreto, lo que se llama escrapeo, con herramientas escáneres como Zmap capaces de escanear Internet entero en pocos minutos. También puedes usar la opción más dependiente que es usar una API de terceros como [Shodan.io]https://www.shodan.io/, que es la que usé para testear. Otras formulas de búsqueda por supuesto. 
 
+Hay varias formas de encontrar estos dispositivos, puedes hacerlo con un script que haga un request aletoriamente por IPs para comprobar si ese puerto es una cam o una marca en concreto, lo que se llama escrapeo, con herramientas escáneres como Zmap capaces de escanear Internet entero en pocos minutos. También puedes usar la opción más dependiente que es usar una API de terceros como [https://www.shodan.io](https://www.shodan.io/), que es la que usé para testear. Otras formulas de búsqueda por supuesto. 
 ![shodan.io](https://upload.wikimedia.org/wikipedia/en/3/38/Shodan_%28website%29_logo.png)
 
 Ahora en el buscador de Shodan introducimos simplemente ```3.1.3.150324``` esta sería la versión de la web vulnerable que nos indican en el exploit, si bien puede que afecte a más productos y por lo tanto a otras versiones de la web. Esto solo es el filtro que hemos aplicado a Shodan.io para el resultado de su motor. Aplicando otros filtros es posible que obtengamos más resultados. 
