@@ -11,9 +11,11 @@ image:
 Author: Sunday Jacob Nwanyim
 Description
 How about trying to match a regular expression The website is running here.
+{: .prompt-tip }
+
 La pista nos dice que intentemos igualar la expresión regular asociada con el campo de texto.
 Vamos que adivinemos la cadena a introducir, la web se presenta como un formulario
-{: .prompt-tip }
+
 ```
 Valid Input
 
