@@ -9,7 +9,7 @@ image:
 ---
 
 ## Ciberseguridad de IoT
-Quiero dejar evidencia de lo sencillo que puede resultarle a actores maliciosos, obtener información de dispositivos IoT o hackearlos. Estos dispositivos, cámaras, sensores, aspiradoras, neveras, routers, etc, etc y cada vez hay más claro que no todos se conectan a Internet, sino "solamente a la red interna", esto en la mayoría de casos es cierto, pero poco a poco iremos "abriendo más puertos" para tener acceso a estos dispositivos desde Internet o dicho de otra forma, les daremos acceso a "la red" y no los tendremos tan aislados porque nos proporcionan "bienestar". Por ejemplo las cámaras de videovigilancia cada vez son más comunes y que en cierta forma proporcionan seguridad, a su vez el poder usar "la red" para tener acceso a ellas mejora la observabilidad, y retroalimenta la seguridad. 
+Quiero dejar evidencia de lo sencillo que puede resultarle a actores maliciosos, obtener información de dispositivos IoT o hackearlos. Estos dispositivos, cámaras, sensores, aspiradoras, neveras, routers, etc, etc y cada vez hay más claro que no todos se conectan a Internet, sino "solamente a la red interna", esto en la mayoría de casos es cierto, pero poco a poco iremos "abriendo más puertos" para tener acceso a estos dispositivos desde Internet o dicho de otra forma, les daremos acceso a "la red" y no los tendremos tan aislados porque nos proporcionan "bienestar". Por ejemplo las cámaras de videovigilancia cada vez son más comunes y que en cierta forma proporcionan seguridad, a su vez el poder usar "la red" para tener acceso a ellas mejora la observabilidad y esto retroalimenta la seguridad. 
 
 ## Exploits  
 Los actores maliciosos buscan vulnerabilidades para por ejemplo crear una botnet con dispositivos IoT. Cuando encuentran una como esta ya sea investigando ellos mismos o por por terceros, pasan a la siguiente fase. ```CVE-2021-36260``` 
@@ -99,4 +99,4 @@ Tengo un artículo explicando 14 puntos a tener en cuenta a la hora de securizar
 
 ![webcam guitarrist](https://upload.wikimedia.org/wikipedia/commons/6/69/1975_Alvarez_guitar_%282010-10-18_03.14.15_by_fenderfish%29.jpg)
 
-El de la foto no soy yo, pero ejemplifica la situación. 
+El de la foto no soy yo pero ejemplifica la situación. 
