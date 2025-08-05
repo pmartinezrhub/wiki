@@ -32,9 +32,8 @@ muchos templates utilizan las llaves "{}" para parametrizar valores en los mismo
 inyección. 
 
 Encontré una que produjo un error en el servidor al dividir por 0, lo que indica que en cierta manera el servidor ejecuta lo que está dentro de las llaves
-``` shell
-{ {1/0} }
-```
+
+>\{\{1/0\}\}
 
 ``` html
 Internal Server Error
