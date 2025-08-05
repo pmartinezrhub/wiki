@@ -256,6 +256,8 @@ Como se puede usar vi para lanzar comandos estaríamos ejecutando binario con de
 
 ```:! cat /root/root.txt``` 
 
+Dentro de vi ejecutamos ```:! cat /root/root.txt``` o el comando que queramos, tenemos privilegios. 
+
 ``` shell
 Press ENTER or type command to continue
 dd6e058e814260bc70e9bbdef2715849
