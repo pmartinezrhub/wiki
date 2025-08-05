@@ -99,7 +99,7 @@ Busqué un payload que funcionase con esta vulnerabilidad y encontré lo que me 
 
 [https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-](https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-)
 
->\{\{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() \}\}
+\{\{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() \}\}
 
 Sin embargo el la web del formulario al enviar este payload nos envía a una web con el siguente mensaje
 
