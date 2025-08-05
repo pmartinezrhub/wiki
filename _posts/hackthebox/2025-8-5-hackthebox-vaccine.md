@@ -265,4 +265,4 @@ dd6e058e814260bc70e9bbdef2715849
 
 Lanzamos el comando con sudo y ahora dirigiendo los comandos a descubrir el directorio de root y la flag
 
-achivement https://labs.hackthebox.com/achievement/machine/2336390/289
+[achivement](https://labs.hackthebox.com/achievement/machine/2336390/289)
