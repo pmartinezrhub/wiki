@@ -473,7 +473,9 @@ Sin entrar en complicaciones descubrimos la flag.
 
 >af13b0bee69f8a877c3faf667f7beacf
 
-Submit root flag [achivement](https://labs.hackthebox.com/achievement/machine/2336390/288)
+Submit root flag
+
+[achivement](https://labs.hackthebox.com/achievement/machine/2336390/288)
 
 Otra forma que más tarde encontré de explotarlo está basada en que parece que cat se llama sin indicar su ruta absoluta, con lo cual podemos truncar dicha ruta para el usuario actual y obtener una shell cuando lancemos bugtracker
 
