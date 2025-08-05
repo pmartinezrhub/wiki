@@ -111,7 +111,7 @@ Bueno no es la flag pero nos da una pista, si además hacemos caso de las pistas
 
 Al hacer el request y capturar con Zap nos muestra que hay ciertos caracteres que no se está encodeando.
 
-``` html
+``` 
 POST http://shape-facility.picoctf.net:52506/ HTTP/1.1
 Host: shape-facility.picoctf.net:52506
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
