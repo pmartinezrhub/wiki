@@ -85,7 +85,7 @@ r2_isp_config
 sound
 webLib
 ```
-Si el dispositivo es vulnerable además se generará un carpeta en el directorio logs intentará checkear si el dispostivo es  vulnerable a obtener una shell y además sacará una fotograma de la webcam y una copia del config_enc.bin el proyecto dice que intentará descifrarlo pero no he visot que lo haga, se quedará en un intento. 
+Si el dispositivo es vulnerable además se generará un carpeta en el directorio logs intentará checkear si el dispostivo es  vulnerable a obtener una shell y además sacará una fotograma de la webcam y una copia del config_enc.bin el proyecto dice que intentará descifrarlo pero no he visot que lo haga, se quedará en un intento o funcionará en algunos dispositivos, no en que me han prestado para pruebas. 
 
 ``` shell
 ├── 192.168.2.221:81_20250730_124156
