@@ -65,7 +65,7 @@ Abro la web, me logeo con las credenciales por defecto, y repaso los menús.
 Veo que tiene opciones para crear reportes, manejo de vulnerabilidades, una calculadora NIST , gestión de clientes. Estupendo
 esta herramienta promete.
 
-![blackstone.png](../assets/img/postsimgs/blackstone.png)
+![blackstone.png](/assets/img/postsimgs/blackstone.png)
 Aquí es donde se tensa, llego a parte de settings y veo que hay una opción para cambiar las password __Change password__.
 Llamó mi atención que el formulario solo tiene un campo. Con la de contraseñas que he cambiado y hacía tiempo que no me encontraba 
 un cambio de contraseña así, tan simple, las alarmas saltaron en mi cabeza. 
