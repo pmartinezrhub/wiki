@@ -10,9 +10,9 @@ image:
 
 ## Injection
 
->Aprendizaje en Injection
-Descripción de lo que aprenderás en Injection
-Nivel: Muy fácil
+>Autor: El Pingüino de Mario
+Dificultad: Muy Fácil
+Fecha de creación: 02/04/2025
 {: .prompt-tip }
 
 Dockerlabs me parece una idea muy buena y creo que por su parte y para su plataforma resuelve un grave problema de la escalabilidad de las plataformas para aprender ciberseguridad, y es que estas necesitan gestionar grandes recursos para abrir muchas máquinas, contenedores, etc. De esta forma el usuario puede realizar los retos offline, sin conectar VPNs, vamos que ya no hay excusas para no realizar un CTF de camping.   
