@@ -15,9 +15,9 @@ Descripción de lo que aprenderás en Injection
 Nivel: Muy fácil
 {: .prompt-tip }
 
-Dockerlabs me parece una idea muy buena y creo que por su parte y para su plataforma resueve un grave problema de la escalabilidad de las plataformas para aprender ciberseguridad, y es que estas necesitan gestionar grandes recursos para abrir muchas máquinas, contenedores, etc. De esta forma el usuario puede realizar los retos offline, sin conectar VPNs, ya no hay excusas para no realizar un CTF de camping.   
+Dockerlabs me parece una idea muy buena y creo que por su parte y para su plataforma resuelve un grave problema de la escalabilidad de las plataformas para aprender ciberseguridad, y es que estas necesitan gestionar grandes recursos para abrir muchas máquinas, contenedores, etc. De esta forma el usuario puede realizar los retos offline, sin conectar VPNs, vamos que ya no hay excusas para no realizar un CTF de camping.   
 
-Como ya indica su nombre los retos de dockerlabs son contenedores Docker asi que para lanzarlas es bastante simple, yo he optado por el siguiente método. Meto cada fichero zip del reto en una carpeta correpondiendo el nombre de la carpeta al nombre del reto o del zip, como se prefiera. Para mi lo importante es mantener un orden para encontrar luego todo más rápido. 
+Como ya indica su nombre los retos de [[https://dockerlabs.es/](https://dockerlabs.es/)] son contenedores Docker asi que para lanzarlas es bastante simple, yo he optado por el siguiente método. Meto cada fichero zip del reto en una carpeta correpondiendo el nombre de la carpeta al nombre del reto o del zip, como se prefiera. Para mi lo importante es mantener un orden para encontrar luego todo más rápido. 
 
 ``` shell
 ┌──(pablo☠office)
