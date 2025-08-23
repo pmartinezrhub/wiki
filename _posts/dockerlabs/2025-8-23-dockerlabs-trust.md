@@ -54,7 +54,7 @@ Para buscar páginas no listadas uso la herramienta **Wfuzz** y como payloads un
 ``` shell
 ┌──(kali㉿kali25)-[~/Dockerlabs/trust]
 └─$ wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/directory-list-2.3-big.txt --hc 404 http://10.89.0.2/FUZZ.php 
- /usr/lib/python3/dist-packages/wfuzz/__init__.py:34: UserWarning:Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
 ********************************************************
 * Wfuzz 3.1.0 - The Web Fuzzer                         *
 ********************************************************
@@ -79,9 +79,9 @@ Esta web no se puede hackear.
 
 ## Explotación
 
-Después de una inspección con el navegador, parece que efectivamente la web va a difícil de hackear, no tiene ningún punto de entrada, tampoco tiene controles, ni parece recibir ningún tipo de parámetro o siquiera ofrece unas cookies durante la sesión, con lo que no parece hackeable.
+Después de una inspección con el navegador, parece que efectivamente la web va a ser difícil de hackear, no tiene ningún punto de entrada, tampoco tiene controles, ni parece recibir ningún tipo de parámetro o siquiera ofrece unas cookies durante la sesión, con lo que no parece "hackeable".
 
-Probamos con la fuerza bruta? al menos tenemos un posible usuario **mario**
+¿Probamos con la fuerza bruta? Al menos tenemos un posible usuario **mario**
 
 ``` shell
 ┌──(kali㉿kali25)-[~/Dockerlabs/trust]
