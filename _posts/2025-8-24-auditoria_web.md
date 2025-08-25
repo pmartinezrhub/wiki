@@ -42,7 +42,7 @@ En cualquiera de los tres escenarios los pasos deberían ser los mismos pero,, c
 - Identificación de endpoints de debug o de prueba
 - Pruebas de parámetros (descubrir parámetros ocultos en aplicaciones web con Arjun, ParamSpider)
 - Detección de inyecciones SQL/NoSQL
-- Detección de inyecciones XXS, CRSF
+- Detección de inyecciones XSS, CRSF
 - Descubrimiento de debilidad de sesiones JWT, OAuth, sesiones, roles.
  
 ## 🔬 3. Análisis de Configuración
