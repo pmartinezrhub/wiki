@@ -8,7 +8,8 @@ image:
     alt: Defacement 
 ---
 
-# Como hacer una auditoría web paso por paso.
+# Auditoría web paso por paso.
+Cada día más empresas utilizan la web como medio para relacionarse con cliente y empleados, ello implica el transito de información en algunos casos confidencial. Es por ello que hacer auditorías de seguridad hacen absolutamente necesarias.
 
 ## 📐 1. Planificación y alcance
 
@@ -89,8 +90,8 @@ En cualquiera de los tres escenarios los pasos deberían ser los mismos pero,, c
 ## 📊 6. Evaluación de Impacto y Riesgos
 
 - Clasificicón vulnerabilidades por criticidad (alta, media, baja).
-- Analisis de impacto en confidencialidad, integridad y disponibilidad.
-- Revisar riesgos de cumplimiento legal (ej. GDPR, PCI-DSS).
+- Análisis de impacto en confidencialidad, integridad y disponibilidad.
+- Revisar riesgos de cumplimiento legal (ej. GDPR).
 
 ## 📝 7. Informe de Resultados
 
@@ -108,7 +109,6 @@ Documentar hallazgos con:
 - Configurar monitoreo y alertas.
 - Repetir pruebas para verificar correcciones.
 - Establecer políticas de mejora continua.
-
 
 
 Este documento está sujeto a cambios por las propia naturaleza de la tecnología, evolución. 
