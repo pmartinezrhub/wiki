@@ -81,7 +81,7 @@ En cualquiera de los tres escenarios los pasos deberían ser los mismos pero,, c
 
 ## 🔓 5. Pruebas Manuales de Penetración
 
-- Validar falsos positivos de los escáneres y los hayazgos.
+- Validar falsos positivos de los escáneres y los hallazgos.
 - Intentar explotación controlada de vulnerabilidades.
 - Analizar lógica de negocio (ej. saltar validaciones, manipular flujos de pago).
 - Revisar autenticación, gestión de sesiones y control de accesos.
