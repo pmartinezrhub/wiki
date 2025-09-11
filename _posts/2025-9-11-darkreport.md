@@ -1,5 +1,5 @@
 ---
-title: Dark Report
+title: DarkReport
 date: 2025-9-11 11:00:00 +0200
 categories: [ciberseguridad, software]
 tags: [darkreport, writeup, django]     
