@@ -52,6 +52,9 @@ Proporciona un grafico de las vulnerabilidades actuales y otro de los CVEs encon
 
 ## Crear proyectos
 Simplemente creas un proyecto que albergará los reportes, podemos ponerle el nombre de la empresa, cliente o del sitio, etc que vamos a auditar. 
+La vista mostrará las vulnerabilidades en cada reporte ordenadas por la prioridad. 
+
+![vista proyecto](https://raw.githubusercontent.com/pmartinezrhub/DarkReport/refs/heads/main/screenshots/project_view.png)
 
 ## Crear reportes
 Cada reporte se crea indicando un objetivo, que puede ser un host, una api, o simplemente inventar un nombre, estos reportes contendrán los hallazgos
@@ -116,6 +119,7 @@ Por supuesto la herramienta permite modificar los hallazgos así como borrar pro
 DarkReport esta desarrollado con el framework Django (Python)
 
  - 1 Como cualquier software, evoluciona, irá mutandom mejorando y acepta contribuciones ideas y desarrollos, me gustaría tener opiniones para mejorar la herramienta.
+Es la primera versión, pero iré mejorándola poco a poco . 
 
  - 2 Su diseño es iconográfico, sencillo y de momento un diseño oscuro de ahí un poco su nombre. 
 
