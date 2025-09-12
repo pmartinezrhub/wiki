@@ -123,5 +123,6 @@ Es la primera versión, pero iré mejorándola poco a poco .
 
  - 2 Su diseño es iconográfico, sencillo y de momento un diseño oscuro de ahí un poco su nombre. 
 
-Puedes descargarlo y obtener más instrucciones desde de este repositorio de Github
+Puedes descargarlo y obtener más instrucciones desde de este repositorio de Github incluye Dockerfile para desplegar rapidamente el proyecto.
 [https://github.com/pmartinezrhub/DarkReport](https://github.com/pmartinezrhub/DarkReport)
+ 
