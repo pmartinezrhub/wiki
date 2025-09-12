@@ -68,7 +68,7 @@ Al pulsar el botón copiar vamos a obtener un reporte de solo el hallazgo
 
 ``` shell
 ⚠1:  ⚠️ Vulnerabilidad - Remote Code Execution (RCE)
-⚠️ CVE: CVE-2011-2523
+CVE: CVE-2011-2523
 🔭 Reconocimiento: nmap -p- 10.88.0.2 -sV -vv
 PORT   STATE SERVICE REASON         VERSION
 21/tcp open  ftp     syn-ack ttl 64 vsftpd 2.3.4
@@ -119,7 +119,7 @@ Por supuesto la herramienta permite modificar los hallazgos así como borrar pro
 DarkReport esta desarrollado con el framework Django (Python)
 
  - 1 Como cualquier software, evoluciona, irá mutandom mejorando y acepta contribuciones ideas y desarrollos, me gustaría tener opiniones para mejorar la herramienta.
-Es la primera versión, pero iré mejorándola poco a poco . 
+Es la primera versión, pero iré mejorándola poco a poco se que tiene mucho por mejorar. 
 
  - 2 Su diseño es iconográfico, sencillo y de momento un diseño oscuro de ahí un poco su nombre. 
 
