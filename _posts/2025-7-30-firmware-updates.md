@@ -17,7 +17,7 @@ Los actores maliciosos buscan vulnerabilidades para por ejemplo crear una botnet
 ## Dorking y sondas
 Ahora que los actores maliciosos conocen las vulnerabilidades, lo que necesitan es encontrar objetivos a los que aplicar las técnicas necesarias para ganar acceso, privilegios y control sobre los mismos. 
 
-Hay varias formas de encontrar estos dispositivos, puedes hacerlo con un script que haga un request aletoriamente por IPs para comprobar si ese puerto es una cam o una marca en concreto, lo que se llama escrapeo, con herramientas escáneres como Zmap capaces de escanear Internet entero en pocos minutos. También puedes usar la opción más dependiente que es usar una API de terceros como [https://www.shodan.io](https://www.shodan.io/), que es la que usé para testear. Otras formulas de búsqueda por supuesto. 
+Hay varias formas de encontrar estos dispositivos, puedes hacerlo con un script que haga un request aletoriamente por IPs para comprobar si ese puerto es una cam o una marca en concreto, lo que se llama escrapeo, con herramientas escáneres como Zmap capaces de escanear Internet entero en pocos minutos. También puedes usar la opción más dependiente que es usar una API de terceros como [https://www.shodan.io](https://www.shodan.io/), que es la que usé para testear. Otras fórmulas de búsqueda por supuesto. 
 
 ![shodan.io](https://upload.wikimedia.org/wikipedia/en/3/38/Shodan_%28website%29_logo.png)
 
@@ -85,7 +85,7 @@ r2_isp_config
 sound
 webLib
 ```
-Si el dispositivo es vulnerable además se generará un carpeta en el directorio logs intentará checkear si el dispostivo es  vulnerable a obtener una shell y además sacará una fotograma de la webcam y una copia del config_enc.bin el proyecto dice que intentará descifrarlo pero no he visot que lo haga, se quedará en un intento o funcionará en algunos dispositivos, no en que me han prestado para pruebas. 
+Si el dispositivo es vulnerable además se generará un carpeta en el directorio logs intentará checkear si el dispostivo es  vulnerable a obtener una shell y además sacará una fotograma de la webcam y una copia del config_enc.bin el proyecto dice que intentará descifrarlo pero no he visto que lo haga, se quedará en un intento o funcionará en algunos modelos y otros no, no parecía funcionar en el que me han prestado para pruebas. 
 
 ``` shell
 ├── 192.168.2.221:81_20250730_124156
