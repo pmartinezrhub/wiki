@@ -47,7 +47,7 @@ Esto es igual que el Fast Flux pero es que además se van rotando los DNS que el
 
 ### Fast Flux as Service (FFaS)
 
-¿Me lo acabo de inventar? Pero es que Cloudfare y otros CDNs hacen esto (o algo muy parecido) y por lo tanto podemos decir que efectivamente podemos llamar a esto un servicio. Cualquiera podría solicitar estos sistemas para proteger su plataforma/web/empresa de ataques externos y tener más resilencia frente a adversarios. De hecho es por eso que se inventaron estos sistemas que fueron pensados para un uso legítimo. 
+¿Me lo acabo de inventar? Pero es que Cloudflare y otros CDNs hacen esto (o algo muy parecido) y por lo tanto podemos decir que efectivamente podemos llamar a esto un servicio. Cualquiera podría solicitar estos sistemas para proteger su plataforma/web/empresa de ataques externos y tener más resilencia frente a adversarios. De hecho es por eso que se inventaron estos sistemas que fueron pensados para un uso legítimo. 
 
 ### Resumen
 
