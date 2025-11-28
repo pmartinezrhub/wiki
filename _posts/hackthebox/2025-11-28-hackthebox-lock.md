@@ -480,22 +480,10 @@ El escenario descrito se basa en un problema de escalada de privilegios en PDF24
 
 1. Reparación MSI ejecutada con privilegios elevados. Cuando un producto instalado mediante MSI se “repara”, partes del proceso pueden ejecutarse con privilegios de SYSTEM, incluso si el usuario que inicia la reparación tiene permisos bajos. Esto ocurre porque Windows considera que ciertas tareas de mantenimiento del sistema requieren privilegios altos.
 
-2. Subproceso vulnerable.Durante esta reparación, PDF24 Creator invoca un proceso interno (pdf24-PrinterInstall.exe) que también corre como SYSTEM. Ese proceso realiza operaciones de escritura en un archivo ubicado en Program Files, un directorio protegido.
-
-Normalmente un usuario con pocos privilegios no podría influir en ese archivo.
+2. Subproceso vulnerable.Durante esta reparación, PDF24 Creator invoca un proceso interno (pdf24-PrinterInstall.exe) que también corre como SYSTEM. Ese proceso realiza operaciones de escritura en un archivo ubicado en Program Files, un directorio protegido. Normalmente un usuario con pocos privilegios no podría influir en ese archivo.
 
 3. Uso de un “oplock”. El exploit aprovecha un mecanismo de Windows llamado oplock (opportunistic lock).
 Un oplock permite que un proceso “intercepte” el acceso a un archivo justo cuando otro proceso intenta leerlo o escribirlo.
-
-Resumido:
-
-- El atacante coloca un oplock sobre el archivo que PDF24 va a manipular.
-
-- Cuando el proceso privilegiado intenta usar el archivo, el oplock permite al atacante interferir o redirigir esa operación antes de que ocurra.
-
-- Esto puede abrir la puerta a técnicas como sustitución de archivos, enlaces simbólicos o redirecciones que conduzcan a escrituras privilegiadas en ubicaciones no deseadas, lo que finalmente permite la escalada de privilegios.
-
-- Resultado Si el software vulnerable no valida adecuadamente el destino real del archivo o las condiciones de acceso, el atacante podría conseguir que el proceso SYSTEM escriba donde no debería, pudiendo sobrescribir archivos del sistema, colocar binarios maliciosos con permisos elevados, o manipular configuraciones críticas o una elevación de privilegios en la máquina local.
 
 En nuestra kali ponemos a servir el ejecutable 
 
@@ -506,11 +494,13 @@ En nuestra kali ponemos a servir el ejecutable
 ┌──(pmartinezr㉿kali)-[~/htb/lock]
 └─$ python -m http.server 80
 ```
+
 Esto lo haremos para acceder desde la máquina que queremos vulnerar y descargar el exploit con navegador o con cmd.
 
 Seguimos las instrucciones
 
 En un terminal ejecutamos el bloqueo del archivo ```faxPrnInst.log```
+
 ``` shell
 C:\Users\gale.dekarios\Desktop>SetOpLock.exe "C:\Program Files\PDF24\faxPrnInst.log" r
 OpLock triggered, hit ENTER to close oplock
