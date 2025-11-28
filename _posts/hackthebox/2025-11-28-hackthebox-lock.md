@@ -506,7 +506,7 @@ En nuestra kali ponemos a servir el ejecutable
 ┌──(pmartinezr㉿kali)-[~/htb/lock]
 └─$ python -m http.server 80
 ```
-Esto lo haremos para acceder desde la máquina que queremos vulnerar y subir el "exploit".
+Esto lo haremos para acceder desde la máquina que queremos vulnerar y descargar el exploit con navegador o con cmd.
 
 Seguimos las instrucciones
 
