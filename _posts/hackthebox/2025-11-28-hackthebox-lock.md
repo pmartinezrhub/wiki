@@ -365,7 +365,7 @@ To http://10.129.25.203:3000/ellen.freeman/website
 ```
 Así que intento subir una shell, para la autenticación usamos el usuario ellen.freeman y el token como password de nuevo
 
-La webshell para que me valí inicialmente está en este enlace [https://gist.github.com/dttlcysec/3eb65c704f71eab7d9536632fbd6fabd](https://gist.github.com/dttlcysec/3eb65c704f71eab7d9536632fbd6fabd)
+La webshell para que me valí inicialmente está en este enlace [https://gist.github.com/dttlcysec/3eb65c704f71eab7d9536632fbd6fabd](https://gist.github.com/dttlcysec/3eb65c704f71eab7d9536632fbd6fabd). Al archivo lo llamé webshell.aspx
 
 
 ``` html
@@ -376,7 +376,8 @@ User Name          SID
 ================== ==============================================
 lock\ellen.freeman S-1-5-21-3479006486-3698385926-2473385619-1000
 ```
-Introduzco ```whoami /user``` en el formulario Command de esta web
+Luego accedemos con el navegador para  utilizar la shell http://10.129.25.203:3000/webshell.aspx 
+Introduzco ```whoami /user``` en el formulario Command de esta webshell
 
 > ellen.freeman
 
@@ -399,6 +400,7 @@ Descubro información relevante ¿una password? ```http://ellen.freeman:YWFrWJk9
 	provider = generic
 
 ```
+Continuamos la exploración con la webshell
 
 ``` xml 
 <?xml version="1.0" encoding="utf-8"?>
