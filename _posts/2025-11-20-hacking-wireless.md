@@ -22,7 +22,7 @@ Poner una tarjeta en modo monitor y empezar a guarda la escucha
 
 ``` shell
 airmon-ng start wlo
-airodump-ng mon0 -c 11 --essid MIWIFI -w output
+airodump-ng mon0 -c 11 --essid MIWIFI -w output --wps --manufacturer 
 ```
 
 ## Cracking de contraseñas
