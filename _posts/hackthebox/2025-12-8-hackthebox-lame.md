@@ -110,11 +110,6 @@ What version of VSFTPd is running on Lame?
 
 There is a famous backdoor in VSFTPd version 2.3.4, and a Metasploit module to exploit it. Does that exploit work here?
 
-> no
-
-## Task 4
-
-What version of Samba is running on Lame? Give the numbers up to but not including "-Debian".
 
 ``` shell
 msf exploit(unix/ftp/vsftpd_234_backdoor) > run
@@ -123,6 +118,12 @@ msf exploit(unix/ftp/vsftpd_234_backdoor) > run
 [*] Exploit completed, but no session was created.
 ```
 Probamos dicho exploit pero no funciona
+
+> no
+
+## Task 4
+
+What version of Samba is running on Lame? Give the numbers up to but not including "-Debian".
 
 > 3.0.20
 
