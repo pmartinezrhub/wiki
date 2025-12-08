@@ -8,8 +8,8 @@ image:
     alt: Hack The Box
 ---
 
-> Lock
-Windows · Easy 
+> Lame
+Linux · Easy 
 
 ## Task 1
 How many of the nmap top 1000 TCP ports are open on the remote host?
