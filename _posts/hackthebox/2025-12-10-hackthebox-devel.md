@@ -1,6 +1,6 @@
 ---
 title: Devel
-date: 2025-12-9 18:00:00 +0200
+date: 2025-12-10 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, devel ]     
 image:
