@@ -207,7 +207,7 @@ jimmy@openadmin:/var/www/internal$ cat index.php
 ``` shell
 if ($_POST['username'] == 'jimmy' && hash('sha512',$_POST['password']) == '00e302ccdcf1c60b8ad50ea50cf72b939705f49f40f0dc658801b4680b7d758eebdc2e9f9ba8ba3ef8a8bb9a796d34ba2e856838ee9bdde852b8ec3b3a0523b1') {
 ```
-Ahora encuentro un hash hardcodeado, una práctica muy criticada. 
+Ahora encuentro un hash hardcodeado, una mala práctica, que genera estragos. 
 
 Usando esta web [https://md5decrypt.net/en/Sha512/](https://md5decrypt.net/en/Sha512/) consigo la password 'Revealed'
 Nota: No estoy muy de acuerdo con la pregunta de esta tarea, porque el usuario es ```jimmy``` y no ```joanna```. La pregunta correcta
@@ -222,7 +222,7 @@ What's the password for Joannas's private key?
 ```shell
 ssh -L 8080:127.0.0.1:52846 jimmy@10.129.27.77
 ```
-Creo un tunnel SSH haciendo forwarding hacia el puerto descrito de la apcliación que corre con el usuario joana que usare con la extensión 
+Creo un tunnel SSH haciendo forwarding hacia el puerto descrito de la apliación que corre con el usuario joanna que usare con la extensión 
 FoxyProxy que tengo instalada en el navegador. 
 
 Y ahora al acceder a la URL http://127.0.0.1:8080/main.php aparece una web con formulario
@@ -309,7 +309,7 @@ Last login: Tue Jul 27 06:12:07 2021 from 10.10.14.15
 joanna@openadmin:~$ cat user.txt 
 3249877dcd28c938be44e085df30dc65
 ```
-Ahora sí tenemos acceso por SSH y conseguimos la flag de usuario
+Ahora sí, tenemos acceso por SSH y conseguimos la flag de usuario
 
 > 3249877dcd28c938be44e085df30dc65
 
@@ -326,7 +326,7 @@ Matching Defaults entries for joanna on openadmin:
 User joanna may run the following commands on openadmin:
     (ALL) NOPASSWD: /bin/nano /opt/priv
 ```
-En sistemas linux siempre podemos consultar ```sudo -l``` para comrobar esta información y continuar la escalada de privilegios
+En sistemas linux siempre podemos consultar ```sudo -l``` para comprobar esta información y continuar la escalada de privilegios
 
 > nano
 
@@ -335,8 +335,8 @@ En sistemas linux siempre podemos consultar ```sudo -l``` para comrobar esta inf
 Submit the flag located in root's home directory.
 
 En [https://gtfobins.github.io/gtfobins/nano/](https://gtfobins.github.io/gtfobins/nano/) explican como hacer la escalada de privilegios
-con ```nano```. Al igual que el editor ```vi``` se nos permite ejecutar cosas con este editor lo que hace muy peligroso permitir 
-a un usuario darle permisos de superusuario.
+con ```nano```. Al igual que el editor ```vi``` se nos permite ejecutar cosas lo que hace muy peligroso permitir 
+a un usuario ejecutarlo con permisos de superusuario.
 
 ```shell
 sudo /bin/nano /opt/priv
