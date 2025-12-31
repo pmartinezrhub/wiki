@@ -186,6 +186,6 @@ Do you know if there is any way to get them back?
 ```
 Como bien indica la tarea 10 borrar un archivo no significa que automáticamente desaparezca, desaparece el puntero en el 
 sistema de ficheros pero no se borra realmente, al menos hasta que se reescriba el espacio, si bien esto con la llegada de los discos
-SSD ha variado un poquigto. 
+SSD ha variado un poquito. 
 
 [achivement](https://labs.hackthebox.com/achievement/machine/2336390/64)
