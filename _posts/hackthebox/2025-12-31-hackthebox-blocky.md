@@ -64,7 +64,6 @@ What username is given by enumerating the website?
 Antes de nada incluimos en ```/etc/hosts```la dirección de la máquina para facilitar la resolución. 
 Aparece una web en ```http://blocky.htb/``` Wappalizer nos dice que es un ```Wordpress 4.8```
 
-``` 
 
 BlockyCraft
 
@@ -73,9 +72,11 @@ Under Construction!
 
 Visito el enlace ```http://blocky.htb/index.php/2017/07/02/welcome-to-blockycraft/``` 
 
-``` aparece un usuario
+``` 
 Posted on July 2, 2017 by Notch
 ``` 
+
+aparece un usuario ```Notch```
 
 > Notch
 
