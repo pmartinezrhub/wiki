@@ -64,7 +64,7 @@ What username is given by enumerating the website?
 Antes de nada incluimos en ```/etc/hosts```la dirección de la máquina para facilitar la resolución. 
 Aparece una web en ```http://blocky.htb/``` Wappalizer nos dice que es un ```Wordpress 4.8```
 
-
+```
 BlockyCraft
 
 Under Construction!
