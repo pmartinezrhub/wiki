@@ -1,6 +1,6 @@
 ---
 title: Irked
-date: 2026-1-2 18:00:00 +0200
+date: 2026-1-3 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, irked ]     
 image:
@@ -51,7 +51,9 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 46.92 seconds
 ```
 
-## 💣 Preparación:
+## CVE-2010-2075
+
+### 💣 Preparación:
 
 ``` shell
 msf exploit(unix/irc/unreal_ircd_3281_backdoor) > exploit
