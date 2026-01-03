@@ -184,6 +184,6 @@ cat /root/root.txt
 ```
 La elevación de privilegios se hace sencilla, si podemos escribir nosotros que contiene el fichero ```/tmp/listusers```. 
 
-https://labs.hackthebox.com/achievement/machine/2336390/163
+[achivement](https://labs.hackthebox.com/achievement/machine/2336390/163)
 
 > Para escribir este post me he basado en una herramienta de fabricación propia ¿contribuyes? [🪲DarkReport](https://github.com/pmartinezrhub/DarkReport)
