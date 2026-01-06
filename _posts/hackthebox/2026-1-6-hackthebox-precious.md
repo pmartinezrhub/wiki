@@ -205,7 +205,7 @@ Sin embargo si puedo recrear el archivo yml con una revershell y lo colocamos en
 
 ## 🪲 Explotación:
 
-[https://github.com/v4resk/red-book/blob/main/redteam/privilege-escalation/linux/script-exploits/ruby.md]https://github.com/v4resk/red-book/blob/main/redteam/privilege-escalation/linux/script-exploits/ruby.md. Aquí está la explicación del exploit.
+[https://github.com/v4resk/red-book/blob/main/redteam/privilege-escalation/linux/script-exploits/ruby.md](https://github.com/v4resk/red-book/blob/main/redteam/privilege-escalation/linux/script-exploits/ruby.md) Aquí está la explicación del exploit.
 
 ## 👽 Acciones: 
 
