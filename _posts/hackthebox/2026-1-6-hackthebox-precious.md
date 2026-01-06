@@ -54,7 +54,7 @@ Usando ```whatweb```podemos descubrir que está hecho con ```Ruby-on-rails```, e
 
 ### 💣 Preparación: 
 
-[https://github.com/lowercasenumbers/CVE-2022-25765]https://github.com/lowercasenumbers/CVE-2022-25765
+[https://github.com/lowercasenumbers/CVE-2022-25765](https://github.com/lowercasenumbers/CVE-2022-25765)
 
 
 ``` shell
