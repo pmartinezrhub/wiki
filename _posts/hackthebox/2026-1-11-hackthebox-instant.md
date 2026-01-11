@@ -255,4 +255,4 @@ cat SolarPutty_sessions_decrypted.txt
 ```
 Para descifrar este archivo utilizé la siguiente aplicación escrita en Python [https://github.com/ItsWatchMakerr/SolarPuttyCracker](https://github.com/ItsWatchMakerr/SolarPuttyCracker), con esto sacamos la password de root. 
 
-[achivement[(https://labs.hackthebox.com/achievement/machine/2336390/630)
+[achivement](https://labs.hackthebox.com/achievement/machine/2336390/630)
