@@ -138,8 +138,8 @@ encuentra el mismo ```/home/shirohige/logs/1.log```
 }
 ```
 
-Pero más arriba podemos usar el apartado ```read logs``` lo que nos permite interrogar la api y haciendo uso de path transversal porque 
-nos permite introducir un parámetro ```log_file_name```, podemos sacar la flag del usuario  ```../user.txt```
+Pero más arriba podemos usar el apartado ```read logs``` lo que nos permite interrogar la api y haciendo uso de path transversal dado
+que se nos permite introducir un parámetro ```log_file_name```, podemos sacar la flag del usuario  ```../user.txt```
 
 ```json
 {
