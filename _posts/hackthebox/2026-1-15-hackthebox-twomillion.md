@@ -12,7 +12,6 @@ image:
 Linux · Easy - Adventure mode
 
 
-## 🔭 Reconocimiento:
 
 ## 🔭 Reconocimiento:
 
