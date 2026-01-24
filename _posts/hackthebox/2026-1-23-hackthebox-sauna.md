@@ -168,8 +168,8 @@ DefaultUserName               :  EGOTISTICALBANK\svc_loanmanager
 DefaultPassword               :  Moneymakestheworldgoround!
 ```
 
-Con Evil-Winrm sacamos la primera flag de usuario, descargamos ```winPEASx64.exe``` y este nos escuentra una segunda crendencial
-```svc_loanmanager:Moneymakestheworldgoround!``` 
+Con Evil-Winrm sacamos la primera flag de usuario, descargamos ```winPEASx64.exe``` y este nos escuentra una segunda
+crendencial ```svc_loanmanager:Moneymakestheworldgoround!```.
 
 ``` shell
 ┌──(pmartinezr㉿kali)-[~/htb/sauna]
