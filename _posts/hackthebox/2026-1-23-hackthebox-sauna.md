@@ -1,8 +1,8 @@
 ---
 title: Sauna
-date: 2026-1-22 08:00:00 +0200
+date: 2026-1-23 08:00:00 +0200
 categories: [writeup, hackthebox]
-tags: [hackthebox, sau ]     
+tags: [hackthebox, sauna ]     
 image:
     path: https://www.hackthebox.com/images/logo-htb.svg
     alt: Hack The Box
