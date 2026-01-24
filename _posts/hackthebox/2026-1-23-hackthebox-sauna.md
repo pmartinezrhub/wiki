@@ -168,7 +168,7 @@ DefaultUserName               :  EGOTISTICALBANK\svc_loanmanager
 DefaultPassword               :  Moneymakestheworldgoround!
 ```
 
-Con Evil-Winrm sacamos la primera flag de usuario, descargamos ```winPEASx64.exe``` y este nos escuentra ua segunda crendencial
+Con Evil-Winrm sacamos la primera flag de usuario, descargamos ```winPEASx64.exe``` y este nos escuentra una segunda crendencial
 ```svc_loanmanager:Moneymakestheworldgoround!``` 
 
 ``` shell
@@ -207,6 +207,7 @@ C:\Windows\system32>
 c:\Users\Administrator\Desktop> type root.txt
 60ecc7a5eec92eafb8a35714cca47081
 ```
+
 Finalmente usando ```impacket-psexec``` y los hashes obtenidos podemos sacar la flag de root.txt.
 
 
