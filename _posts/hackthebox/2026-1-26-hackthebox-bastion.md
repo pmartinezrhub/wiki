@@ -1,6 +1,6 @@
 ---
 title: Bastion
-date: 2026-1-26 08:00:00 +0200
+date: 2026-1-26 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bastion ]     
 image:
