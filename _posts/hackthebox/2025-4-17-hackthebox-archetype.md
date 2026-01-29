@@ -88,7 +88,7 @@ Conectamos con el script de impacket y utilizamos la ayuda, esta ya nos proporci
 
 ``` shell
 ┌──(kali㉿kali25)-[~]
-└─$ impacket-mssqlclient ARCHETYPE/sql_svc@10.129.194.128 -windows-auth 
+└─$ impacket-mssqlclient ARCHETYPE/sql_svc:M3g4c0rp123@10.129.194.128 -windows-auth 
 Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
 
 Password:
