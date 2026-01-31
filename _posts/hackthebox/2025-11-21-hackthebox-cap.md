@@ -61,7 +61,7 @@ El 0 también cuenta como número /data/0
 
 Which application layer protocol in the pcap file can the sensetive data be found in?
 
-Con wireshar explorando los paquets podemos encontrar un usuario se logeo en un FTP 
+Con wireshark explorando los paquets podemos encontrar un usuario se logeo en un FTP 
 
 ``` shell
 40	5.424998	192.168.196.1	192.168.196.16	FTP	78	Request: PASS Buck3tH4TF0RM3!
