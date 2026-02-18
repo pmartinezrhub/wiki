@@ -218,8 +218,6 @@ root@traverxec:/home/david/bin#
 ```
 
 La escalada parecía más difícil de lo que es, puesto que no tenemos la password de David, sin embargo
-bastó con suponer que realemente el comando que tenemos habilitado con sudo es 
-, así que acortamos el comando tal que quede así ```/usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service``` sin 
-```| /usr/bin/cat``` y luego simplemente antes de terminar la ejecución del comando journal insertamos el payload ```!/bin/bash``` y seremos root. 
+bastó con suponer que realemente tenemos habilitado con sudo el comando.  Así que acortamos el comando tal que quede así ```/usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service``` sin  ```| /usr/bin/cat``` y luego simplemente antes de terminar la ejecución del comando journal insertamos el payload ```!/bin/bash``` y seremos root. 
 
 [achivement](https://labs.hackthebox.com/achievement/machine/2336390/217)
