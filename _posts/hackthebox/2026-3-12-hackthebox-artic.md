@@ -4,7 +4,7 @@ date: 2026-2-17 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, artic ]     
 image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/6ce5fcdd63f07a5ce91d0b8e4579b163.png
+    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0d6275efbd5e48fcdc96e61b9724ae5e.png
     alt: Hack The Box
 ---
 
