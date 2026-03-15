@@ -195,6 +195,9 @@ se puede hacer así.
 La forma más sencilla  de explotar la aplicación fue con  el siguiente exploit
 [https://www.exploit-db.com/exploits/50057](https://www.exploit-db.com/exploits/50057)
 
+
+##  👽 Acciones:
+
 ```shell
 ┌──(pmartinezr㉿kali)-[~/htb/artic]
 └─$ python 50057.py
