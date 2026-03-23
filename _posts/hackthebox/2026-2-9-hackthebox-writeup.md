@@ -211,7 +211,7 @@ Parece que not tenemos permisos para abrir el directorio pero sí para escribir 
 bash-4.4# whoami
 root
 bash-4.4# cat /root/root.txt
-721fa459beeab71b247e78cb48388051
+721fa459beeab71b247********
 ```
 
 Ahora abrimos otra sesion más y se ejecutará el payload escalando los privigegios con ```bash -p``` ya que ahora
