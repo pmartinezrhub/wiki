@@ -1,6 +1,6 @@
 ---
 title: Return
-date: 2026-2-17 00:40:00 +0200
+date: 2026-4-1 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, return ]     
 image:
