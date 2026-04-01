@@ -4,7 +4,7 @@ date: 2026-2-17 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, return ]     
 image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0d6275efbd5e48fcdc96e61b9724ae5e.png
+    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/defa149ea7e259a4709a03a5825e970d.png
     alt: Hack The Box
 ---
 
