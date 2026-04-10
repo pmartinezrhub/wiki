@@ -6,7 +6,7 @@ tags: [ciberseguridad, metasploit, pivoting ]
 image:
  image:
     path: https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Pivoting_series_logo.jpeg/250px-Pivoting_series_logo.jpeg
-    alt: 
+    alt: Pivoting Metasploit
 ---
 
 Toda la documentación de pivoting con Metasploit está en el siguiente enlace:
