@@ -132,7 +132,7 @@ Internal Server Error
 The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 ```
 
-Por ejemplo el primer payload que introduje fue ```{{{ 1/0 }}}```. Divivir por cero debería generar un error y así fue, con lo que 
+Por ejemplo el primer payload que introduje fue {% raw %}```{{{ 1/0 }}}```{% endraw %}. Divivir por cero debería generar un error y así fue, con lo que 
 cada vez tenía más claro que debía continuar por esta vía. 
 
 
