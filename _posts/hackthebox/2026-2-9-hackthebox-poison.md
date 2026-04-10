@@ -3,9 +3,7 @@ title: Poison
 date: 2026-2-9 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, poison ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/453800925395b3a5b14099e005fb5a77.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/453800925395b3a5b14099e005fb5a77.png
 ---
 
 > Poison

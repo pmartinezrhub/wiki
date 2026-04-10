@@ -3,9 +3,7 @@ title: Sauna
 date: 2026-1-23 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, sauna ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f31d5d0264fadc267e7f38a9d7729d14.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f31d5d0264fadc267e7f38a9d7729d14.png
 ---
 
 > Sauna

@@ -3,9 +3,7 @@ title: Cloudflare servicios gratuitos
 date: 2025-07-21 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [Cloudflare, servicios gratuitos]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/330px-Cloudflare_Logo.svg.png
-    alt: Logo de Cloudflare
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/330px-Cloudflare_Logo.svg.png
 ---
 
 # Cloudflare

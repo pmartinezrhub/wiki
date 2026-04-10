@@ -3,9 +3,7 @@ title: La red de Tor
 date: 2025-03-23 16:00:00 +0200
 categories: [redes]
 tags: [darknet, tor, network, onion]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/b/b1/Tor_Circuit_Diagram.svg
-    alt: Tor Circuit
+image: https://upload.wikimedia.org/wikipedia/commons/b/b1/Tor_Circuit_Diagram.svg
 ---
 
 #### Un poco de historia

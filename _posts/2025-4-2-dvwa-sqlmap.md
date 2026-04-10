@@ -4,9 +4,7 @@ date: 2025-04-2 17:00:00 +0200
 categories: [hacking, sqli] 
 tags: [dvwa, sqli, sqlmap]     # TAG names should always be lowercase
 
-image:
-    path: https://github.com/digininja/DVWA/blob/master/dvwa/images/logo.png?raw=true
-    alt: DVWA
+image: https://github.com/digininja/DVWA/blob/master/dvwa/images/logo.png?raw=true
 ---
 
 ## DVWA 

@@ -3,9 +3,7 @@ title: Devvortex
 date: 2026-1-7 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, devvortex ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/2565d292772abc4a2d774117cf4d36ff.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/2565d292772abc4a2d774117cf4d36ff.png
 ---
 
 > Devvortex

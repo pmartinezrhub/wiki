@@ -3,9 +3,7 @@ title: Editor
 date: 2025-11-24 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, editor ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ba9dec0d022d3c3b6a96aa5dba4772c7.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ba9dec0d022d3c3b6a96aa5dba4772c7.png
 ---
 
 > Editor

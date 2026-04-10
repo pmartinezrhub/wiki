@@ -3,9 +3,7 @@ title: Securizar routers inalámbricos
 date: 2025-03-24 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [redes, wifi, seguridad, router]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/3/30/Fritz%21Box_Fon_WLAN_7141_-_Typenschild-3743.jpg
-    alt: WPA key
+image: https://upload.wikimedia.org/wikipedia/commons/3/30/Fritz%21Box_Fon_WLAN_7141_-_Typenschild-3743.jpg
 ---
 
 ## Instalar un router hoy en día, parece una cosa trivial y sencilla

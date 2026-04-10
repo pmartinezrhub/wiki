@@ -3,9 +3,7 @@ title: Irked
 date: 2026-1-3 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, irked ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5fb846e75cf0db0c4b27e2dc64a9bf82.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5fb846e75cf0db0c4b27e2dc64a9bf82.png
 ---
 
 > Irked

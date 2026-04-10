@@ -3,9 +3,7 @@ title: Netmon
 date: 2025-12-11 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, netmon ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/3fa8184483e279369b81becafbac9dee.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/3fa8184483e279369b81becafbac9dee.png
 ---
 
 > Netmon

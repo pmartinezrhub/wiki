@@ -3,9 +3,7 @@ title: Fawn
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, fawn, ftp]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b64f85071e626e4cc2272d54332e4131.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b64f85071e626e4cc2272d54332e4131.png
 ---
 ## Fawn
 

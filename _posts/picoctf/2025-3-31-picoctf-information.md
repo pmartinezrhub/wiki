@@ -3,9 +3,7 @@ title: Information
 date: 2025-03-31 17:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, forense, mat2, esteganografía]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >information

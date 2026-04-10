@@ -3,9 +3,7 @@ title: Codify
 date: 2026-1-8 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, codify ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/57b977ea744af01a5454c8643a850e59.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/57b977ea744af01a5454c8643a850e59.png
 ---
 
 > Codify

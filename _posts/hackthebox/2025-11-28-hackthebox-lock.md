@@ -3,9 +3,7 @@ title: Lock
 date: 2025-11-28 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, lock ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/6ff0909c785b152b35bcc80475fcac67.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/6ff0909c785b152b35bcc80475fcac67.png
 ---
 
 > Lock

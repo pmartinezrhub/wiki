@@ -3,9 +3,7 @@ title: Nice netcat...
 date: 2025-04-10 19:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, nicenetcat, ascii]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >

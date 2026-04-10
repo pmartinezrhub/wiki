@@ -3,9 +3,7 @@ title: Firmware updates
 date: 2025-07-30 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [camaras, shodan, hacking, firmware, iot]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Firmware_update_Fuji_Instax_Liplay.jpg/500px-Firmware_update_Fuji_Instax_Liplay.jpg1024px-Surface_Web_%26_Deep_Web.jpg
-    alt: firmware update
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Firmware_update_Fuji_Instax_Liplay.jpg/500px-Firmware_update_Fuji_Instax_Liplay.jpg1024px-Surface_Web_%26_Deep_Web.jpg
 ---
 
 ## Ciberseguridad de IoT

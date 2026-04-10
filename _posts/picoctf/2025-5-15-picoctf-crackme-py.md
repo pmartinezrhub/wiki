@@ -3,9 +3,7 @@ title: crackme-py
 date: 2025-05-16 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, crackme-py, ingenieria reversa, hashcat]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >crackme-py

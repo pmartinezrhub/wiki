@@ -3,9 +3,8 @@ title: Metasploitable2 en Qemu
 date: 2025-07-15 19:00:00 +0200
 categories: [hacking]
 tags: [metasploitable2, qemu]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/9/9f/ARP_Cache_Poisoning.jpg 
-    alt: 
+image: https://upload.wikimedia.org/wikipedia/commons/9/9f/ARP_Cache_Poisoning.jpg 
+    
 ---
 
 ## Descargar 

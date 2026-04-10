@@ -3,9 +3,7 @@ title: DarkReport
 date: 2025-9-11 11:00:00 +0200
 categories: [ciberseguridad, software]
 tags: [darkreport, writeup, django]     
-image:
-    path: https://github.com/pmartinezrhub/DarkReport/raw/main/DarkReport/static/DarkReport/dark-report-logo.png
-    alt:  
+image: https://github.com/pmartinezrhub/DarkReport/raw/main/DarkReport/static/DarkReport/dark-report-logo.png
 ---
 ## DarkReport
 Cuando las herramientas que existen no te satisfacen seguramente sea hora de que hagas la tuya propia, la que se adapta a tus necesidades, gustos 

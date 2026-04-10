@@ -3,9 +3,7 @@ title: SST1
 date: 2025-04-10 17:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, ssti, sstimap, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >SSTI1

@@ -3,9 +3,7 @@ title: Archetype
 date: 2025-04-17 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, archetype, impacket]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b39473da3f36b9b5718d6c76eb573a10.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b39473da3f36b9b5718d6c76eb573a10.png
 ---
 
 ### Archetype

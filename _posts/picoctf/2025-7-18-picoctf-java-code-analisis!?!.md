@@ -3,9 +3,7 @@ title: Java Code Analysis!?!
 date: 2025-07-18 17:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, pententing web, java web tokens, jwt]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Java Code Analysis!?!
 Author: Nandan Desai

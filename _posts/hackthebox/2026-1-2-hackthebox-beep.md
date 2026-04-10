@@ -3,9 +3,7 @@ title: Beep
 date: 2026-1-2 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, beep ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/995f465295b99869fce21ecadea4604c.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/995f465295b99869fce21ecadea4604c.png
 ---
 
 > Beep

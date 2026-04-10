@@ -3,9 +3,7 @@ title: Bounty
 date: 2026-4-4 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bounty ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a7686636f7cebb477cb7b6d6ce729f2c.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a7686636f7cebb477cb7b6d6ce729f2c.png
 ---
 
 Windows · Easy - Adventure mode

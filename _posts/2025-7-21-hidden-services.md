@@ -3,9 +3,7 @@ title: Hidden Services
 date: 2025-07-21 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [hidden services, tor]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/1/14/Wat_is_Tor_%28The_onion_routing%29%3F.png
-    alt: Deep Web
+image: https://upload.wikimedia.org/wikipedia/commons/1/14/Wat_is_Tor_%28The_onion_routing%29%3F.png
 ---
 
 ## Hidden services

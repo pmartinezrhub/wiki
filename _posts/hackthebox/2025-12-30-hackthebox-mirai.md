@@ -3,9 +3,7 @@ title: Mirai
 date: 2025-12-30 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, granny ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/4ef1ea77e69185063d4200d7d0142baa.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/4ef1ea77e69185063d4200d7d0142baa.png
 ---
 
 > Mirai

@@ -3,9 +3,7 @@ title: Inspect HTML
 date: 2025-04-14 22:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, inspecthtml, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Inspect HTML

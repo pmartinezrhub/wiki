@@ -3,9 +3,7 @@ title: Client-side-again
 date: 2025-05-21 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, client side again, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Client-side-again

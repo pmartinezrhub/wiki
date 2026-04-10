@@ -3,9 +3,7 @@ title: Vaccine
 date: 2025-08-5 23:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, vaccine, sqli, zip2john]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/4abda8d32b5c71e6905244988879c575.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/4abda8d32b5c71e6905244988879c575.png
 ---
 
 ## Task1

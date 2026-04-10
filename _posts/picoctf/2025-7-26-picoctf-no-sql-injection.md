@@ -3,9 +3,7 @@ title: No Sql Injection
 date: 2025-07-26 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web, no sql, mongodb]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >No Sql Injection
 Author: NGIRIMANA Schadrack

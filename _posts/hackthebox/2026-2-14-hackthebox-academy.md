@@ -3,9 +3,7 @@ title: Academy
 date: 2026-2-14 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, academy ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/10c8da0b46f53c882da946668dcdab95.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/10c8da0b46f53c882da946668dcdab95.png
 ---
 
 > Academy

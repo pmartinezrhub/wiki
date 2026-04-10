@@ -3,9 +3,7 @@ title: Irish-Name-Repo 1
 date: 2025-07-24 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web, sql injection]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Irish-Name-Repo 1
 Author: Chris Hensler

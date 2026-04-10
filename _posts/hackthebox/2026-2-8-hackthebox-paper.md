@@ -3,9 +3,7 @@ title: Paper
 date: 2026-2-8 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, paper ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/eb4e685c033d8af0b8cc00446f295f9d.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/eb4e685c033d8af0b8cc00446f295f9d.png
 ---
 
 > Paper

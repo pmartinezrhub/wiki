@@ -3,9 +3,7 @@ title: Darkweb sites
 date: 2025-07-21 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [darkweb, onion, deepweb]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Surface_Web_%26_Deep_Web.jpg/1024px-Surface_Web_%26_Deep_Web.jpg
-    alt: Deep Web
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Surface_Web_%26_Deep_Web.jpg/1024px-Surface_Web_%26_Deep_Web.jpg
 ---
 
 ## La DeepWeb

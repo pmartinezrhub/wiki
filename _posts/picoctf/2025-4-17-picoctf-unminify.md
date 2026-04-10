@@ -3,9 +3,7 @@ title: Unminify
 date: 2025-04-17 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, unminify, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 > Unminify
 Author: Jeffery John

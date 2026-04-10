@@ -3,9 +3,7 @@ title: OpenAdmin
 date: 2025-12-29 01:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, openadmin ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5b00db157dbbd7099ff6c0ef10f910ea.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5b00db157dbbd7099ff6c0ef10f910ea.png
 ---
 
 > OpenAdmin

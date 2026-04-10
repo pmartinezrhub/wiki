@@ -3,9 +3,7 @@ title: Irish-Name-Repo 3
 date: 2025-05-19 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, irish-name-repo 3, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Irish-Name-Repo 3

@@ -3,9 +3,7 @@ title: Return
 date: 2026-4-1 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, return ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/defa149ea7e259a4709a03a5825e970d.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/defa149ea7e259a4709a03a5825e970d.png
 ---
 
 Windows · Easy - Adventure mode

@@ -3,9 +3,7 @@ title: Cozyhosting
 date: 2026-2-16 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bank ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/eaed7cd01e84ef5c6ec7d949d1d61110.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/eaed7cd01e84ef5c6ec7d949d1d61110.png
 ---
 
 > Cozyhosting

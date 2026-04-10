@@ -3,9 +3,7 @@ title: Active
 date: 2025-12-26 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, active ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5837ac5e28291146a9f2a8a015540c28.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5837ac5e28291146a9f2a8a015540c28.png
 ---
 
 > Active

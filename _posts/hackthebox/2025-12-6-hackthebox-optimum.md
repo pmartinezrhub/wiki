@@ -3,9 +3,7 @@ title: Optimum
 date: 2025-11-29 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, optimum ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/bb09ffeaffe2f5220a1d591bb7b4f95e.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/bb09ffeaffe2f5220a1d591bb7b4f95e.png
 ---
 
 > Optimum

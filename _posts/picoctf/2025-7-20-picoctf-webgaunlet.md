@@ -3,9 +3,7 @@ title: Web Gauntlet
 date: 2025-07-20 17:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, pententing web, sqli]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Web Gauntlet
 Author: madStacks

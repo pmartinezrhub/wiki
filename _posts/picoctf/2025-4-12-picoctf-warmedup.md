@@ -3,9 +3,7 @@ title: Warmed Up
 date: 2025-04-11 22:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, warmedup]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Warmed Up

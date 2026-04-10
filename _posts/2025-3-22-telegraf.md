@@ -3,9 +3,7 @@ title: Configurar Telegraf para InfluxDB
 date: 2025-03-21 17:00:00 +0200
 categories: [linux, software] 
 tags: [telegraf, monitorización]     # TAG names should always be lowercase
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/250px-Influxdb_logo.svg.png
-    alt: Primer telégrafo
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/250px-Influxdb_logo.svg.png
 ---
 
 Para ponerte en contexto deberías leer antes [GeoIP Nginx](../nginx)

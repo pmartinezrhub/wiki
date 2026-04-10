@@ -3,9 +3,7 @@ title: It is my Birthday
 date: 2025-05-23 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, is my birdthday, md5]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >It is my Birthday

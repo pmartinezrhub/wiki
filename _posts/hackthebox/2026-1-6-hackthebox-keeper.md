@@ -3,9 +3,7 @@ title: Keeper
 date: 2026-1-6 12:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, keeper ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b56a5742b99e2568fa167765b1323370.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b56a5742b99e2568fa167765b1323370.png
 ---
 
 > Keeper

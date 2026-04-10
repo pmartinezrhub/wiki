@@ -3,9 +3,7 @@ title: login
 date: 2025-05-14 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, login, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >login

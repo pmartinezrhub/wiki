@@ -3,9 +3,7 @@ title: Help
 date: 2026-2-12 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, help ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/2f6225d90a3caf56699c3d93e8779d6b.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/2f6225d90a3caf56699c3d93e8779d6b.png
 ---
 
 > Help

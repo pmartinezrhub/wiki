@@ -3,9 +3,7 @@ title: Irish-Name-Repo 2
 date: 2025-05-23 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, irish name repo 2, sqli]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Irish-Name-Repo 2

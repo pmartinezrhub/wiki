@@ -3,9 +3,7 @@ title: BorazuwarahCTF
 date: 2025-09-17 11:00:00 +0200
 categories: [writeup, dockerlabs]
 tags: [dockerlabs, hydra, ssh, fuerza bruta]     
-image:
-    path: https://dockerlabs.es/static/images/logos/logo.png
-    alt: Docker Labs
+image: https://dockerlabs.es/static/images/logos/logo.png
 ---
 
 # BorazuwarahCTF

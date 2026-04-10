@@ -3,9 +3,7 @@ title: morse-code
 date: 2025-05-15 11:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, morse, criptografía]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >morse-code

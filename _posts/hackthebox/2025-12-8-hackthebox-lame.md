@@ -3,9 +3,7 @@ title: Lame
 date: 2025-12-8 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, lame ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png
 ---
 
 > Lame

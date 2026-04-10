@@ -3,9 +3,7 @@ title:
 date: 2025-07-15 19:00:00 +0200
 categories: [linux]
 tags: [bridge]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Temporary_wooden_footbridge_leading_to_the_city_of_Luang_Prabang.jpg/1920px-Temporary_wooden_footbridge_leading_to_the_city_of_Luang_Prabang.jpg
-    alt: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Temporary_wooden_footbridge_leading_to_the_city_of_Luang_Prabang.jpg/1920px-Temporary_wooden_footbridge_leading_to_the_city_of_Luang_Prabang.jpg
 ---
 
 ## Instalar 

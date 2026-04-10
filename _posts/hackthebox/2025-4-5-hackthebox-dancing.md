@@ -3,9 +3,7 @@ title: Dancing
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, dancing, smb, smbclient]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ce52eadd09ff5a28a1eea8c65d6683a9.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ce52eadd09ff5a28a1eea8c65d6683a9.png
 ---
 Esta vez HTB nos trae un reto realcionado con Windows, la primera tarea nos da una pista de lo que toca **Samba**
 

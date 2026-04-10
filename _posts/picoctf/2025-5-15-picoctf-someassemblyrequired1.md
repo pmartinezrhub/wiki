@@ -3,9 +3,7 @@ title: Some Assembly Required 1
 date: 2025-05-15 11:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, some assembly required 1, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Some Assembly Required 1

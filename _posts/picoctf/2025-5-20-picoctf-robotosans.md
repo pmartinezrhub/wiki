@@ -3,9 +3,7 @@ title: Roboto Sans
 date: 2025-05-20 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, robotosans, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Roboto Sans

@@ -3,9 +3,7 @@ title: Valentine
 date: 2026-2-3 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, valentine ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/61b3b6a4382f58a804e221062ced0bfb.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/61b3b6a4382f58a804e221062ced0bfb.png
 ---
 
 > Valentine

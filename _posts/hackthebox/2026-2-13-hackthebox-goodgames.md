@@ -3,9 +3,7 @@ title: GoodGames
 date: 2026-2-13 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, goodgames ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f49b988a9f7df99dba3d7644f55021fd.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f49b988a9f7df99dba3d7644f55021fd.png
 ---
 
 > GoodGames

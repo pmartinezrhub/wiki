@@ -3,9 +3,7 @@ title: Data
 date: 2026-2-11 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, data ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/cc01a4bee72ca14c1849f430b301fd3e.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/cc01a4bee72ca14c1849f430b301fd3e.png
 ---
 
 > Data

@@ -3,9 +3,7 @@ title: Blue
 date: 2025-12-9 13:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, blue ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/52e077ae40899ab8b024afd51cb29b1c.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/52e077ae40899ab8b024afd51cb29b1c.png
 ---
 
 > Blue

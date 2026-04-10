@@ -3,9 +3,7 @@ title: head-dump
 date: 2025-04-17 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, head-dump, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >head-dump
 Author: Prince Niyonshuti N.

@@ -3,9 +3,7 @@ title: Iptables
 date: 2025-07-14 17:00:00 +0200
 categories: [linux, redes]
 tags: [iptables, netfilter]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Iptablesfb.png/250px-Iptablesfb.png
-    alt: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Iptablesfb.png/250px-Iptablesfb.png
 ---
 
 ## Acerca de este artículo

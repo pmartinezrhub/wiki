@@ -3,9 +3,7 @@ title: Baby
 date: 2026-4-5 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, baby ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/8906471ea6e0146ce13be096d7f45b27.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/8906471ea6e0146ce13be096d7f45b27.png
 ---
 
 Windows · Easy - Adventure mode

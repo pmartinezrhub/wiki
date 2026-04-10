@@ -3,9 +3,7 @@ title: Granny
 date: 2025-12-30 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, granny ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/e8a122e2d713a4fb4a180bb9ccd20248.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/e8a122e2d713a4fb4a180bb9ccd20248.png
 ---
 
 > Granny

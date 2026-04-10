@@ -3,9 +3,7 @@ title: TwoMillion
 date: 2026-1-11 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, twomillion ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/d7bc2758fb7589dfa046bee9ce4d75cb.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/d7bc2758fb7589dfa046bee9ce4d75cb.png
 ---
 
 > TwoMillion

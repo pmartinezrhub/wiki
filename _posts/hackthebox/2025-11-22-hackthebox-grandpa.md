@@ -3,9 +3,7 @@ title: Grandpa
 date: 2025-11-22 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, grandpa ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/381683fd107da11f1dc916401ae8aee0.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/381683fd107da11f1dc916401ae8aee0.png
 ---
 
 > Grandpa

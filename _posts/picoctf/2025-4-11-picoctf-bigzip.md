@@ -3,9 +3,7 @@ title: BigZip
 date: 2025-04-11 19:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, bigzip, grep]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Big Zip

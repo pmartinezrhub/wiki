@@ -3,9 +3,7 @@ title: Soccer
 date: 2026-2-7 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, soccer ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ca7f69a02eebf53deb3cd1611dd3f55e.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ca7f69a02eebf53deb3cd1611dd3f55e.png
 ---
 
 > Soccer

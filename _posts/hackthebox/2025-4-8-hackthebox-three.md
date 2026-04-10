@@ -3,9 +3,7 @@ title: Three
 date: 2025-04-8 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, aws, s3]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/49fa1274ca631fd870e9feca35b7d7c2.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/49fa1274ca631fd870e9feca35b7d7c2.png
 ---
 ## Three
 De nuevo una serie de tareas para ir resolviendo la máquina. Esta vez parece algo relacionado con s3 de amazon.

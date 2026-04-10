@@ -3,9 +3,7 @@ title: HackTools
 date: 2025-03-21 19:00:00 +0200
 categories: [hacking, herramientas]
 tags: [hacking, herramientas]     # TAG names should always be lowercase
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
-    alt: Hackers
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg/1280px-Coding_da_Vinci_-_Der_Kultur-Hackathon_%2814123515524%29.jpg
 ---
 
 This document is updated, modified when i notice a tool is deprecated or a new tool is tested. 

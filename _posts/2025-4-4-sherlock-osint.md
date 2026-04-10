@@ -3,9 +3,7 @@ title: Sherlock OSINT
 date: 2025-04-4 13:00:00 +0200
 categories: [hacking, osint]
 tags: [osint, sherlock]     
-image:
-    path: https://github.com/sherlock-project/sherlock/raw/master/docs/images/sherlock-logo.png
-    alt: Sherlock
+image: https://github.com/sherlock-project/sherlock/raw/master/docs/images/sherlock-logo.png
 ---
 
 ## Sherlock

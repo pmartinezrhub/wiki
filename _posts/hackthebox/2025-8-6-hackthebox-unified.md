@@ -3,9 +3,7 @@ title: Unified
 date: 2025-08-6 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, unified, unifi network, mongodb, log4j, log4shell]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/525ba0e35574d9240e878bb8c716661e.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/525ba0e35574d9240e878bb8c716661e.png
 ---
 
 ## Task1

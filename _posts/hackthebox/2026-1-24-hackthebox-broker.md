@@ -3,9 +3,7 @@ title: Broker
 date: 2026-1-24 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, broker ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a725533911ba94a880899fbf900d988c.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a725533911ba94a880899fbf900d988c.png
 ---
 
 > Broker

@@ -3,9 +3,7 @@ title: Cocodrile
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, cocodrile, gobuster, fuzzing]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/00935a242722b9a2c700bdb6b65195f6.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/00935a242722b9a2c700bdb6b65195f6.png
 ---
 ## Cocodrile
 Esta vez el reto de principiantes comienza con algo relacionado con el puerto de FTP 21 el puerto 80 y algo de fuzzing con gobuster. 

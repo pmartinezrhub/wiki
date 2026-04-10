@@ -3,9 +3,7 @@ title: Legacy
 date: 2025-12-9 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, legacy ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/60dc190c4c015cfe3a3aef9b5afca254.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/60dc190c4c015cfe3a3aef9b5afca254.png
 ---
 
 > Legacy

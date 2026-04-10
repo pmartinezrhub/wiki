@@ -3,9 +3,7 @@ title: Sequel
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, sequel, mysql]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b783687f4acd9b12249440c9a8105e46.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b783687f4acd9b12249440c9a8105e46.png
 ---
 ## Sequel
 De nuevo como todas estas máquinas de starting point. El reto consiste en ir contestando a las preguntas 

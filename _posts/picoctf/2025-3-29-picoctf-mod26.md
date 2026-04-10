@@ -3,9 +3,7 @@ title: Mod26
 date: 2025-03-30 17:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, criptografía]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Mod 26
 Author: Pandu

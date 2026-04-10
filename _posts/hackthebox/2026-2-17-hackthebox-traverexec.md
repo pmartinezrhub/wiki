@@ -3,9 +3,7 @@ title: Traverxec
 date: 2026-2-17 00:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, traverexec ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/6ce5fcdd63f07a5ce91d0b8e4579b163.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/6ce5fcdd63f07a5ce91d0b8e4579b163.png
 ---
 
 > Traverxec

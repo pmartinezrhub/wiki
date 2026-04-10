@@ -3,9 +3,7 @@ title: Most Cookies
 date: 2025-07-23 11:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web, flask, cookies]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Most Cookies
 Author: madStacks

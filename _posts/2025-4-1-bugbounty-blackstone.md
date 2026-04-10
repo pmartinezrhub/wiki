@@ -3,9 +3,7 @@ title: Bugbounty BlackStone
 date: 2025-04-1 00:00:00 +0200
 categories: [ciberseguridad, software]
 tags: [bugbounty, blackstone, explotacionweb]     
-image:
-    path: https://user-images.githubusercontent.com/55983491/182504746-26c636f4-fe4f-410d-9898-e51f4ae35e6d.png
-    alt: Blackstone
+image: https://user-images.githubusercontent.com/55983491/182504746-26c636f4-fe4f-410d-9898-e51f4ae35e6d.png
 ---
 
 Antes de nada decir que fue mi propia curiosidad que me llevó a probar esta herramienta

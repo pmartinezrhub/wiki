@@ -3,9 +3,7 @@ title: More SQLi
 date: 2025-05-14 13:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, more sqli, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >More SQLi

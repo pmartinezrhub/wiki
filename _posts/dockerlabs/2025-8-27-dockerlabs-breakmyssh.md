@@ -3,9 +3,7 @@ title: BreakMySSH
 date: 2025-08-27 11:00:00 +0200
 categories: [writeup, dockerlabs]
 tags: [dockerlabs, hydra, ssh, fuerza bruta]     
-image:
-    path: https://dockerlabs.es/static/images/logos/logo.png
-    alt: Docker Labs
+image: https://dockerlabs.es/static/images/logos/logo.png
 ---
 
 # BreakMySSH

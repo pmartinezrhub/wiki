@@ -3,9 +3,7 @@ title: Writeup
 date: 2026-2-9 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, writeup ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ca06c447787b38ec940eb55d5c54b14c.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ca06c447787b38ec940eb55d5c54b14c.png
 ---
 
 > Writeup

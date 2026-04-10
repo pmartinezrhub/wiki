@@ -3,9 +3,7 @@ title: Bank
 date: 2026-2-15 14:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bank ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f02481d8d8020005f8d66115b3bfae11.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f02481d8d8020005f8d66115b3bfae11.png
 ---
 
 > Bank

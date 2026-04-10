@@ -3,9 +3,7 @@ title: ZAP Zed Attack Proxy
 date: 2025-07-14 00:00:00 +0200
 categories: [hacking, herramientas]
 tags: [hacking, herramientas, zap, pentesting web]     # TAG names should always be lowercase
-image:
-    path: https://www.zaproxy.org/img/zap-by-checkmarx.svg
-    alt: 
+image: https://www.zaproxy.org/img/zap-by-checkmarx.svg
 ---
 
 ## ZAP Zed Attack Proxy

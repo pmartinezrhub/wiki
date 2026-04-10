@@ -3,9 +3,7 @@ title: EVEN RSA CAN BE BROKEN???
 date: 2025-07-22 19:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, criptografía]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >EVEN RSA CAN BE BROKEN???
 Author: Michael Crotty

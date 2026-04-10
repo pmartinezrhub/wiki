@@ -3,9 +3,7 @@ title: Trust
 date: 2025-08-23 18:00:00 +0200
 categories: [writeup, dockerlabs]
 tags: [dockerlabs, explotación web, escalada privilegios]     
-image:
-    path: https://dockerlabs.es/static/images/logos/logo.png
-    alt: Docker Labs
+image: https://dockerlabs.es/static/images/logos/logo.png
 ---
 
 ## Trust

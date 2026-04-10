@@ -3,9 +3,7 @@ title: Retro
 date: 2026-2-10 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, retro ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f990caf7a8b5b680435ce36b9b1a4815.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f990caf7a8b5b680435ce36b9b1a4815.png
 ---
 
 > Retro

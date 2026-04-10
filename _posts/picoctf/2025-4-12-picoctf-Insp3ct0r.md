@@ -3,9 +3,7 @@ title: Insp3ct0r
 date: 2025-04-14 22:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, insp3ct0r, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 >Insp3ct0r

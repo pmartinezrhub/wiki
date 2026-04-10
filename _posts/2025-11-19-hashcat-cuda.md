@@ -3,9 +3,7 @@ title: Hashcat + CUDA
 date: 2025-11-19 11:00:00 +0200
 categories: [ciberseguridad, software]
 tags: [hashcat, cuda, cracking]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nvidia_CUDA_Logo.jpg/375px-Nvidia_CUDA_Logo.jpg
-    alt:  
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nvidia_CUDA_Logo.jpg/375px-Nvidia_CUDA_Logo.jpg
 ---
 ## Hashcat 
 Hay otras herramientas de cracking, John, rcracki-mt, etc. pero Hashcat parece la más completa y eficiente 

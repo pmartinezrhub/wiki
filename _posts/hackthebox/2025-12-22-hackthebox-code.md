@@ -3,9 +3,7 @@ title: Code
 date: 2025-12-22 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, code ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/55cc3528cd7ad96f67c4f0c715efe286.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/55cc3528cd7ad96f67c4f0c715efe286.png
 ---
 
 > Code

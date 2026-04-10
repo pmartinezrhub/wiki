@@ -3,9 +3,7 @@ title: Hacking Wireless
 date: 2025-11-20 11:00:00 +0200
 categories: [ciberseguridad, software]
 tags: [aircrack, wpa2, fluxion]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/c/c3/Aircrack-ng-new-logo.jpg
-    alt:  
+image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Aircrack-ng-new-logo.jpg
 ---
 ## Acerca de este post
 Este post es solo para recordar las herramientas más importante, no creo que me detenga en explicar en profundidad las herramientas, pero si podría servir como apuntes

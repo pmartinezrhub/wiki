@@ -3,9 +3,7 @@ title: Curling
 date: 2026-2-11 01:40:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, curling ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/50cbb1d2e9b638140641af95a7582ef6.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/50cbb1d2e9b638140641af95a7582ef6.png
 ---
 
 > Curling

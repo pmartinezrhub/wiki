@@ -3,9 +3,7 @@ title: Apriti sesamo
 date: 2025-07-24 00:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web, php array injection]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >Apriti sesamo
 Author: Junias Bonou

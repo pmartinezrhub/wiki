@@ -3,9 +3,7 @@ title: Blocky
 date: 2025-12-31 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, blocky ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f412784c311bdf52c3655381d2c9cd21.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f412784c311bdf52c3655381d2c9cd21.png
 ---
 
 > Blocky

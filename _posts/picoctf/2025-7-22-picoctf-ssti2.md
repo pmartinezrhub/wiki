@@ -3,9 +3,7 @@ title: SSTI2
 date: 2025-07-22 23:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >SSTI2
 Author: Venax

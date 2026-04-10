@@ -3,9 +3,7 @@ title: Bastion
 date: 2026-1-26 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bastion ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/68c7186b753828391c67c4f737f5400f.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/68c7186b753828391c67c4f737f5400f.png
 ---
 
 > Bastion

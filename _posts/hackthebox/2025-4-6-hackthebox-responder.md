@@ -3,9 +3,7 @@ title: Responder
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, responder]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0348ed41851064f497d155c2a6af359a.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0348ed41851064f497d155c2a6af359a.png
 ---
 ## Responder
 El reto comienza sugiriendo visitar la web en la IP proporcionada. 

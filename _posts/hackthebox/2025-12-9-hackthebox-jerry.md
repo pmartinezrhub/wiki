@@ -3,9 +3,7 @@ title: Jerry
 date: 2025-12-9 10:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, jerry ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/59f03a24178dbb2bdc94968c201e21f8.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/59f03a24178dbb2bdc94968c201e21f8.png
 ---
 
 > Jerry

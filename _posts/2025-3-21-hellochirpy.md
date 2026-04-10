@@ -3,9 +3,7 @@ title: Chirpy
 date: 2025-03-21 17:00:00 +0200
 categories: [software, blog]
 tags: [software, blog]     # TAG names should always be lowercase
-image:
-    path: https://chirpy-img.netlify.app/commons/avatar.jpg
-    alt: https://chirpy.cotes.page/
+image: https://chirpy-img.netlify.app/commons/avatar.jpg
 ---
 
 

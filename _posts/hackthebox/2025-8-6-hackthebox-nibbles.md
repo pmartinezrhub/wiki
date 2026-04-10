@@ -3,9 +3,7 @@ title: Nibbles
 date: 2025-11-15 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, nibbles, web, nibblesblog, metasploit]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/344a8f99e8f7dddfed764f791e2731df.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/344a8f99e8f7dddfed764f791e2731df.png
 ---
 
 ## Task1

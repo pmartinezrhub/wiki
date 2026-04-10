@@ -3,9 +3,7 @@ title: Devel
 date: 2025-12-10 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, devel ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0fb6455a29eb4f2682f04a780ce26cb1.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0fb6455a29eb4f2682f04a780ce26cb1.png
 ---
 
 > Devel

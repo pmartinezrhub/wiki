@@ -3,9 +3,7 @@ title: Dog
 date: 2025-12-28 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, dog ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/426830ea2ae4f05f7892ad89195f8276.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/426830ea2ae4f05f7892ad89195f8276.png
 ---
 
 > Dog

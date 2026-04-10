@@ -3,9 +3,7 @@ title: Bashed
 date: 2025-12-12 18:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, bashed ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0f058b73659ca043de9f5240abd651ca.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/0f058b73659ca043de9f5240abd651ca.png
 ---
 
 > Bashed

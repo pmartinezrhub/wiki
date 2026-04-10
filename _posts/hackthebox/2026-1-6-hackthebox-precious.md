@@ -3,9 +3,7 @@ title: Precious
 date: 2026-1-6 02:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, precious ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/3adcfd6093f8ddb4dffe8422da6377c8.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/3adcfd6093f8ddb4dffe8422da6377c8.png
 ---
 
 > Precious

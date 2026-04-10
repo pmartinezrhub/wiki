@@ -3,9 +3,7 @@ title: Como hacer una auditoría web
 date: 2025-8-24 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [nuclei, escaner vulnerabilidades]     
-image:
-    path: https://upload.wikimedia.org/wikipedia/commons/e/e0/Deface_KenFM_AnonLeaks.png
-    alt: Defacement 
+image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Deface_KenFM_AnonLeaks.png
 ---
 
 # Auditoría web paso por paso.

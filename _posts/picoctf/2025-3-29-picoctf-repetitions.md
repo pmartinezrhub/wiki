@@ -3,9 +3,7 @@ title: Repetitions
 date: 2025-03-29 19:00:00 +0200
 categories: [writeup, picoctf]
 tags: [ctf, picoctf, base64]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 
 Repetitions

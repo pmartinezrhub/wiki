@@ -3,9 +3,7 @@ title: Instant
 date: 2026-1-11 08:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, instant ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/8e9f11a3cceeb4f69e659ed31347cc77.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/8e9f11a3cceeb4f69e659ed31347cc77.png
 ---
 
 > Instant

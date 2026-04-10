@@ -3,9 +3,7 @@ title: Fast Flux
 date: 2025-4-8 11:00:00 +0200
 categories: [ciberseguridad, redes]
 tags: [fastflux, botnets, cnc]     
-image:
-    path: https://cdn.haproxy.com/documentation/assets/img/dns_srv_records.png?v=1744051514698
-    alt: Fast Flux
+image: https://cdn.haproxy.com/documentation/assets/img/dns_srv_records.png?v=1744051514698
 ---
 
 ## Fast Flux

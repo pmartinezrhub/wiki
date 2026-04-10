@@ -3,9 +3,7 @@ title: Appointment
 date: 2025-04-5 00:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, sqli, sqlinjection, appointment]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a9ddcda8d2f6eb388c6717de2caff896.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/a9ddcda8d2f6eb388c6717de2caff896.png
 ---
 ## Appointment
 Otra vez una lista de tareas con preguntas a contestar

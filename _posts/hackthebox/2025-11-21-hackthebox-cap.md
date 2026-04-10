@@ -3,9 +3,7 @@ title: Cap
 date: 2025-11-21 11:00:00 +0200
 categories: [writeup, hackthebox]
 tags: [hackthebox, cap, ]     
-image:
-    path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/70ea3357a2d090af11a0953ec8717e90.png
-    alt: Hack The Box
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/70ea3357a2d090af11a0953ec8717e90.png
 ---
 
 > Cap

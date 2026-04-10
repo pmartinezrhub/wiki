@@ -3,9 +3,7 @@ title: findme
 date: 2025-07-27 10:00:00 +0200
 categories: [writeup, picoctf]
 tags: [picoctf, explotación web. base64]     
-image:
-    path: https://picoctf.org/img/logos/pico-mark.svg
-    alt: PicoCTF
+image: https://picoctf.org/img/logos/pico-mark.svg
 ---
 >findme
 Author: Geoffrey Njogu
