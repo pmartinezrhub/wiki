@@ -4,7 +4,9 @@ date: 2026-4-1 10:00:00 +0200
 categories: [hacking, ciberseguridad]
 tags: [ciberseguridad, metasploit, pivoting ]     
 image:
- 
+ image:
+    path: https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Pivoting_series_logo.jpeg/250px-Pivoting_series_logo.jpeg
+    alt: 
 ---
 
 Toda la documentación de pivoting con Metasploit está en el siguiente enlace:
