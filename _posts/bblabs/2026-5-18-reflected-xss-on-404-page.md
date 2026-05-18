@@ -2,7 +2,7 @@
 title: Reflected XSS on 404 Error Page
 date: 2026-5-18 10:00:00 +0200
 categories: [writeup, bblabs]
-tags: [ciberseguridad, Chirp ]     
+tags: [reflected xss ]     
 image: https://bblabs.es/logo-mark.png
 ---
 
@@ -10,12 +10,8 @@ image: https://bblabs.es/logo-mark.png
 ## Reflected XSS on 404 Error Page
 
 
->Chirp
-URL:         http://localhost:1000
-Credentials: alice / password123
-Lab:         Chirp (XSS)
-Vuln:        Reflected XSS
-Difficulty:  Easy
+> Reflected XSS on 404 Error Page
+Red social donde la pagina de error 404 refleja el parametro message en el HTML sin sanitizar, permitiendo XSS reflejado.
 {: .prompt-tip }
 
 
