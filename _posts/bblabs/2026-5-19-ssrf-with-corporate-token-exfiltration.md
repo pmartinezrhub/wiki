@@ -29,7 +29,7 @@ Connection: keep-alive
 Priority: u=0
 ```
 
-La verdad es que no encontré el token al capturar el request, que se indica como pista en el reto.
+La verdad es que no encontré el token al capturar el request que se menciona como pista en el reto.
 
 ```shell
 ─$ nmap -p- localhost 
