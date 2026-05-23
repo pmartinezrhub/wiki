@@ -2,7 +2,7 @@
 title: CSRF Password Change
 date: 2026-5-23 14:00:00 +0200
 categories: [writeup, bblabs]
-tags: [csrf token]     
+tags: [csrf password change]     
 image: https://bblabs.es/logo-mark.png
 ---
 
