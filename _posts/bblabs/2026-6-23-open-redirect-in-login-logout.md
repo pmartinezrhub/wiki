@@ -1,6 +1,6 @@
 ---
-title: 
-date: 2026-6-23 14:00:00 +0200
+title: Open Redirect in Login/Logout
+date: 2026-6-23 10:00:00 +0200
 categories: [writeup, bblabs]
 tags: [redirect]     
 image: https://bblabs.es/logo-mark.png

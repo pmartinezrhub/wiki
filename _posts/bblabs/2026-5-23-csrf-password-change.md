@@ -28,7 +28,7 @@ Si capturamos la request, vemos que es un método PUT y que solo se envía la nu
 
 ```html
 <html>
-<head><title>Wellcome</title></head>
+<head><title>Welcome</title></head>
 <body>
 Thanks for testing!!!
   <script> fetch('https://localhost:1000/api/users/password',
